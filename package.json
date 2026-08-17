@@ -1,0 +1,14 @@
+{
+  "name": "packers-tracker-news-fetch",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vercel Functions backend for the packersTracker '뉴스 가져오기' button.",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node --test tests/",
+    "format": "prettier --write \"**/*.{js,json,md}\" --ignore-path .prettierignore"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
+}
