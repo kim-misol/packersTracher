@@ -1,5 +1,7 @@
 # 그린베이 패커스 브리핑 트래커
 
+🔗 **바로가기: [https://kim-misol.github.io/packersTracher/](https://kim-misol.github.io/packersTracher/)**
+
 날짜별 브리핑이 아무리 쌓여도 가볍게 유지되도록, 데이터와 화면을 분리한 구조로 만들었습니다.
 
 ```
