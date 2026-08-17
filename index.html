@@ -64,6 +64,13 @@
   .section-title.spaced{margin-top:32px;}
   .section-title .count{font-size:12px;font-weight:700;color:#fff;background:var(--gb-green);border-radius:10px;padding:1px 8px;}
 
+  /* language segment toggle — sits where the old tag filter-bar used to */
+  .control-row{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;margin-bottom:14px;}
+  .segctrl{display:flex;background:#eef4f1;border-radius:10px;padding:4px;}
+  .segctrl button{border:none;background:transparent;color:var(--gb-green);font-size:12.5px;font-weight:800;padding:7px 16px;border-radius:8px;cursor:pointer;transition:.12s;}
+  .segctrl button.active{background:#fff;box-shadow:0 1px 3px rgba(0,0,0,0.12);}
+  .meta-chip{font-size:11.5px;font-weight:700;color:var(--muted);}
+
   .filter-bar{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px;}
   .filter-chip{border:1px solid var(--line);background:#fff;color:var(--muted);font-size:13px;font-weight:600;padding:6px 13px;border-radius:999px;cursor:pointer;transition:.15s;}
   .filter-chip:hover{border-color:var(--gb-green);color:var(--gb-green);}
@@ -75,11 +82,11 @@
   .story-top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;margin-bottom:8px;}
   .story-title{font-size:16px;font-weight:800;color:var(--ink);}
   .badge{flex-shrink:0;font-size:11px;font-weight:800;padding:3px 10px;border-radius:999px;color:#fff;white-space:nowrap;}
-  .badge.신규{background:var(--new);}
-  .badge.업데이트{background:var(--update);}
-  .badge.확정{background:var(--confirmed);}
-  .badge.루머{background:var(--rumor);}
-  .badge.예정{background:var(--upcoming);}
+  .badge.NEW{background:var(--new);}
+  .badge.UPDATE{background:var(--update);}
+  .badge.CONFIRMED{background:var(--confirmed);}
+  .badge.RUMOR{background:var(--rumor);}
+  .badge.UPCOMING{background:var(--upcoming);}
 
   .tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px;}
   .tag{font-size:11px;font-weight:700;color:var(--gb-green);background:#eef4f1;padding:2px 8px;border-radius:6px;}
@@ -119,7 +126,7 @@
 <header class="hero">
   <div class="hero-inner">
     <div class="hero-eyebrow">🧀 GREEN BAY PACKERS · DAILY BRIEFING TRACKER</div>
-    <h1 class="hero-title">그린베이 패커스 아침 브리핑</h1>
+    <h1 class="hero-title" id="heroTitle"></h1>
     <div class="hero-quote" id="heroQuote">불러오는 중...</div>
     <div class="hero-date" id="heroDate"></div>
   </div>
@@ -127,40 +134,122 @@
 
 <div class="layout">
   <aside class="archive">
-    <div class="archive-title">📂 지난 브리핑 검색</div>
-    <input class="search-box" id="searchBox" type="text" placeholder="날짜·키워드 검색 (예: 러브, 부상)">
+    <div class="archive-title" id="archiveTitle"></div>
+    <input class="search-box" id="searchBox" type="text">
     <div class="tag-filter" id="tagFilter"></div>
     <div class="archive-count" id="archiveCount"></div>
     <div id="archiveGroups"></div>
   </aside>
 
   <main id="mainContent">
-    <div class="section-title">🔥 스토리라인 <span class="count" id="storyCount">0</span></div>
+    <div class="section-title" id="sectionTitle">🔥 <span id="sectionTitleText"></span> <span class="count" id="storyCount">0</span></div>
+
+    <div class="control-row">
+      <div class="segctrl" id="langToggle">
+        <button class="active" data-lang="ko">🇰🇷 한국어</button>
+        <button data-lang="en">🇺🇸 English</button>
+      </div>
+      <div class="meta-chip" id="metaChip"></div>
+    </div>
+
     <div class="filter-bar" id="filterBar"></div>
     <div class="story-grid" id="storyGrid"></div>
 
-    <div class="section-title spaced">🩺 부상 · 뎁스차트 트래커</div>
+    <div class="section-title spaced" id="injuryTitle"></div>
     <table class="tracker">
-      <thead><tr><th>선수</th><th>부위 / 이슈</th><th>현재 상태</th></tr></thead>
+      <thead><tr id="injuryHead"></tr></thead>
       <tbody id="injuryBody"></tbody>
     </table>
 
-    <div class="section-title spaced">🔁 로스터 무브 로그</div>
+    <div class="section-title spaced" id="moveTitle"></div>
     <ul class="move-log" id="moveLog"></ul>
 
-    <div class="section-title spaced">📅 다음 일정</div>
+    <div class="section-title spaced" id="scheduleTitle"></div>
     <div class="schedule-grid" id="scheduleGrid"></div>
   </main>
 </div>
 
-<footer>
-  새 브리핑이 추가되면 <code>data/</code> 폴더에 그 날짜의 JSON 파일 하나와 <code>data/index.json</code> 항목 하나가 늘어나는 구조입니다. 특정 날짜는 주소창의 <code>#YYYY-MM-DD</code>로 바로 공유할 수 있어요.
-</footer>
+<footer id="footerText"></footer>
 
 <script>
-let archiveIndex = [];      // full data/index.json
-let activeTags = new Set(); // selected tag filters
+// ── i18n dictionaries ──────────────────────────────────────────────
+const UI = {
+  ko: {
+    archiveTitle: "📂 지난 브리핑 검색",
+    searchPh: "날짜·키워드 검색 (예: 러브, 부상)",
+    allChip: "전체",
+    sectionTitle: "스토리라인",
+    injuryTitle: "🩺 부상 · 뎁스차트 트래커",
+    injuryPlayer: "선수", injuryIssue: "부위 / 이슈", injuryStatus: "현재 상태",
+    moveTitle: "🔁 로스터 무브 로그",
+    moveEmpty: "이 날짜에는 로스터 무브 없음",
+    scheduleTitle: "📅 다음 일정",
+    briefingSuffix: " 브리핑",
+    footer: '새 브리핑이 추가되면 <code>data/</code> 폴더에 그 날짜의 JSON 파일 하나와 <code>data/index.json</code> 항목 하나가 늘어나는 구조입니다. 특정 날짜는 주소창의 <code>#YYYY-MM-DD</code>로 바로 공유할 수 있어요.',
+    loadListError: err => `📡 브리핑 목록을 불러오지 못했어요.<br>
+      로컬에서 이 파일을 더블클릭으로 열면 브라우저 보안 정책(CORS) 때문에 <code>data/index.json</code>을 읽을 수 없습니다.<br>
+      터미널에서 이 폴더로 이동한 뒤 <code>python3 -m http.server</code>를 실행하고 <code>http://localhost:8000</code>으로 접속하거나,
+      GitHub Pages에 배포된 주소로 확인해 주세요.<br><br><small>${err}</small></div>`,
+    loadDayError: err => `이 날짜의 데이터를 불러오지 못했습니다. (${err})`,
+    archiveCount: (n, total) => `${n}개 브리핑 (전체 ${total}개)`,
+    archiveEmpty: "검색 결과가 없어요.",
+    heroLoading: "불러오는 중..."
+  },
+  en: {
+    archiveTitle: "📂 Search Past Briefings",
+    searchPh: "Search by date or keyword (e.g. Love, injury)",
+    allChip: "All",
+    sectionTitle: "Storylines",
+    injuryTitle: "🩺 Injury · Depth Chart Tracker",
+    injuryPlayer: "Player", injuryIssue: "Injury / Issue", injuryStatus: "Current Status",
+    moveTitle: "🔁 Roster Move Log",
+    moveEmpty: "No roster moves on this date",
+    scheduleTitle: "📅 Upcoming Schedule",
+    briefingSuffix: " Briefing",
+    footer: 'Each new briefing adds one JSON file in <code>data/</code> and one entry in <code>data/index.json</code>. Any date can be shared directly via <code>#YYYY-MM-DD</code> in the address bar.',
+    loadListError: err => `📡 Couldn't load the briefing list.<br>
+      Opening this file directly by double-click can't read <code>data/index.json</code> due to browser CORS policy.<br>
+      Run <code>python3 -m http.server</code> from this folder and visit <code>http://localhost:8000</code>,
+      or check the address deployed on GitHub Pages.<br><br><small>${err}</small></div>`,
+    loadDayError: err => `Couldn't load data for this date. (${err})`,
+    archiveCount: (n, total) => `${n} briefings (${total} total)`,
+    archiveEmpty: "No results found.",
+    heroLoading: "Loading..."
+  }
+};
+
+const TAG_LABELS = {
+  QB: { ko: "QB", en: "QB" },
+  OL: { ko: "OL", en: "OL" },
+  LT: { ko: "LT", en: "LT" },
+  DL: { ko: "DL", en: "DL" },
+  CB: { ko: "CB", en: "CB" },
+  LEADERSHIP: { ko: "리더십", en: "Leadership" },
+  DEFENSE: { ko: "수비", en: "Defense" },
+  DEPTH_CHART: { ko: "뎁스차트", en: "Depth Chart" },
+  TRADE_RUMOR: { ko: "트레이드루머", en: "Trade Rumor" },
+  ROSTER_MOVE: { ko: "로스터무브", en: "Roster Move" }
+};
+
+const STATUS_LABELS = {
+  NEW: { ko: "신규", en: "New" },
+  UPDATE: { ko: "업데이트", en: "Update" },
+  CONFIRMED: { ko: "확정", en: "Confirmed" },
+  RUMOR: { ko: "루머", en: "Rumor" },
+  UPCOMING: { ko: "예정", en: "Upcoming" }
+};
+
+function tagLabel(code){ return (TAG_LABELS[code] && TAG_LABELS[code][lang]) || code; }
+function statusLabel(code){ return (STATUS_LABELS[code] && STATUS_LABELS[code][lang]) || code; }
+// bilingual-field helper: accepts either {ko,en} object or a plain string (back-compat)
+function tt(field){ return (field && typeof field === 'object') ? (field[lang] ?? field.ko ?? '') : (field ?? ''); }
+
+// ── state ──────────────────────────────────────────────────────────
+let lang = localStorage.getItem('pt-lang') || 'ko';
+let archiveIndex = [];
+let activeTags = new Set();
 let currentDate = null;
+let currentDay = null;
 
 function el(tag, cls, html){
   const e = document.createElement(tag);
@@ -169,18 +258,41 @@ function el(tag, cls, html){
   return e;
 }
 
+function applyStaticText(){
+  const u = UI[lang];
+  document.documentElement.lang = lang;
+  document.getElementById('archiveTitle').textContent = u.archiveTitle;
+  document.getElementById('searchBox').placeholder = u.searchPh;
+  document.getElementById('sectionTitleText').textContent = u.sectionTitle;
+  document.getElementById('injuryTitle').textContent = u.injuryTitle;
+  document.getElementById('injuryHead').innerHTML = `<th>${u.injuryPlayer}</th><th>${u.injuryIssue}</th><th>${u.injuryStatus}</th>`;
+  document.getElementById('moveTitle').textContent = u.moveTitle;
+  document.getElementById('scheduleTitle').textContent = u.scheduleTitle;
+  document.getElementById('footerText').innerHTML = u.footer;
+  [...document.getElementById('langToggle').children].forEach(b=>{
+    b.classList.toggle('active', b.dataset.lang === lang);
+  });
+}
+
 async function init(){
+  applyStaticText();
+  document.getElementById('langToggle').addEventListener('click', e=>{
+    if(e.target.tagName !== 'BUTTON') return;
+    lang = e.target.dataset.lang;
+    localStorage.setItem('pt-lang', lang);
+    applyStaticText();
+    renderArchiveList();
+    buildTagFilter();
+    if(currentDay) renderDay();
+  });
+
   try{
     const res = await fetch('data/index.json');
     if(!res.ok) throw new Error('index.json 응답 오류: ' + res.status);
     archiveIndex = await res.json();
     archiveIndex.sort((a,b) => b.date.localeCompare(a.date));
   } catch(err){
-    document.getElementById('mainContent').innerHTML =
-      `<div class="load-error">📡 브리핑 목록을 불러오지 못했어요.<br>
-      로컬에서 이 파일을 더블클릭으로 열면 브라우저 보안 정책(CORS) 때문에 <code>data/index.json</code>을 읽을 수 없습니다.<br>
-      터미널에서 이 폴더로 이동한 뒤 <code>python3 -m http.server</code>를 실행하고 <code>http://localhost:8000</code>으로 접속하거나,
-      GitHub Pages에 배포된 주소로 확인해 주세요.<br><br><small>${err.message}</small></div>`;
+    document.getElementById('mainContent').innerHTML = `<div class="load-error">${UI[lang].loadListError(err.message)}</div>`;
     return;
   }
 
@@ -201,10 +313,10 @@ function buildTagFilter(){
   const allTags = [...new Set(archiveIndex.flatMap(d => d.tags || []))];
   const wrap = document.getElementById('tagFilter');
   wrap.innerHTML = '';
-  allTags.forEach(tag=>{
-    const chip = el('button','filter-chip', tag);
+  allTags.forEach(code=>{
+    const chip = el('button','filter-chip' + (activeTags.has(code) ? ' active' : ''), tagLabel(code));
     chip.addEventListener('click', ()=>{
-      if(activeTags.has(tag)) activeTags.delete(tag); else activeTags.add(tag);
+      if(activeTags.has(code)) activeTags.delete(code); else activeTags.add(code);
       chip.classList.toggle('active');
       renderArchiveList();
     });
@@ -214,7 +326,8 @@ function buildTagFilter(){
 
 function matchesFilters(entry, query){
   const q = query.trim().toLowerCase();
-  const textMatch = !q || entry.date.includes(q) || entry.headline.toLowerCase().includes(q);
+  const headline = tt(entry.headline).toLowerCase();
+  const textMatch = !q || entry.date.includes(q) || headline.includes(q);
   const tagMatch = activeTags.size === 0 || (entry.tags || []).some(t => activeTags.has(t));
   return textMatch && tagMatch;
 }
@@ -222,7 +335,7 @@ function matchesFilters(entry, query){
 function renderArchiveList(){
   const query = document.getElementById('searchBox').value;
   const filtered = archiveIndex.filter(e => matchesFilters(e, query));
-  document.getElementById('archiveCount').textContent = `${filtered.length}개 브리핑 (전체 ${archiveIndex.length}개)`;
+  document.getElementById('archiveCount').textContent = UI[lang].archiveCount(filtered.length, archiveIndex.length);
 
   const groups = {};
   filtered.forEach(entry=>{
@@ -235,12 +348,12 @@ function renderArchiveList(){
   const months = Object.keys(groups).sort().reverse();
 
   if(months.length === 0){
-    wrap.appendChild(el('div','archive-empty','검색 결과가 없어요.'));
+    wrap.appendChild(el('div','archive-empty', UI[lang].archiveEmpty));
     return;
   }
 
   months.forEach((ym, idx)=>{
-    const group = el('div','month-group' + (idx === 0 ? '' : ''));
+    const group = el('div','month-group');
     const header = el('div','month-header', `<span>${ym} <span style="font-weight:600;color:#aaa;">(${groups[ym].length})</span></span><span class="chev">▾</span>`);
     header.addEventListener('click', ()=> group.classList.toggle('collapsed'));
     group.appendChild(header);
@@ -248,7 +361,7 @@ function renderArchiveList(){
     const list = el('ul','archive-list');
     groups[ym].forEach(entry=>{
       const item = el('li','archive-item' + (entry.date === currentDate ? ' active' : ''));
-      item.innerHTML = `<div class="ai-date">${entry.dateLabel || entry.date}</div><div class="ai-headline">${entry.headline}</div>`;
+      item.innerHTML = `<div class="ai-date">${tt(entry.dateLabel) || entry.date}</div><div class="ai-headline">${tt(entry.headline)}</div>`;
       item.addEventListener('click', ()=>{ location.hash = entry.date; });
       list.appendChild(item);
     });
@@ -261,28 +374,35 @@ async function loadDay(date){
   currentDate = date;
   renderArchiveList();
 
-  let day;
   try{
     const res = await fetch(`data/${date}.json`);
     if(!res.ok) throw new Error('데이터 로드 실패: ' + res.status);
-    day = await res.json();
+    currentDay = await res.json();
   } catch(err){
-    document.getElementById('mainContent').innerHTML = `<div class="load-error">이 날짜의 데이터를 불러오지 못했습니다. (${err.message})</div>`;
+    document.getElementById('mainContent').innerHTML = `<div class="load-error">${UI[lang].loadDayError(err.message)}</div>`;
+    currentDay = null;
     return;
   }
 
-  document.getElementById('heroQuote').textContent = "💬 " + day.headline;
-  document.getElementById('heroDate').textContent = (day.dateLabel || day.date) + " 브리핑";
+  renderDay();
+}
+
+function renderDay(){
+  const day = currentDay;
+  if(!day) return;
+
+  document.getElementById('heroQuote').textContent = "💬 " + tt(day.headline);
+  document.getElementById('heroDate').textContent = (tt(day.dateLabel) || day.date) + UI[lang].briefingSuffix;
 
   const allTags = [...new Set(day.stories.flatMap(s => s.tags))];
   const filterBar = document.getElementById('filterBar');
   filterBar.innerHTML = '';
-  const allChip = el('button','filter-chip active','전체');
+  const allChip = el('button','filter-chip active', UI[lang].allChip);
   allChip.dataset.tag = '__all__';
   filterBar.appendChild(allChip);
-  allTags.forEach(tag=>{
-    const chip = el('button','filter-chip', tag);
-    chip.dataset.tag = tag;
+  allTags.forEach(code=>{
+    const chip = el('button','filter-chip', tagLabel(code));
+    chip.dataset.tag = code;
     filterBar.appendChild(chip);
   });
   filterBar.onclick = (e)=>{
@@ -303,14 +423,14 @@ async function loadDay(date){
     card.dataset.tags = s.tags.join(',');
     card.innerHTML = `
       <div class="story-top">
-        <div class="story-title">${s.icon} ${s.title}</div>
-        <span class="badge ${s.status}">${s.status}</span>
+        <div class="story-title">${s.icon} ${tt(s.title)}</div>
+        <span class="badge ${s.status}">${statusLabel(s.status)}</span>
       </div>
-      <div class="tags">${s.tags.map(t=>`<span class="tag">#${t}</span>`).join('')}</div>
-      <div class="block-label">팩트</div>
-      <ul class="facts">${s.facts.map(f=>`<li>${f}</li>`).join('')}</ul>
-      <div class="block-label">패커스 관점</div>
-      <div class="interp">${s.interp}</div>
+      <div class="tags">${s.tags.map(t=>`<span class="tag">#${tagLabel(t)}</span>`).join('')}</div>
+      <div class="block-label">${lang === 'ko' ? '팩트' : 'Facts'}</div>
+      <ul class="facts">${tt(s.facts).map(f=>`<li>${f}</li>`).join('')}</ul>
+      <div class="block-label">${lang === 'ko' ? '패커스 관점' : 'Packers Angle'}</div>
+      <div class="interp">${tt(s.interp)}</div>
     `;
     grid.appendChild(card);
   });
@@ -319,18 +439,18 @@ async function loadDay(date){
   injBody.innerHTML = '';
   day.injuries.forEach(i=>{
     const tr = el('tr');
-    tr.innerHTML = `<td><strong>${i.player}</strong></td><td>${i.issue}</td><td><span class="status-pill ${i.watch?'watch':''}">${i.status}</span></td>`;
+    tr.innerHTML = `<td><strong>${tt(i.player)}</strong></td><td>${tt(i.issue)}</td><td><span class="status-pill ${i.watch?'watch':''}">${tt(i.status)}</span></td>`;
     injBody.appendChild(tr);
   });
 
   const moveLog = document.getElementById('moveLog');
   moveLog.innerHTML = '';
   if(!day.moves || day.moves.length === 0){
-    moveLog.appendChild(el('li','empty','이 날짜에는 로스터 무브 없음'));
+    moveLog.appendChild(el('li','empty', UI[lang].moveEmpty));
   } else {
     day.moves.forEach(m=>{
       const li = el('li');
-      li.innerHTML = `<span class="move-date">${m.date}</span>${m.text}`;
+      li.innerHTML = `<span class="move-date">${m.date}</span>${tt(m.text)}`;
       moveLog.appendChild(li);
     });
   }
@@ -339,7 +459,7 @@ async function loadDay(date){
   schedGrid.innerHTML = '';
   (day.schedule || []).forEach(s=>{
     const card = el('div','sched-card');
-    card.innerHTML = `<div class="d">${s.date.replace(/\n/g,'<br>')}</div><div class="t">${s.text}</div>`;
+    card.innerHTML = `<div class="d">${tt(s.date).replace(/\n/g,'<br>')}</div><div class="t">${tt(s.text)}</div>`;
     schedGrid.appendChild(card);
   });
 }
