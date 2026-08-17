@@ -3,25 +3,41 @@
 
 const MONTHS = {
   january: "01",
+  jan: "01",
   february: "02",
+  feb: "02",
   march: "03",
+  mar: "03",
   april: "04",
+  apr: "04",
   may: "05",
   june: "06",
+  jun: "06",
   july: "07",
+  jul: "07",
   august: "08",
+  aug: "08",
   september: "09",
+  sep: "09",
+  sept: "09",
   october: "10",
+  oct: "10",
   november: "11",
+  nov: "11",
   december: "12",
+  dec: "12",
 };
 
-// "August 15, 2026" -> "2026-08-15". Returns null if it can't parse.
+// Accepts both the full month name ("August 15, 2026") and the abbreviated
+// form packers.com actually uses on its news list ("Aug 15, 2026" / "Aug.
+// 15, 2026"), with or without the Oxford comma before the year.
+// "August 15, 2026" / "Aug 15, 2026" / "Aug. 15 2026" -> "2026-08-15".
+// Returns null if it can't parse.
 function parseUSDate(str) {
   if (!str) return null;
   const m = String(str)
     .trim()
-    .match(/^([A-Za-z]+)\s+(\d{1,2}),\s*(\d{4})$/);
+    .match(/^([A-Za-z]+)\.?\s+(\d{1,2}),?\s*(\d{4})$/);
   if (!m) return null;
   const month = MONTHS[m[1].toLowerCase()];
   if (!month) return null;

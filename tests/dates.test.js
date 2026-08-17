@@ -40,6 +40,23 @@ test("parseUSDate trims surrounding whitespace", () => {
   assert.equal(parseUSDate("  August 15, 2026  "), "2026-08-15");
 });
 
+// packers.com's /news/all-news list actually renders abbreviated month
+// names ("Aug 17, 2026"), not the full "August 17, 2026" used elsewhere on
+// the site — parseUSDate silently returned null for these, which made
+// every article on that page look unparseable and made "fetch latest news"
+// report "no new news" even when new articles existed.
+test("parseUSDate handles the abbreviated month format packers.com uses on /news/all-news", () => {
+  assert.equal(parseUSDate("Aug 17, 2026"), "2026-08-17");
+  assert.equal(parseUSDate("Aug. 16, 2026"), "2026-08-16");
+  assert.equal(parseUSDate("Sept 1, 2026"), "2026-09-01");
+  assert.equal(parseUSDate("Jan 5, 2026"), "2026-01-05");
+});
+
+test("parseUSDate handles a missing Oxford comma before the year", () => {
+  assert.equal(parseUSDate("August 17 2026"), "2026-08-17");
+  assert.equal(parseUSDate("Aug 17 2026"), "2026-08-17");
+});
+
 test("isNewerThan is true when baseline is missing", () => {
   assert.equal(isNewerThan("2026-08-15", null), true);
   assert.equal(isNewerThan("2026-08-15", undefined), true);
