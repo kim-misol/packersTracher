@@ -1,10 +1,13 @@
 [
   {
     "date": "2026-08-15",
-    "dateLabel": "2026-08-15 (현지)",
-    "headline": "러브는 건강하고 팀의 리더로 완전히 자리 잡았다. 모건은 하이스미스를 상대로 압박 0회, 시스는 CB2 자리를 계속 밀어붙인다. 스맥까지 덴버에서 한 번 더 해주면 정말 그놈의 킥 걱정을 잠시 내려놓을 수도 있다.",
+    "dateLabel": { "ko": "2026-08-15 (현지)", "en": "Aug 15, 2026 (local)" },
+    "headline": {
+      "ko": "러브는 건강하고 팀의 리더로 완전히 자리 잡았다. 모건은 하이스미스를 상대로 압박 0회, 시스는 CB2 자리를 계속 밀어붙인다. 스맥까지 덴버에서 한 번 더 해주면 정말 그놈의 킥 걱정을 잠시 내려놓을 수도 있다.",
+      "en": "Love is healthy and fully entrenched as the team's leader. Morgan allowed zero pressures against Highsmith, and Cisse keeps pushing for the CB2 spot. If Smack delivers one more good outing in Denver, the kicking worries might finally take a back seat."
+    },
     "storyCount": 6,
     "moveCount": 1,
-    "tags": ["QB", "리더십", "OL", "LT", "수비", "DL", "로스터무브", "CB", "뎁스차트", "트레이드루머"]
+    "tags": ["QB", "LEADERSHIP", "OL", "LT", "DEFENSE", "DL", "ROSTER_MOVE", "CB", "DEPTH_CHART", "TRADE_RUMOR"]
   }
 ]
