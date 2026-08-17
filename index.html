@@ -37,6 +37,13 @@
   /* ── archive sidebar ── */
   .archive{background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px;position:sticky;top:16px;max-height:calc(100vh - 32px);overflow:auto;}
   .archive-title{font-size:13px;font-weight:800;color:var(--gb-green);text-transform:uppercase;letter-spacing:.04em;margin-bottom:10px;}
+  .fetch-btn{width:100%;padding:10px 12px;border:none;border-radius:8px;background:var(--gb-green);color:#fff;font-size:13px;font-weight:800;cursor:pointer;margin-bottom:6px;transition:.15s;}
+  .fetch-btn:hover:not(:disabled){background:var(--gb-green-dark);}
+  .fetch-btn:disabled{opacity:.6;cursor:default;}
+  .fetch-status{font-size:11.5px;margin-bottom:10px;min-height:14px;line-height:1.4;}
+  .fetch-status.ok{color:var(--update);}
+  .fetch-status.warn{color:var(--rumor);}
+  .fetch-status.err{color:#c0392b;}
   .search-box{width:100%;padding:9px 12px;border:1.5px solid var(--line);border-radius:8px;font-size:13.5px;margin-bottom:10px;}
   .search-box:focus{outline:none;border-color:var(--gb-green);}
   .tag-filter{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px;}
@@ -135,6 +142,8 @@
 <div class="layout">
   <aside class="archive">
     <div class="archive-title" id="archiveTitle"></div>
+    <button class="fetch-btn" id="fetchNewsBtn">📰 <span id="fetchBtnLabel"></span></button>
+    <div class="fetch-status" id="fetchStatus"></div>
     <input class="search-box" id="searchBox" type="text">
     <div class="tag-filter" id="tagFilter"></div>
     <div class="archive-count" id="archiveCount"></div>
@@ -193,7 +202,13 @@ const UI = {
     loadDayError: err => `이 날짜의 데이터를 불러오지 못했습니다. (${err})`,
     archiveCount: (n, total) => `${n}개 브리핑 (전체 ${total}개)`,
     archiveEmpty: "검색 결과가 없어요.",
-    heroLoading: "불러오는 중..."
+    heroLoading: "불러오는 중...",
+    fetchBtn: "최신 뉴스 가져오기",
+    fetching: "가져오는 중...",
+    fetchDone: dates => `✅ 새 브리핑 ${dates.length}개 추가됨: ${dates.join(', ')}`,
+    fetchNone: "새 뉴스가 없습니다. 최신 상태예요!",
+    fetchPartialError: n => ` (⚠️ ${n}개 날짜는 처리 중 오류 발생)`,
+    fetchError: err => `❌ 가져오기 실패: ${err}`
   },
   en: {
     archiveTitle: "📂 Search Past Briefings",
@@ -214,7 +229,13 @@ const UI = {
     loadDayError: err => `Couldn't load data for this date. (${err})`,
     archiveCount: (n, total) => `${n} briefings (${total} total)`,
     archiveEmpty: "No results found.",
-    heroLoading: "Loading..."
+    heroLoading: "Loading...",
+    fetchBtn: "Fetch Latest News",
+    fetching: "Fetching...",
+    fetchDone: dates => `✅ Added ${dates.length} new briefing(s): ${dates.join(', ')}`,
+    fetchNone: "No new news — you're up to date!",
+    fetchPartialError: n => ` (⚠️ ${n} date(s) had errors)`,
+    fetchError: err => `❌ Fetch failed: ${err}`
   }
 };
 
@@ -239,6 +260,10 @@ const STATUS_LABELS = {
   UPCOMING: { ko: "예정", en: "Upcoming" }
 };
 
+// TODO: Vercel 배포 후, 실제로 배포된 https://<프로젝트명>.vercel.app/api/fetch-news 주소로 바꿔주세요.
+// (README.md의 "뉴스 가져오기 버튼 설정" 섹션 참고)
+const NEWS_API_URL = "https://REPLACE-WITH-YOUR-VERCEL-URL.vercel.app/api/fetch-news";
+
 function tagLabel(code){ return (TAG_LABELS[code] && TAG_LABELS[code][lang]) || code; }
 function statusLabel(code){ return (STATUS_LABELS[code] && STATUS_LABELS[code][lang]) || code; }
 // bilingual-field helper: accepts either {ko,en} object or a plain string (back-compat)
@@ -262,6 +287,7 @@ function applyStaticText(){
   const u = UI[lang];
   document.documentElement.lang = lang;
   document.getElementById('archiveTitle').textContent = u.archiveTitle;
+  document.getElementById('fetchBtnLabel').textContent = u.fetchBtn;
   document.getElementById('searchBox').placeholder = u.searchPh;
   document.getElementById('sectionTitleText').textContent = u.sectionTitle;
   document.getElementById('injuryTitle').textContent = u.injuryTitle;
@@ -272,6 +298,46 @@ function applyStaticText(){
   [...document.getElementById('langToggle').children].forEach(b=>{
     b.classList.toggle('active', b.dataset.lang === lang);
   });
+}
+
+async function fetchLatestNews(){
+  const btn = document.getElementById('fetchNewsBtn');
+  const label = document.getElementById('fetchBtnLabel');
+  const status = document.getElementById('fetchStatus');
+  btn.disabled = true;
+  label.textContent = UI[lang].fetching;
+  status.textContent = '';
+  status.className = 'fetch-status';
+
+  try{
+    const res = await fetch(NEWS_API_URL, { method: 'POST' });
+    const data = await res.json();
+    if(!res.ok) throw new Error(data.error || ('HTTP ' + res.status));
+
+    if(data.added && data.added.length){
+      status.textContent = UI[lang].fetchDone(data.added);
+      status.classList.add('ok');
+      const idxRes = await fetch('data/index.json?t=' + Date.now());
+      archiveIndex = await idxRes.json();
+      archiveIndex.sort((a,b) => b.date.localeCompare(a.date));
+      buildTagFilter();
+      renderArchiveList();
+    } else {
+      status.textContent = UI[lang].fetchNone;
+      status.classList.add('ok');
+    }
+
+    if(data.errors && data.errors.length){
+      status.textContent += UI[lang].fetchPartialError(data.errors.length);
+      status.classList.add('warn');
+    }
+  } catch(err){
+    status.textContent = UI[lang].fetchError(err.message);
+    status.classList.add('err');
+  } finally {
+    btn.disabled = false;
+    label.textContent = UI[lang].fetchBtn;
+  }
 }
 
 async function init(){
@@ -285,6 +351,7 @@ async function init(){
     buildTagFilter();
     if(currentDay) renderDay();
   });
+  document.getElementById('fetchNewsBtn').addEventListener('click', fetchLatestNews);
 
   try{
     const res = await fetch('data/index.json');
