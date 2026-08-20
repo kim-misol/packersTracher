@@ -25,6 +25,12 @@ test("buildOrganizePrompt embeds the date and article text and requires the full
   assert.match(prompt, /English.*first/i);
 });
 
+test("buildOrganizePrompt asks each story to carry the source article's url", () => {
+  const prompt = buildOrganizePrompt("2026-08-17", "ARTICLE_TEXT_MARKER");
+  assert.match(prompt, /"url"/);
+  assert.match(prompt, /URL:/);
+});
+
 test("parseClaudeJson parses plain JSON", () => {
   assert.deepEqual(parseClaudeJson('{"a":1}'), { a: 1 });
 });

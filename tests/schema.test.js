@@ -62,6 +62,30 @@ test("validateStorySchema catches mismatched facts array lengths", () => {
   assert.ok(errors.some((e) => e.includes("facts")));
 });
 
+test("validateStorySchema accepts a story with a source url (fetched via the news pipeline)", () => {
+  const withUrl = {
+    ...FIXTURE_DAY.stories[0],
+    url: "https://www.packers.com/news/some-article",
+  };
+  assert.deepEqual(validateStorySchema(withUrl), []);
+});
+
+test("validateStorySchema accepts a story with no url (manual/legacy entries)", () => {
+  assert.deepEqual(validateStorySchema(FIXTURE_DAY.stories[0]), []);
+});
+
+test("validateStorySchema rejects an empty-string url when the field is present", () => {
+  const bad = { ...FIXTURE_DAY.stories[0], url: "" };
+  const errors = validateStorySchema(bad);
+  assert.ok(errors.some((e) => e.includes("url")));
+});
+
+test("validateStorySchema rejects a non-string url", () => {
+  const bad = { ...FIXTURE_DAY.stories[0], url: 12345 };
+  const errors = validateStorySchema(bad);
+  assert.ok(errors.some((e) => e.includes("url")));
+});
+
 test("validateInjuryRow accepts a normal row and a watch-flagged row", () => {
   assert.deepEqual(validateInjuryRow(FIXTURE_DAY.injuries[0]), []);
   const watchRow = FIXTURE_DAY.injuries.find((r) => r.watch);

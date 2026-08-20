@@ -36,7 +36,7 @@ test:
 	npm test
 
 format:
-	npx prettier --write "api/**/*.js" "tests/**/*.js" "package.json"
+	npx prettier --write "api/**/*.js" "tests/**/*.js" "story-card.js" "package.json"
 
 build: validate test
 	@echo "✅ 정적 사이트 — 별도 빌드 산출물 없음. validate/test 통과 시 배포 가능."

@@ -48,6 +48,8 @@ function validateStorySchema(story) {
   }
   if (!isBilingual(story.interp))
     errors.push("story.interp must be {ko, en} non-empty strings");
+  if ("url" in story && !isNonEmptyString(story.url))
+    errors.push("story.url must be a non-empty string when present");
 
   return errors;
 }

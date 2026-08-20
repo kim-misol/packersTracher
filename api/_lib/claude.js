@@ -33,6 +33,7 @@ function buildOrganizePrompt(dateISO, articlesText) {
   return [
     "You are the editor for a Green Bay Packers daily briefing site. Below",
     "is the raw text of one or more articles published on " + dateISO + ".",
+    'Each article starts with its own "URL: <link>" marker line.',
     "",
     "Organize this into JSON matching EXACTLY this shape (no prose, no",
     "markdown fences, return only the JSON object):",
@@ -46,7 +47,8 @@ function buildOrganizePrompt(dateISO, articlesText) {
     '      "tags": [string, ...] (short uppercase codes like "QB", "OL", "DEFENSE"),',
     '      "title": {"ko": string, "en": string},',
     '      "facts": {"ko": [string, ...], "en": [string, ...]} (same number of bullets in both languages, 2-4 bullets, concrete facts only),',
-    '      "interp": {"ko": string, "en": string} (1-2 sentence "why this matters" analysis, written like a beat reporter)',
+    '      "interp": {"ko": string, "en": string} (1-2 sentence "why this matters" analysis, written like a beat reporter),',
+    '      "url": string (the source article this story is based on — copied EXACTLY, verbatim, from that article\'s "URL:" marker line above; if the story draws on multiple articles, use the URL of the one it is primarily based on)',
     "    }",
     "  ],",
     '  "injuries": [{"player": {"ko": string, "en": string}, "issue": {"ko": string, "en": string}, "status": {"ko": string, "en": string}, "watch": boolean (optional, true only for a notable new concern)}],',

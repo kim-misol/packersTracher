@@ -136,15 +136,14 @@ module.exports = async function handler(req, res) {
         const articles = groups[dateISO];
         const bodies = await Promise.all(
           articles.map(async (a) => {
+            const header = "URL: " + a.url + "\n" + a.title + "\n\n";
             try {
               const html = await fetchText(a.url);
-              return (
-                a.title + "\n\n" + stripHtmlForExtraction(html).slice(0, 15000)
-              );
+              return header + stripHtmlForExtraction(html).slice(0, 15000);
             } catch (err) {
               return (
-                a.title +
-                "\n\n[Could not fetch full article body: " +
+                header +
+                "[Could not fetch full article body: " +
                 err.message +
                 "]"
               );
