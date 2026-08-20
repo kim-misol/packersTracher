@@ -330,6 +330,17 @@ async function fetchLatestNews(){
     if(data.errors && data.errors.length){
       status.textContent += UI[lang].fetchPartialError(data.errors.length);
       status.classList.add('warn');
+      // The API response already carries the real per-date failure reason
+      // (data.errors[i].errors), but until now nothing surfaced it — the
+      // status line only ever showed a bare count. Log it and put it in a
+      // hover tooltip so a failure can be diagnosed from the browser
+      // console/tooltip instead of digging through Vercel function logs.
+      console.error('fetch-news: per-date errors', data.errors);
+      status.title = data.errors
+        .map(e => e.date + ': ' + (Array.isArray(e.errors) ? e.errors.join(' / ') : e.errors))
+        .join('\n');
+    } else {
+      status.removeAttribute('title');
     }
   } catch(err){
     status.textContent = UI[lang].fetchError(err.message);
