@@ -1,0 +1,141 @@
+{
+  "date": "2026-08-19",
+  "dateLabel": {
+    "ko": "2026-08-19 (현지)",
+    "en": "2026-08-19"
+  },
+  "headline": {
+    "en": "Packers claimed EDGE Arden Walker off waivers as training camp continues. DT Javon Hargrave is showing strong form ahead of Preseason Week 2 matchup against the Broncos.",
+    "ko": "패커스가 웨이버를 통해 EDGE 아든 워커를 영입했으며 훈련 캠프가 계속되고 있습니다. DT 자본 하그레이브는 브롱코스와의 프리시즌 2주차 경기를 앞두고 강력한 모습을 보여주고 있습니다."
+  },
+  "stories": [
+    {
+      "icon": "🔄",
+      "status": "CONFIRMED",
+      "tags": [
+        "EDGE",
+        "ROSTER",
+        "WAIVER"
+      ],
+      "title": {
+        "en": "Packers claim EDGE Arden Walker",
+        "ko": "패커스, EDGE 아든 워커 영입"
+      },
+      "facts": {
+        "en": [
+          "Packers claimed EDGE Arden Walker off waivers on August 19",
+          "Walker adds depth to the edge rusher position"
+        ],
+        "ko": [
+          "패커스가 8월 19일 웨이버를 통해 EDGE 아든 워커를 영입",
+          "워커는 에지 러셔 포지션에 깊이를 더함"
+        ]
+      },
+      "interp": {
+        "en": "The addition of Walker strengthens the pass rush rotation as the Packers fine-tune their roster ahead of the regular season.",
+        "ko": "워커의 영입은 정규 시즌을 앞두고 로스터를 조정하는 패커스의 패스 러시 로테이션을 강화합니다."
+      }
+    },
+    {
+      "icon": "💪",
+      "status": "UPDATE",
+      "tags": [
+        "DT",
+        "DEFENSE",
+        "CAMP"
+      ],
+      "title": {
+        "en": "DT Javon Hargrave proving he still packs a punch",
+        "ko": "DT 자본 하그레이브, 여전한 강력함 입증"
+      },
+      "facts": {
+        "en": [
+          "Javon Hargrave is demonstrating strong performance at training camp",
+          "The veteran defensive tackle continues to show impact ability"
+        ],
+        "ko": [
+          "자본 하그레이브가 훈련 캠프에서 강력한 퍼포먼스를 보여주고 있음",
+          "베테랑 수비 태클이 계속해서 임팩트 있는 능력을 과시"
+        ]
+      },
+      "interp": {
+        "en": "Hargrave's strong camp showing is a positive sign for a defensive line looking to establish dominance up front this season.",
+        "ko": "하그레이브의 강력한 캠프 퍼포먼스는 이번 시즌 프론트에서 지배력을 확립하려는 수비 라인에 긍정적인 신호입니다."
+      }
+    },
+    {
+      "icon": "🏈",
+      "status": "UPCOMING",
+      "tags": [
+        "PRESEASON",
+        "SCHEDULE"
+      ],
+      "title": {
+        "en": "Packers vs. Broncos Preseason Week 2 viewing information",
+        "ko": "패커스 vs. 브롱코스 프리시즌 2주차 시청 정보"
+      },
+      "facts": {
+        "en": [
+          "Packers face the Broncos in Preseason Week 2",
+          "Viewing, streaming, and listening information is available for the matchup"
+        ],
+        "ko": [
+          "패커스가 프리시즌 2주차에 브롱코스와 대결",
+          "경기 시청, 스트리밍, 청취 정보 공개"
+        ]
+      },
+      "interp": {
+        "en": "This preseason game provides another opportunity to evaluate roster depth and fine-tune schemes before the regular season begins.",
+        "ko": "이번 프리시즌 경기는 정규 시즌 시작 전 로스터 깊이를 평가하고 전술을 다듬을 또 다른 기회를 제공합니다."
+      }
+    },
+    {
+      "icon": "📝",
+      "status": "NEW",
+      "tags": [
+        "CAMP",
+        "ANALYSIS"
+      ],
+      "title": {
+        "en": "Five key observations from training camp",
+        "ko": "훈련 캠프에서의 5가지 주요 관찰 사항"
+      },
+      "facts": {
+        "en": [
+          "Training camp observations released on August 19",
+          "Report highlights multiple position groups and player developments"
+        ],
+        "ko": [
+          "8월 19일 훈련 캠프 관찰 보고서 발표",
+          "여러 포지션 그룹과 선수 발전 상황을 조명"
+        ]
+      },
+      "interp": {
+        "en": "The camp observations provide insight into which players and units are trending upward as roster cut decisions loom.",
+        "ko": "캠프 관찰 보고서는 로스터 컷 결정이 다가오는 가운데 어떤 선수들과 유닛이 상승세를 보이고 있는지에 대한 통찰을 제공합니다."
+      }
+    }
+  ],
+  "injuries": [],
+  "moves": [
+    {
+      "date": "08-19",
+      "text": {
+        "en": "Claimed EDGE Arden Walker off waivers",
+        "ko": "웨이버를 통해 EDGE 아든 워커 영입"
+      }
+    }
+  ],
+  "schedule": [
+    {
+      "date": {
+        "en": "Preseason Week 2",
+        "ko": "프리시즌 2주차"
+      },
+      "text": {
+        "en": "Packers vs. Broncos",
+        "ko": "패커스 vs. 브롱코스"
+      }
+    }
+  ]
+}
