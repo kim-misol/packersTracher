@@ -42,5 +42,28 @@
       "PRESEASON",
       "SCHEDULE"
     ]
+  },
+  {
+    "date": "2026-08-18",
+    "dateLabel": {
+      "ko": "2026-08-18 (현지)",
+      "en": "2026-08-18"
+    },
+    "headline": {
+      "ko": "패커스가 8월 18일 트레이닝 캠프를 진행하며 공격 라인에서 재거 버튼의 유망한 활약이 주목받았습니다. 팀은 덴버에서의 다가오는 경기를 준비하고 있으며, 램보 필드 아트리움은 10월 24일 연례 스푹태큘러 행사를 개최할 예정입니다.",
+      "en": "The Packers held training camp on August 18 with promising performances from Jager Burton on the offensive line drawing attention. The team is preparing for an upcoming game in Denver, and Lambeau Field Atrium will host its annual Spooktacular event on October 24."
+    },
+    "storyCount": 4,
+    "moveCount": 0,
+    "tags": [
+      "TRAINING CAMP",
+      "PRACTICE",
+      "OL",
+      "ROSTER",
+      "PRESEASON",
+      "SCHEDULE",
+      "EVENT",
+      "COMMUNITY"
+    ]
   }
 ]
