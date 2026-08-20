@@ -36,7 +36,12 @@
 
   /* ── archive sidebar ── */
   .archive{background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px;position:sticky;top:16px;max-height:calc(100vh - 32px);overflow:auto;}
-  .archive-title{font-size:13px;font-weight:800;color:var(--gb-green);text-transform:uppercase;letter-spacing:.04em;margin-bottom:10px;}
+  .archive-title{font-size:13px;font-weight:800;color:var(--gb-green);text-transform:uppercase;letter-spacing:.04em;margin-bottom:10px;display:flex;justify-content:space-between;align-items:center;cursor:pointer;user-select:none;}
+  .archive-title .chev{transition:.15s;font-size:12px;}
+  .archive.collapsed{max-height:none;}
+  .archive.collapsed .archive-title{margin-bottom:0;}
+  .archive.collapsed .archive-title .chev{transform:rotate(-90deg);}
+  .archive.collapsed .archive-body{display:none;}
   .fetch-btn{width:100%;padding:10px 12px;border:none;border-radius:8px;background:var(--gb-green);color:#fff;font-size:13px;font-weight:800;cursor:pointer;margin-bottom:6px;transition:.15s;}
   .fetch-btn:hover:not(:disabled){background:var(--gb-green-dark);}
   .fetch-btn:disabled{opacity:.6;cursor:default;}
@@ -141,13 +146,15 @@
 
 <div class="layout">
   <aside class="archive">
-    <div class="archive-title" id="archiveTitle"></div>
-    <button class="fetch-btn" id="fetchNewsBtn">📰 <span id="fetchBtnLabel"></span></button>
-    <div class="fetch-status" id="fetchStatus"></div>
-    <input class="search-box" id="searchBox" type="text">
-    <div class="tag-filter" id="tagFilter"></div>
-    <div class="archive-count" id="archiveCount"></div>
-    <div id="archiveGroups"></div>
+    <div class="archive-title" id="archiveTitle"><span id="archiveTitleText"></span><span class="chev" id="archiveChev">▾</span></div>
+    <div class="archive-body" id="archiveBody">
+      <button class="fetch-btn" id="fetchNewsBtn">📰 <span id="fetchBtnLabel"></span></button>
+      <div class="fetch-status" id="fetchStatus"></div>
+      <input class="search-box" id="searchBox" type="text">
+      <div class="tag-filter" id="tagFilter"></div>
+      <div class="archive-count" id="archiveCount"></div>
+      <div id="archiveGroups"></div>
+    </div>
   </aside>
 
   <main id="mainContent">
@@ -271,6 +278,9 @@ function tt(field){ return (field && typeof field === 'object') ? (field[lang] ?
 
 // ── state ──────────────────────────────────────────────────────────
 let lang = localStorage.getItem('pt-lang') || 'ko';
+// archive sidebar starts collapsed by default (undoes on repeat visits if the
+// user explicitly expands it — see the archiveTitle click handler in init()).
+let archiveCollapsed = localStorage.getItem('pt-archive-collapsed') !== 'false';
 let archiveIndex = [];
 let activeTags = new Set();
 let currentDate = null;
@@ -286,7 +296,7 @@ function el(tag, cls, html){
 function applyStaticText(){
   const u = UI[lang];
   document.documentElement.lang = lang;
-  document.getElementById('archiveTitle').textContent = u.archiveTitle;
+  document.getElementById('archiveTitleText').textContent = u.archiveTitle;
   document.getElementById('fetchBtnLabel').textContent = u.fetchBtn;
   document.getElementById('searchBox').placeholder = u.searchPh;
   document.getElementById('sectionTitleText').textContent = u.sectionTitle;
@@ -353,6 +363,12 @@ async function fetchLatestNews(){
 
 async function init(){
   applyStaticText();
+  document.querySelector('.archive').classList.toggle('collapsed', archiveCollapsed);
+  document.getElementById('archiveTitle').addEventListener('click', ()=>{
+    archiveCollapsed = !archiveCollapsed;
+    document.querySelector('.archive').classList.toggle('collapsed', archiveCollapsed);
+    localStorage.setItem('pt-archive-collapsed', String(archiveCollapsed));
+  });
   document.getElementById('langToggle').addEventListener('click', e=>{
     if(e.target.tagName !== 'BUTTON') return;
     lang = e.target.dataset.lang;
