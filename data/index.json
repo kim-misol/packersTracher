@@ -65,5 +65,29 @@
       "EVENT",
       "COMMUNITY"
     ]
+  },
+  {
+    "date": "2026-08-19",
+    "dateLabel": {
+      "ko": "2026-08-19 (현지)",
+      "en": "2026-08-19"
+    },
+    "headline": {
+      "en": "Packers claimed EDGE Arden Walker off waivers as training camp continues. DT Javon Hargrave is showing strong form ahead of Preseason Week 2 matchup against the Broncos.",
+      "ko": "패커스가 웨이버를 통해 EDGE 아든 워커를 영입했으며 훈련 캠프가 계속되고 있습니다. DT 자본 하그레이브는 브롱코스와의 프리시즌 2주차 경기를 앞두고 강력한 모습을 보여주고 있습니다."
+    },
+    "storyCount": 4,
+    "moveCount": 1,
+    "tags": [
+      "EDGE",
+      "ROSTER",
+      "WAIVER",
+      "DT",
+      "DEFENSE",
+      "CAMP",
+      "PRESEASON",
+      "SCHEDULE",
+      "ANALYSIS"
+    ]
   }
 ]
