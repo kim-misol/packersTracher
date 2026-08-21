@@ -6,17 +6,17 @@
       "en": "2026-08-18"
     },
     "headline": {
-      "ko": "패커스 트레이닝 캠프가 8월 18일 계속되었으며, 오펜시브 라인에서 재거 버튼의 유망한 활약이 주목받았습니다. 팀은 덴버 원정 경기를 앞두고 있으며, 람보 필드 아트리움에서 10월 24일 연례 스푸크타큘러 행사가 예정되어 있습니다.",
-      "en": "Packers training camp continued on August 18 with promising performances from Jager Burton on the offensive line drawing attention. The team is preparing for an upcoming trip to Denver, and Lambeau Field Atrium will host its annual Spooktacular event on October 24."
+      "en": "Packers training camp continues with focus on offensive line development and preparation for upcoming Denver matchup.",
+      "ko": "패커스 트레이닝 캠프가 계속되며 공격 라인 발전과 다가오는 덴버전 준비에 집중하고 있습니다."
     },
     "storyCount": 3,
     "moveCount": 0,
     "tags": [
+      "TRAINING CAMP",
       "OL",
-      "CAMP",
       "ROSTER",
-      "EVENT",
-      "COMMUNITY"
+      "PRESEASON",
+      "SCHEDULE"
     ]
   },
   {
@@ -26,20 +26,39 @@
       "en": "2026-08-19"
     },
     "headline": {
-      "en": "The Packers continue preparations for their Week 2 preseason matchup against the Broncos while making roster moves, claiming edge rusher Arden Walker off waivers. Veteran DT Javon Hargrave is showing strong form in training camp.",
-      "ko": "패커스가 프리시즌 2주차 브롱코스전을 준비하는 가운데 엣지 러셔 아덴 워커를 웨이버를 통해 영입하는 등 로스터 조정을 진행했습니다. 베테랑 DT 자본 하그레이브는 훈련 캠프에서 뛰어난 기량을 선보이고 있습니다."
+      "en": "Packers claim edge rusher Arden Walker as roster moves continue ahead of preseason Week 2 matchup against Denver. Training camp observations highlight Javon Hargrave's strong performance on the defensive line.",
+      "ko": "패커스가 프리시즌 2주차 덴버전을 앞두고 엣지 러셔 아덴 워커를 영입하며 로스터 조정을 이어갔습니다. 트레이닝 캠프에서는 수비 라인의 자본 하그레이브가 강력한 활약을 보이고 있습니다."
     },
     "storyCount": 3,
     "moveCount": 1,
     "tags": [
-      "PRESEASON",
-      "SCHEDULE",
       "EDGE",
       "ROSTER",
-      "TRANSACTION",
-      "DT",
+      "DL",
       "DEFENSE",
-      "CAMP"
+      "PRESEASON",
+      "SCHEDULE"
+    ]
+  },
+  {
+    "date": "2026-08-20",
+    "dateLabel": {
+      "ko": "2026-08-20 (현지)",
+      "en": "2026-08-20"
+    },
+    "headline": {
+      "ko": "패커스가 9월 13일 타이틀타운에서 시즌 개막 관람 파티를 개최합니다. 카일 맥코드 쿼터백은 프리시즌 연속 좋은 경기를 목표로 하고, 브렌튼 콕스 주니어는 매일 최선을 다하는 모습을 보이고 있습니다.",
+      "en": "The Packers will host a Season Kickoff Watch Party at Titletown on September 13. QB Kyle McCord aims for another strong preseason performance, while Brenton Cox Jr. continues to bring intensity every day."
+    },
+    "storyCount": 3,
+    "moveCount": 0,
+    "tags": [
+      "EVENT",
+      "FANS",
+      "QB",
+      "PRESEASON",
+      "DEFENSE",
+      "TRAINING"
     ]
   }
 ]
