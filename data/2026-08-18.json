@@ -5,89 +5,90 @@
     "en": "2026-08-18"
   },
   "headline": {
-    "en": "Packers training camp continues with focus on offensive line development and preparation for upcoming Denver matchup.",
-    "ko": "패커스 트레이닝 캠프가 계속되며 공격 라인 발전과 다가오는 덴버전 준비에 집중하고 있습니다."
+    "ko": "패커스 트레이닝 캠프가 8월 18일 계속되었으며, 오펜시브 라인에서 재거 버튼의 유망한 활약이 주목받았습니다. 팀은 덴버 원정 경기를 앞두고 있으며, 람보 필드 아트리움에서 10월 24일 연례 스푸크타큘러 행사가 예정되어 있습니다.",
+    "en": "Packers training camp continued on August 18 with promising performances from Jager Burton on the offensive line drawing attention. The team is preparing for an upcoming trip to Denver, and Lambeau Field Atrium will host its annual Spooktacular event on October 24."
   },
   "stories": [
     {
       "icon": "🏈",
       "status": "UPDATE",
       "tags": [
-        "TRAINING CAMP"
-      ],
-      "title": {
-        "en": "Packers continue training camp sessions on August 18",
-        "ko": "패커스, 8월 18일 트레이닝 캠프 세션 진행"
-      },
-      "facts": {
-        "en": [
-          "Training camp practice sessions held on August 18, 2026",
-          "Multiple observations and updates from camp activities available"
-        ],
-        "ko": [
-          "2026년 8월 18일 트레이닝 캠프 연습 세션 진행",
-          "캠프 활동에서 다양한 관찰 사항과 업데이트 확인"
-        ]
-      },
-      "interp": {
-        "en": "The Packers are in the middle of their training camp schedule, working to refine their roster and game plans before the preseason continues.",
-        "ko": "패커스는 트레이닝 캠프 일정 중반에 있으며, 프리시즌이 계속되기 전에 로스터와 게임 플랜을 다듬고 있습니다."
-      },
-      "url": "/news/live-look-in-packers-training-camp-august-18-2026"
-    },
-    {
-      "icon": "🛡️",
-      "status": "NEW",
-      "tags": [
         "OL",
-        "ROSTER"
+        "CAMP"
       ],
       "title": {
-        "en": "Jager Burton emerging as promising offensive line addition",
-        "ko": "재거 버튼, 유망한 공격 라인 추가 선수로 부상"
+        "ko": "재거 버튼, 선발 여부와 관계없이 오펜시브 라인에 유망한 추가",
+        "en": "Jager Burton a promising addition to Packers' O-line, starter or not"
       },
       "facts": {
-        "en": [
-          "Jager Burton showing promise during training camp practices",
-          "Performance noted regardless of starter status on offensive line"
-        ],
         "ko": [
-          "재거 버튼이 트레이닝 캠프 연습에서 유망한 모습 보여",
-          "공격 라인의 선발 지위와 관계없이 좋은 퍼포먼스 보임"
+          "재거 버튼이 트레이닝 캠프에서 오펜시브 라인의 유망한 선수로 부상",
+          "선발 라인업 확정 여부와 무관하게 긍정적인 평가 받는 중"
+        ],
+        "en": [
+          "Jager Burton has emerged as a promising offensive lineman during training camp",
+          "Receiving positive evaluations regardless of whether he secures a starting role"
         ]
       },
       "interp": {
-        "en": "Burton's camp performance suggests the Packers may have found valuable offensive line depth, which will be crucial for protecting the quarterback this season.",
-        "ko": "버튼의 캠프 퍼포먼스는 패커스가 귀중한 공격 라인 깊이를 찾았을 수 있음을 시사하며, 이는 이번 시즌 쿼터백 보호에 중요할 것입니다."
+        "ko": "버튼의 캠프 활약은 패커스 오펜시브 라인의 깊이를 강화하는 신호입니다. 즉각적인 선발 출전이 아니더라도 시즌 중 중요한 역할을 할 수 있는 잠재력을 보여주고 있습니다.",
+        "en": "Burton's camp performance signals strengthening depth for the Packers' offensive line. Even without an immediate starting role, he's showing potential to contribute significantly during the season."
       },
       "url": "/news/starter-or-not-jager-burton-a-promising-addition-to-packers-o-line-aug-18-2026"
     },
     {
-      "icon": "✈️",
-      "status": "UPCOMING",
+      "icon": "📝",
+      "status": "UPDATE",
       "tags": [
-        "PRESEASON",
-        "SCHEDULE"
+        "CAMP",
+        "ROSTER"
       ],
       "title": {
-        "en": "Denver game expected to provide key evaluation opportunities",
-        "ko": "덴버전에서 주요 평가 기회 제공 예상"
+        "ko": "8월 18일 패커스 트레이닝 캠프에서 배운 5가지",
+        "en": "5 things learned at Packers training camp on Aug. 18"
       },
       "facts": {
-        "en": [
-          "Upcoming game against Denver highlighted as important evaluation opportunity",
-          "Coaching staff expects to learn more about team in Denver matchup"
-        ],
         "ko": [
-          "덴버와의 다가오는 경기가 중요한 평가 기회로 강조됨",
-          "코칭 스태프는 덴버 매치업에서 팀에 대해 더 많이 배울 것으로 예상"
+          "8월 18일 트레이닝 캠프 연습에서 여러 관찰 사항 도출",
+          "캠프 진행에 따라 로스터와 전술에 대한 통찰력 제공"
+        ],
+        "en": [
+          "Multiple observations drawn from August 18 training camp practice",
+          "Insights provided on roster and tactics as camp progresses"
         ]
       },
       "interp": {
-        "en": "The Denver preseason game represents a critical measuring stick for position battles and roster decisions as final cuts approach.",
-        "ko": "덴버 프리시즌 경기는 최종 컷이 다가옴에 따라 포지션 경쟁과 로스터 결정을 위한 중요한 척도가 됩니다."
+        "ko": "캠프가 프리시즌으로 접어들면서 코칭 스태프는 로스터 결정을 위한 귀중한 정보를 계속 수집하고 있습니다. 매일의 연습이 최종 53인 명단 구성에 중요한 영향을 미칠 것입니다.",
+        "en": "As camp transitions into the preseason, the coaching staff continues gathering valuable information for roster decisions. Each day's practice will be crucial in shaping the final 53-man roster."
       },
-      "url": "/news/inbox-we-re-gonna-learn-a-whole-lot-more-in-denver-aug-18-2026"
+      "url": "/news/5-things-learned-at-packers-training-camp-aug-18-2026"
+    },
+    {
+      "icon": "🎃",
+      "status": "UPCOMING",
+      "tags": [
+        "EVENT",
+        "COMMUNITY"
+      ],
+      "title": {
+        "ko": "람보 필드 아트리움, 10월 24일 연례 스푸크타큘러 개최",
+        "en": "Lambeau Field Atrium to host annual Spooktacular on Oct. 24"
+      },
+      "facts": {
+        "ko": [
+          "람보 필드 아트리움에서 10월 24일 연례 스푸크타큘러 행사 예정",
+          "매년 열리는 커뮤니티 할로윈 이벤트"
+        ],
+        "en": [
+          "Annual Spooktacular event scheduled for October 24 at Lambeau Field Atrium",
+          "Yearly community Halloween event"
+        ]
+      },
+      "interp": {
+        "ko": "이 연례 행사는 패커스가 그린베이 지역사회와의 강력한 유대를 유지하려는 노력의 일환입니다. 시즌 중반 팬들과 가족들을 위한 전통적인 할로윈 축하 행사가 될 것입니다.",
+        "en": "This annual event is part of the Packers' efforts to maintain strong ties with the Green Bay community. It will serve as a traditional Halloween celebration for fans and families during the mid-season."
+      },
+      "url": "/news/lambeau-field-atrium-to-host-annual-spooktacular-on-oct-24-2026"
     }
   ],
   "injuries": [],
@@ -95,12 +96,12 @@
   "schedule": [
     {
       "date": {
-        "en": "Oct. 24, 2026",
-        "ko": "2026년 10월 24일"
+        "ko": "10월 24일",
+        "en": "October 24"
       },
       "text": {
-        "en": "Lambeau Field Atrium to host annual Spooktacular event",
-        "ko": "램보 필드 아트리움에서 연례 스푸택큘라 이벤트 개최"
+        "ko": "람보 필드 아트리움 연례 스푸크타큘러",
+        "en": "Lambeau Field Atrium Annual Spooktacular"
       }
     }
   ]
