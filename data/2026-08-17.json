@@ -1,0 +1,134 @@
+{
+  "date": "2026-08-17",
+  "dateLabel": { "ko": "2026-08-17 (현지)", "en": "Aug 17, 2026 (local)" },
+  "headline": {
+    "ko": "러브와 터커 형은 이상 없고, 오늘 공개훈련에서 다시 호흡을 맞춘다. 새 거래는 없으며, 크래프트 4년 7,800만 달러 이야기는 아직 소스 없는 숫자 놀음이다.",
+    "en": "Love and Tucker are both fine and get back on the field together at today's open practice. No new moves, and the rumored 4-year, $78M Kraft extension is still an unsourced number floating around online."
+  },
+  "stories": [
+    {
+      "icon": "🚶",
+      "status": "UPDATE",
+      "tags": ["SCHEDULE", "TRAINING_CAMP", "COMMUNITY_BRIEFING"],
+      "title": { "ko": "월요일은 워크스루…오늘 공개훈련에서 주전 상태 재점검", "en": "Monday Was a Walkthrough — Today's Practice Re-Checks Starters" },
+      "facts": {
+        "ko": [
+          "피츠버그전과 주말 강훈련 이후 현지 월요일은 신체 부담이 적은 워크스루만 진행",
+          "현지 8/18 다시 강도 높은 공개훈련, 8/19 비공개훈련, 8/21 덴버 원정(한국시간 8/22 오전 11시)",
+          "조던 러브에게 새로운 부상은 보고되지 않았으나 덴버전 주전 출전 여부·스냅 수는 미발표"
+        ],
+        "en": [
+          "After the Steelers game and a hard weekend of practice, Monday (local) was a light walkthrough only",
+          "Local Aug 18 returns to full practice, Aug 19 is closed, Aug 21 is the Denver road game (11am KST on Aug 22)",
+          "No new injury reported for Jordan Love, but his snap count and starter status for the Denver game haven't been announced"
+        ]
+      },
+      "interp": {
+        "ko": "오늘 공개훈련에서 러브가 크래프트와 얼마나 많은 스냅을 함께 받는지가 관전 포인트다. 피츠버그전에서 한 드라이브만 준 걸 보면 덴버전 장시간 노출 가능성은 낮아 보이지만, 이는 추론일 뿐 공식 결정은 아니다.",
+        "en": "The thing to watch at today's practice is how many reps Love takes alongside Kraft. Given he only got one drive against Pittsburgh, extended Denver exposure seems unlikely — but that's inference, not an official call."
+      }
+    },
+    {
+      "icon": "🏔️",
+      "status": "UPCOMING",
+      "tags": ["PRESEASON", "SCHEDULE"],
+      "title": { "ko": "덴버전 공식 프리뷰 — 2025년 패배 장소로 다시 간다", "en": "Official Denver Preview — Back to the Site of a 2025 Loss" },
+      "facts": {
+        "ko": [
+          "그린베이-덴버 프리시즌 맞대결은 통산 12번째, 프리시즌 상대 전적은 그린베이 3승 7패",
+          "최근 정규시즌 맞대결(2025년)은 덴버가 34-26 승리, 덴버 원정 정규시즌 통산 성적은 그린베이 1승 8패",
+          "고지대 환경에서 젊은 선수들의 체력과 스페셜팀을 평가할 기회"
+        ],
+        "en": [
+          "This is the 12th all-time preseason meeting between Green Bay and Denver; Green Bay is 3-7 in the preseason series",
+          "Denver won the most recent regular-season matchup 34-26 in 2025, and Green Bay is 1-8 all-time in regular-season games at Denver",
+          "The altitude gives the staff a chance to evaluate young players' conditioning and special teams"
+        ]
+      },
+      "interp": {
+        "ko": "승패보다 로이드의 RB2 경쟁, 시스의 CB2 수성, 스맥–웰런의 킥 유닛을 봐야 한다. 스맥이 고지대에서 비거리뿐 아니라 짧은 필드골까지 안정적으로 처리해야 '그놈의 킥' 걱정을 더 내려놓을 수 있다.",
+        "en": "The score matters less than Lloyd's RB2 battle, Cisse holding CB2, and the Smack-Whelan kicking unit. If Smack can handle short field goals cleanly at altitude — not just show off leg strength — that's when the kicking worries really start to ease."
+      }
+    },
+    {
+      "icon": "😤",
+      "status": "UPDATE",
+      "tags": ["CB", "DEPTH_CHART", "COMMUNITY_BRIEFING"],
+      "title": { "ko": "키션 닉슨, CB 로테이션에 불만 표출", "en": "Keisean Nixon Voices Frustration Over CB Rotation" },
+      "facts": {
+        "ko": [
+          "닉슨은 최근 훈련에서 자신의 역할에 대해 코칭스태프로부터 명확한 설명을 듣지 못했다고 밝힘",
+          "일요일에는 대부분 1군 스냅을 소화했지만 일부 구간에서 시스·세인트저스트와 조합이 바뀜",
+          "\"매일 다른 상황을 현장에서 알게 된다\"고 표현하면서도 여전히 시스와 함께 가장 많은 1군 외곽 스냅을 받는 중"
+        ],
+        "en": [
+          "Nixon said he hasn't gotten a clear explanation from the coaching staff about his role in recent practices",
+          "He took most of the first-team snaps Sunday, though the staff mixed in Cisse and St-Juste for stretches",
+          "He says he finds out what's happening day to day on the field, but is still getting the most first-team outside-CB snaps alongside Cisse"
+        ]
+      },
+      "interp": {
+        "ko": "닉슨이 당장 주전에서 밀렸다는 뜻은 아니다. 진짜 경쟁은 닉슨 반대편의 시스–발렌타인–세인트저스트 구도에 가깝다. 다만 개넌이 다양한 조합을 시험한다면 베테랑에게 의도를 조금 더 명확히 설명할 필요는 있다.",
+        "en": "This doesn't mean Nixon has lost his starting job. The real competition is on the other side, among Cisse, Valentine, and St-Juste. But if Gannon is testing combinations, he probably owes his veteran a clearer explanation of the plan."
+      }
+    },
+    {
+      "icon": "💰",
+      "status": "RUMOR",
+      "tags": ["CONTRACT_RUMOR", "TE", "COMMUNITY_BRIEFING"],
+      "title": { "ko": "크래프트 4년 7,800만 달러설 — 확인되지 않은 온라인 루머", "en": "Kraft 4-Year, $78M Rumor — Unconfirmed Online Chatter" },
+      "facts": {
+        "ko": [
+          "일부 SNS에 구체적 계약 규모까지 제시한 글이 돌지만 구단 담당 기자·NFL 주요 인사이더의 확인 보도는 없음",
+          "확인된 사실은 크래프트 본인이 개막 전 연장계약을 목표로 한다고 직접 말한 것뿐"
+        ],
+        "en": [
+          "Some social posts cite a specific contract figure, but no beat reporter or major NFL insider has confirmed it",
+          "The only confirmed fact is that Kraft himself said he's targeting an extension before the season opener"
+        ]
+      },
+      "interp": {
+        "ko": "크래프트 장기계약 가능성 자체는 충분히 높지만, 연평균 1,950만 달러면 리그 최상위 TE급 가격이다. ACL 복귀 직후인 지금 그 숫자가 실제 제안액이라고 믿을 근거는 없다.",
+        "en": "An extension for Kraft is plausible, but $19.5M a year would be top-of-market TE money. Fresh off an ACL recovery, there's no real basis yet to treat that figure as an actual offer."
+      }
+    },
+    {
+      "icon": "🌲",
+      "status": "CONFIRMED",
+      "tags": ["COMMUNITY", "ENVIRONMENT"],
+      "title": { "ko": "패커스 'First Downs for Trees' 프로그램 16주년", "en": "Packers' 'First Downs for Trees' Program Marks 16th Year" },
+      "facts": {
+        "ko": [
+          "패커스의 환경 친화적 'First Downs for Trees' 프로그램이 16번째 시즌을 맞이했습니다",
+          "이 프로그램은 팀의 퍼스트다운 달성과 연계된 지역사회 환경 이니셔티브입니다"
+        ],
+        "en": [
+          "The Packers' environmental 'First Downs for Trees' program has reached its 16th year",
+          "The program is a community environmental initiative tied to the team's first down achievements"
+        ]
+      },
+      "interp": {
+        "ko": "이 장기 프로그램은 패커스가 온필드 성공을 지역사회 환경 보호 노력과 연결하며 위스콘신 지역에 긍정적 영향을 미치고 있음을 보여줍니다.",
+        "en": "This long-running program demonstrates the Packers' commitment to connecting on-field success with environmental stewardship in the Wisconsin community."
+      }
+    }
+  ],
+  "injuries": [
+    { "player": { "ko": "조던 러브", "en": "Jordan Love" }, "issue": { "ko": "—", "en": "—" }, "status": { "ko": "건강, 정상 일정", "en": "Healthy, normal schedule" } },
+    { "player": { "ko": "터커 크래프트", "en": "Tucker Kraft" }, "issue": { "ko": "무릎(ACL 복귀)", "en": "Knee (ACL return)" }, "status": { "ko": "제한적 11대11 참가 단계 유지", "en": "Still limited to partial 11-on-11 reps" } },
+    { "player": { "ko": "조시 제이콥스", "en": "Josh Jacobs" }, "issue": { "ko": "사타구니", "en": "Groin" }, "status": { "ko": "관리 중", "en": "Being managed" } },
+    { "player": { "ko": "루카스 밴네스", "en": "Lukas Van Ness" }, "issue": { "ko": "어깨", "en": "Shoulder" }, "status": { "ko": "재악화 후 일일 관찰, 선수는 장기 부상 아니라고 설명", "en": "Flared up again, day-to-day watch; player says it's not long-term" }, "watch": true },
+    { "player": { "ko": "자본 불러드", "en": "Javon Bullard" }, "issue": { "ko": "발 타박상", "en": "Foot bruise" }, "status": { "ko": "보호 부츠 제거", "en": "Walking boot removed" } },
+    { "player": { "ko": "대니 데니스서튼", "en": "Danny Dennis-Sutton" }, "issue": { "ko": "질병", "en": "Illness" }, "status": { "ko": "결장 지속", "en": "Remains out" }, "watch": true },
+    { "player": { "ko": "마이카 파슨스", "en": "Micah Parsons" }, "issue": { "ko": "PUP 리스트", "en": "PUP list" }, "status": { "ko": "PUP 유지, 6주차 복귀 목표", "en": "Still on PUP, targeting a Week 6 return" } },
+    { "player": { "ko": "루크 머스그레이브", "en": "Luke Musgrave" }, "issue": { "ko": "목", "en": "Neck" }, "status": { "ko": "PUP 유지", "en": "Still on PUP" } },
+    { "player": { "ko": "조던 라일리", "en": "Jordan Riley" }, "issue": { "ko": "—", "en": "—" }, "status": { "ko": "PUP 유지", "en": "Still on PUP" } },
+    { "player": { "ko": "캐링턴 발렌타인", "en": "Carrington Valentine" }, "issue": { "ko": "햄스트링", "en": "Hamstring" }, "status": { "ko": "훈련 복귀했지만 팀 드릴은 아직 제한", "en": "Back at practice, but still limited in team drills" }, "watch": true }
+  ],
+  "moves": [],
+  "schedule": [
+    { "date": { "ko": "현지 8/18 (화)", "en": "Aug 18 (local)" }, "text": { "ko": "공개훈련", "en": "Open practice" } },
+    { "date": { "ko": "현지 8/19 (수)", "en": "Aug 19 (local)" }, "text": { "ko": "비공개훈련", "en": "Closed practice" } },
+    { "date": { "ko": "현지 8/21 오후\n한국시간 8/22 오전 11시", "en": "Aug 21 (local) / Aug 22, 11am KST" }, "text": { "ko": "덴버 원정 · 프리시즌 2차전", "en": "At Denver · Preseason Week 2" } }
+  ]
+}

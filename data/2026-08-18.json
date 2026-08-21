@@ -1,0 +1,139 @@
+{
+  "date": "2026-08-18",
+  "dateLabel": {
+    "ko": "2026-08-18 (현지)",
+    "en": "2026-08-18"
+  },
+  "headline": {
+    "ko": "패커스가 8월 18일 트레이닝 캠프를 진행하며 공격 라인에서 재거 버튼의 유망한 활약이 주목받았습니다. 팀은 덴버에서의 다가오는 경기를 준비하고 있으며, 램보 필드 아트리움은 10월 24일 연례 스푹태큘러 행사를 개최할 예정입니다.",
+    "en": "The Packers held training camp on August 18 with promising performances from Jager Burton on the offensive line drawing attention. The team is preparing for an upcoming game in Denver, and Lambeau Field Atrium will host its annual Spooktacular event on October 24."
+  },
+  "stories": [
+    {
+      "icon": "🏋️",
+      "status": "UPDATE",
+      "tags": [
+        "TRAINING CAMP",
+        "PRACTICE"
+      ],
+      "title": {
+        "ko": "패커스 트레이닝 캠프 8월 18일 현장 소식",
+        "en": "Packers Training Camp Update - August 18"
+      },
+      "facts": {
+        "ko": [
+          "패커스가 8월 18일 트레이닝 캠프 연습을 진행했습니다",
+          "캠프에서 5가지 주요 학습 포인트가 확인되었습니다",
+          "팀은 시즌 준비를 위한 집중 훈련을 계속하고 있습니다"
+        ],
+        "en": [
+          "Packers held training camp practice on August 18",
+          "Five key learning points were identified from camp",
+          "Team continues focused preparation for the season"
+        ]
+      },
+      "interp": {
+        "ko": "시즌 개막을 앞두고 트레이닝 캠프가 막바지에 접어들면서 코칭 스태프는 로스터 결정과 게임 플랜 수립에 필요한 중요한 정보를 수집하고 있습니다.",
+        "en": "As training camp enters its final stages before the season opener, the coaching staff is gathering crucial information for roster decisions and game planning."
+      }
+    },
+    {
+      "icon": "🛡️",
+      "status": "NEW",
+      "tags": [
+        "OL",
+        "ROSTER"
+      ],
+      "title": {
+        "ko": "재거 버튼, 선발 여부와 무관하게 공격 라인에 유망한 보강",
+        "en": "Jager Burton a Promising Addition to Offensive Line"
+      },
+      "facts": {
+        "ko": [
+          "재거 버튼이 패커스 공격 라인에 유망한 선수로 평가받고 있습니다",
+          "선발 출전 여부와 관계없이 그의 기여도가 높이 평가되고 있습니다",
+          "버튼은 라인 뎁스 강화에 중요한 역할을 할 것으로 기대됩니다"
+        ],
+        "en": [
+          "Jager Burton is being evaluated as a promising player for the Packers offensive line",
+          "His contributions are valued regardless of starter status",
+          "Burton is expected to play an important role in strengthening line depth"
+        ]
+      },
+      "interp": {
+        "ko": "공격 라인의 뎁스와 다재다능함은 NFL에서 필수적이며, 버튼과 같은 믿을 수 있는 백업을 확보하는 것은 시즌 내내 쿼터백 보호와 런 게임 성공에 핵심이 될 것입니다.",
+        "en": "Offensive line depth and versatility are essential in the NFL, and having reliable backups like Burton will be key to protecting the quarterback and run game success throughout the season."
+      }
+    },
+    {
+      "icon": "🏈",
+      "status": "UPCOMING",
+      "tags": [
+        "PRESEASON",
+        "SCHEDULE"
+      ],
+      "title": {
+        "ko": "덴버 원정 경기에서 더 많은 것을 배울 예정",
+        "en": "More to Learn in Upcoming Denver Game"
+      },
+      "facts": {
+        "ko": [
+          "패커스가 덴버에서 프리시즌 경기를 앞두고 있습니다",
+          "이 경기에서 팀의 실력과 준비 상태에 대해 더 많은 정보를 얻을 것으로 예상됩니다",
+          "코칭 스태프와 팬들 모두 중요한 평가 기회로 인식하고 있습니다"
+        ],
+        "en": [
+          "Packers have an upcoming preseason game in Denver",
+          "The game is expected to provide more information about the team's readiness",
+          "Both coaching staff and fans recognize it as an important evaluation opportunity"
+        ]
+      },
+      "interp": {
+        "ko": "프리시즌 경기는 선수들이 실전 상황에서 자신의 기량을 증명할 수 있는 기회이며, 덴버전은 정규 시즌 로스터 확정 전 마지막 평가 기회가 될 것입니다.",
+        "en": "Preseason games offer players the chance to prove themselves in live situations, and the Denver game will be a final evaluation opportunity before regular season roster decisions."
+      }
+    },
+    {
+      "icon": "🎃",
+      "status": "UPCOMING",
+      "tags": [
+        "EVENT",
+        "COMMUNITY"
+      ],
+      "title": {
+        "ko": "램보 필드 아트리움, 10월 24일 연례 스푹태큘러 개최",
+        "en": "Lambeau Field Atrium to Host Annual Spooktacular on Oct. 24"
+      },
+      "facts": {
+        "ko": [
+          "램보 필드 아트리움에서 10월 24일 연례 스푹태큘러 행사가 열립니다",
+          "이 행사는 커뮤니티를 위한 할로윈 시즌 이벤트입니다",
+          "매년 개최되는 전통 행사로 팬들과 지역 사회의 참여를 독려합니다"
+        ],
+        "en": [
+          "Lambeau Field Atrium will host the annual Spooktacular event on October 24",
+          "This is a Halloween season event for the community",
+          "It's a yearly tradition encouraging participation from fans and the local community"
+        ]
+      },
+      "interp": {
+        "ko": "이러한 커뮤니티 이벤트는 패커스가 그린베이 지역 사회와의 강한 유대 관계를 유지하고, 시즌 중에도 팬들과 소통하는 방식을 보여줍니다.",
+        "en": "Community events like this demonstrate the Packers' commitment to maintaining strong ties with the Green Bay community and engaging with fans throughout the season."
+      }
+    }
+  ],
+  "injuries": [],
+  "moves": [],
+  "schedule": [
+    {
+      "date": {
+        "ko": "10월 24일",
+        "en": "October 24"
+      },
+      "text": {
+        "ko": "램보 필드 아트리움 연례 스푹태큘러 행사",
+        "en": "Lambeau Field Atrium Annual Spooktacular Event"
+      }
+    }
+  ]
+}
