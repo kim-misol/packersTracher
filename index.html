@@ -19,6 +19,8 @@
     --confirmed:#8a3ffc;
     --rumor:#e0790c;
     --upcoming:#6b7570;
+    --min-purple:#4F2683;
+    --min-purple-dark:#371a5c;
   }
   *{box-sizing:border-box;}
   body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard","Noto Sans KR",sans-serif;background:var(--paper);color:var(--ink);line-height:1.55;}
@@ -31,8 +33,75 @@
   .hero-quote{font-size:16px;font-weight:500;background:rgba(255,255,255,0.08);border-left:4px solid var(--gb-gold);padding:12px 16px;border-radius:6px;max-width:800px;}
   .hero-date{font-size:13px;color:#cfd8d3;margin-top:10px;}
 
+  /* ── top-level nav: 브리핑 / 경기 일정 ── */
+  nav.top-nav{position:sticky;top:0;z-index:20;background:#fff;border-bottom:1px solid var(--line);box-shadow:0 2px 6px rgba(0,0,0,0.04);}
+  .top-nav-inner{max-width:1080px;margin:0 auto;padding:0 24px;display:flex;align-items:center;justify-content:space-between;gap:4px;}
+  .top-nav-pages{display:flex;gap:4px;}
+  .top-nav button{border:none;background:transparent;padding:14px 18px;font-size:14px;font-weight:800;color:var(--muted);cursor:pointer;position:relative;display:flex;align-items:center;gap:6px;}
+  .top-nav button::after{content:"";position:absolute;left:12px;right:12px;bottom:0;height:3px;border-radius:3px 3px 0 0;background:transparent;}
+  .top-nav button.active{color:var(--gb-green);}
+  .top-nav button.active::after{background:var(--gb-gold);}
+  .top-nav button:hover:not(.active){color:var(--gb-green-dark);}
+
   .layout{max-width:1080px;margin:0 auto;padding:24px;display:grid;grid-template-columns:280px 1fr;gap:24px;align-items:start;}
   @media (max-width:820px){ .layout{grid-template-columns:1fr;} }
+
+  /* ── 경기 일정 페이지 ── */
+  .schedule-page{max-width:1080px;margin:0 auto;padding:24px;}
+  .page-title-row{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px;margin-bottom:16px;}
+  .page-title{font-size:20px;font-weight:800;color:var(--gb-green);display:flex;align-items:center;gap:8px;}
+  .page-title .sub{font-size:12.5px;font-weight:600;color:var(--muted);margin-left:4px;}
+
+  .team-tabs.segctrl button.active[data-team="gb"]{background:var(--gb-green);color:#fff;box-shadow:none;}
+  .team-tabs.segctrl button.active[data-team="min"]{background:var(--min-purple);color:#fff;box-shadow:none;}
+
+  .sched-legend{display:flex;flex-wrap:wrap;gap:14px;font-size:12px;color:var(--muted);margin-bottom:18px;padding:10px 14px;background:#fff;border:1px solid var(--line);border-radius:10px;}
+  .sched-legend span{display:flex;align-items:center;gap:6px;}
+  .sched-legend .dot{width:9px;height:9px;border-radius:50%;display:inline-block;}
+  .sched-legend .dot.gb{background:var(--gb-green);}
+  .sched-legend .dot.min{background:var(--min-purple);}
+  .sched-legend .dot.rivalry{background:var(--gb-gold);border:2px solid var(--gb-green);}
+
+  .sched-section-title{font-size:12.5px;font-weight:800;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin:20px 2px 8px;display:flex;align-items:center;gap:8px;}
+  .sched-section-title:first-child{margin-top:0;}
+  .sched-section-title::after{content:"";flex:1;height:1px;background:var(--line);}
+
+  .game-list{display:flex;flex-direction:column;gap:8px;}
+  .game-row{background:#fff;border:1px solid var(--line);border-radius:10px;padding:12px 16px;display:grid;grid-template-columns:150px 1fr auto auto;align-items:center;gap:12px;transition:.15s;}
+  .game-row:hover{box-shadow:0 4px 14px rgba(32,55,49,0.08);transform:translateY(-1px);}
+  @media (max-width:700px){ .game-row{grid-template-columns:1fr;gap:6px;} .game-row .ga-right{justify-content:flex-start;} }
+
+  .ga-date{display:flex;flex-direction:column;}
+  .ga-week{font-size:10.5px;font-weight:800;color:#a56a00;background:#fff7e6;display:inline-block;padding:1px 7px;border-radius:999px;margin-bottom:4px;width:fit-content;}
+  .ga-date .d-kst{font-size:14px;font-weight:800;color:var(--ink);}
+  .ga-date .d-et{font-size:11px;color:var(--muted);}
+
+  .ga-match{display:flex;align-items:center;gap:10px;min-width:0;}
+  .team-badge{flex-shrink:0;font-size:10.5px;font-weight:800;padding:3px 9px;border-radius:999px;color:#fff;white-space:nowrap;}
+  .team-badge.gb{background:var(--gb-green);}
+  .team-badge.min{background:var(--min-purple);}
+  .ga-opp{font-size:14.5px;font-weight:700;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+  .ga-opp .hw{font-weight:600;color:var(--muted);margin-right:4px;}
+
+  .ga-right{display:flex;align-items:center;gap:8px;justify-content:flex-end;}
+  .hw-pill{font-size:11px;font-weight:700;padding:3px 9px;border-radius:6px;background:#eef4f1;color:var(--gb-green);}
+  .hw-pill.away{background:#f2f0f7;color:var(--min-purple);}
+  .bcast{font-size:11px;font-weight:700;color:var(--muted);min-width:44px;text-align:right;}
+
+  .game-row.tbd{opacity:.6;}
+  .game-row.tbd .d-kst{color:var(--muted);}
+  .final-pill{font-size:11px;font-weight:800;padding:3px 9px;border-radius:6px;background:#e9e9e9;color:#555;}
+
+  .game-row.rivalry-mini{border-left:4px solid var(--gb-gold);}
+  .riv-tag{font-size:10px;font-weight:800;color:#a56a00;background:#fff7e6;padding:1px 7px;border-radius:6px;margin-left:8px;white-space:nowrap;}
+
+  .game-row.rivalry{border:2px solid var(--gb-gold);background:linear-gradient(90deg, rgba(32,55,49,0.05) 0%, rgba(79,38,131,0.05) 100%);position:relative;}
+  .rivalry-ribbon{position:absolute;top:-11px;left:14px;background:var(--gb-gold);color:var(--gb-green-dark);font-size:10.5px;font-weight:800;padding:2px 10px;border-radius:999px;box-shadow:0 1px 3px rgba(0,0,0,0.15);}
+  .rv-teams{display:flex;align-items:center;gap:6px;font-weight:800;font-size:14.5px;}
+  .rv-teams .vs{color:var(--muted);font-weight:700;font-size:12px;}
+  .rv-gb{color:var(--gb-green);}
+  .rv-min{color:var(--min-purple);}
+  .rv-site{font-size:11px;color:var(--muted);margin-left:4px;font-weight:600;}
 
   /* ── archive sidebar ── */
   .archive{background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px;position:sticky;top:16px;max-height:calc(100vh - 32px);overflow:auto;}
@@ -89,11 +158,8 @@
   .filter-chip.active{background:var(--gb-green);border-color:var(--gb-green);color:#fff;}
 
   .story-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;}
-  .story-card{background:var(--card);border:1.5px solid var(--line);border-radius:12px;padding:18px 18px 16px;box-shadow:0 1px 2px rgba(0,0,0,0.03);transition:.15s;}
-  a.story-card{display:block;text-decoration:none;color:inherit;}
-  .story-card.has-link{cursor:pointer;}
-  .story-card.has-link:hover,
-  .story-card.has-link.touch-hover{border-color:var(--new);box-shadow:0 6px 18px rgba(32,55,49,0.08);transform:translateY(-2px);}
+  .story-card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 18px 16px;box-shadow:0 1px 2px rgba(0,0,0,0.03);transition:.15s;}
+  .story-card:hover{box-shadow:0 6px 18px rgba(32,55,49,0.08);transform:translateY(-2px);}
   .story-top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;margin-bottom:8px;}
   .story-title{font-size:16px;font-weight:800;color:var(--ink);}
   .badge{flex-shrink:0;font-size:11px;font-weight:800;padding:3px 10px;border-radius:999px;color:#fff;white-space:nowrap;}
@@ -147,7 +213,20 @@
   </div>
 </header>
 
-<div class="layout">
+<nav class="top-nav">
+  <div class="top-nav-inner">
+    <div class="top-nav-pages">
+      <button class="active" id="navBriefingBtn" data-page="briefing">📰 <span id="navBriefingLabel"></span></button>
+      <button id="navScheduleBtn" data-page="schedule">📅 <span id="navScheduleLabel"></span></button>
+    </div>
+    <div class="segctrl" id="langToggle">
+      <button class="active" data-lang="ko">🇰🇷 한국어</button>
+      <button data-lang="en">🇺🇸 English</button>
+    </div>
+  </div>
+</nav>
+
+<div class="layout" id="page-briefing">
   <aside class="archive">
     <div class="archive-title" id="archiveTitle"><span id="archiveTitleText"></span><span class="chev" id="archiveChev">▾</span></div>
     <div class="archive-body" id="archiveBody">
@@ -164,10 +243,6 @@
     <div class="section-title" id="sectionTitle">🔥 <span id="sectionTitleText"></span> <span class="count" id="storyCount">0</span></div>
 
     <div class="control-row">
-      <div class="segctrl" id="langToggle">
-        <button class="active" data-lang="ko">🇰🇷 한국어</button>
-        <button data-lang="en">🇺🇸 English</button>
-      </div>
       <div class="meta-chip" id="metaChip"></div>
     </div>
 
@@ -188,9 +263,27 @@
   </main>
 </div>
 
+<section class="schedule-page" id="page-schedule" style="display:none;">
+  <div class="page-title-row">
+    <div class="page-title">📅 <span id="seasonScheduleTitleText"></span> <span class="sub" id="seasonScheduleSubText"></span></div>
+    <div class="segctrl team-tabs" id="teamTabs">
+      <button class="active" data-team="union">UNION</button>
+      <button data-team="gb">GB</button>
+      <button data-team="min">MIN</button>
+    </div>
+  </div>
+
+  <div class="sched-legend">
+    <span><span class="dot gb"></span> Green Bay Packers</span>
+    <span><span class="dot min"></span> Minnesota Vikings</span>
+    <span><span class="dot rivalry"></span> <span id="legendRivalryText"></span></span>
+  </div>
+
+  <div id="scheduleContent"></div>
+</section>
+
 <footer id="footerText"></footer>
 
-<script src="story-card.js"></script>
 <script>
 // ── i18n dictionaries ──────────────────────────────────────────────
 const UI = {
@@ -205,6 +298,25 @@ const UI = {
     moveEmpty: "이 날짜에는 로스터 무브 없음",
     scheduleTitle: "📅 다음 일정",
     briefingSuffix: " 브리핑",
+    navBriefing: "브리핑",
+    navSchedule: "경기 일정",
+    seasonScheduleTitle: "2026 시즌 경기 일정",
+    seasonScheduleSub: "프리시즌 + 정규시즌 · 한국시간(KST) 기준",
+    legendRivalry: "맞대결 (두 팀이 서로 만나는 경기) — 강조 표시",
+    preseasonLabel: "프리시즌",
+    regularSeasonLabel: "정규시즌",
+    tbdSectionLabel: "일정 미정",
+    homeLabel: "홈",
+    awayLabel: "원정",
+    byeWeekLabel: "바이위크",
+    tbdDateLabel: "일정 미정",
+    tbdNoteLabel: "방송사/시간 시즌 중 확정",
+    rivalryTag: "🏈 맞대결",
+    weekPreLabel: "프리",
+    weekRegLabel: "정규",
+    weekSuffix: "주",
+    homeSiteSuffix: h => `(${h} 홈)`,
+    loadScheduleError: err => `일정 데이터를 불러오지 못했습니다. (${err})`,
     footer: '새 브리핑이 추가되면 <code>data/</code> 폴더에 그 날짜의 JSON 파일 하나와 <code>data/index.json</code> 항목 하나가 늘어나는 구조입니다. 특정 날짜는 주소창의 <code>#YYYY-MM-DD</code>로 바로 공유할 수 있어요.',
     loadListError: err => `📡 브리핑 목록을 불러오지 못했어요.<br>
       로컬에서 이 파일을 더블클릭으로 열면 브라우저 보안 정책(CORS) 때문에 <code>data/index.json</code>을 읽을 수 없습니다.<br>
@@ -232,6 +344,25 @@ const UI = {
     moveEmpty: "No roster moves on this date",
     scheduleTitle: "📅 Upcoming Schedule",
     briefingSuffix: " Briefing",
+    navBriefing: "Briefing",
+    navSchedule: "Schedule",
+    seasonScheduleTitle: "2026 Season Schedule",
+    seasonScheduleSub: "Preseason + Regular Season · Korea Standard Time (KST)",
+    legendRivalry: "Head-to-head matchup — highlighted",
+    preseasonLabel: "Preseason",
+    regularSeasonLabel: "Regular Season",
+    tbdSectionLabel: "TBD",
+    homeLabel: "Home",
+    awayLabel: "Away",
+    byeWeekLabel: "Bye Week",
+    tbdDateLabel: "TBD",
+    tbdNoteLabel: "Time / network TBD",
+    rivalryTag: "🏈 Rivalry",
+    weekPreLabel: "Pre",
+    weekRegLabel: "Wk",
+    weekSuffix: "",
+    homeSiteSuffix: h => `(${h} home)`,
+    loadScheduleError: err => `Couldn't load schedule data. (${err})`,
     footer: 'Each new briefing adds one JSON file in <code>data/</code> and one entry in <code>data/index.json</code>. Any date can be shared directly via <code>#YYYY-MM-DD</code> in the address bar.',
     loadListError: err => `📡 Couldn't load the briefing list.<br>
       Opening this file directly by double-click can't read <code>data/index.json</code> due to browser CORS policy.<br>
@@ -289,27 +420,15 @@ let archiveIndex = [];
 let activeTags = new Set();
 let currentDate = null;
 let currentDay = null;
+let scheduleData = null;
+let scheduleLoadError = null;
+let activeScheduleTeam = 'union';
 
 function el(tag, cls, html){
   const e = document.createElement(tag);
   if(cls) e.className = cls;
   if(html !== undefined) e.innerHTML = html;
   return e;
-}
-
-// Touch devices have no persistent :hover, so a long press on a linked
-// story-card is treated as "hovering" (adds the same .touch-hover look as
-// CSS :hover) — see story-card.js createLongPressToggle. A normal short tap
-// still navigates via the card's own <a href>, untouched by this.
-function attachTouchHover(card){
-  const toggle = StoryCard.createLongPressToggle({
-    onStart: () => card.classList.add('touch-hover'),
-    onEnd: () => card.classList.remove('touch-hover')
-  });
-  card.addEventListener('touchstart', () => toggle.start(), { passive: true });
-  card.addEventListener('touchend', () => toggle.cancel());
-  card.addEventListener('touchcancel', () => toggle.cancel());
-  card.addEventListener('touchmove', () => toggle.cancel());
 }
 
 function applyStaticText(){
@@ -327,6 +446,12 @@ function applyStaticText(){
   [...document.getElementById('langToggle').children].forEach(b=>{
     b.classList.toggle('active', b.dataset.lang === lang);
   });
+
+  document.getElementById('navBriefingLabel').textContent = u.navBriefing;
+  document.getElementById('navScheduleLabel').textContent = u.navSchedule;
+  document.getElementById('seasonScheduleTitleText').textContent = u.seasonScheduleTitle;
+  document.getElementById('seasonScheduleSubText').textContent = u.seasonScheduleSub;
+  document.getElementById('legendRivalryText').textContent = u.legendRivalry;
 }
 
 async function fetchLatestNews(){
@@ -396,6 +521,7 @@ async function init(){
     renderArchiveList();
     buildTagFilter();
     if(currentDay) renderDay();
+    if(document.getElementById('page-schedule').style.display !== 'none') renderSchedulePage();
   });
   document.getElementById('fetchNewsBtn').addEventListener('click', fetchLatestNews);
 
@@ -532,13 +658,7 @@ function renderDay(){
   grid.innerHTML = '';
   document.getElementById('storyCount').textContent = day.stories.length;
   day.stories.forEach(s=>{
-    const linked = StoryCard.isLinkedStory(s);
-    const card = el(linked ? 'a' : 'div', 'story-card' + (linked ? ' has-link' : ''));
-    if(linked){
-      card.href = s.url;
-      card.target = '_blank';
-      card.rel = 'noopener noreferrer';
-    }
+    const card = el('div','story-card');
     card.dataset.tags = s.tags.join(',');
     card.innerHTML = `
       <div class="story-top">
@@ -551,7 +671,6 @@ function renderDay(){
       <div class="block-label">${lang === 'ko' ? '패커스 관점' : 'Packers Angle'}</div>
       <div class="interp">${tt(s.interp)}</div>
     `;
-    if(linked) attachTouchHover(card);
     grid.appendChild(card);
   });
 
@@ -583,6 +702,145 @@ function renderDay(){
     schedGrid.appendChild(card);
   });
 }
+
+// ── 경기 일정 페이지 ──────────────────────────────────────────────
+async function fetchSchedule(){
+  if(scheduleData || scheduleLoadError) return;
+  try{
+    const res = await fetch('data/schedule/2026.json');
+    if(!res.ok) throw new Error('HTTP ' + res.status);
+    scheduleData = await res.json();
+  } catch(err){
+    scheduleLoadError = err.message;
+  }
+}
+
+// dateKST는 "+09:00" 오프셋이 붙은 ISO 문자열이므로, 뷰어의 로컬 시간대와
+// 무관하게 항상 한국시간(KST) 벽시계 값을 그대로 뽑아 보여준다.
+function fmtKST(iso){
+  const days = lang === 'ko' ? ['일','월','화','수','목','금','토'] : ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+  const [datePart, timePart] = iso.split('T');
+  const [y, mo, da] = datePart.split('-').map(Number);
+  const [hh, mm] = timePart.split(':');
+  const dow = new Date(Date.UTC(y, mo - 1, da)).getUTCDay();
+  return lang === 'ko'
+    ? `${mo}/${da}(${days[dow]}) ${hh}:${mm}`
+    : `${days[dow]} ${mo}/${da} ${hh}:${mm}`;
+}
+
+function scheduleRow(g, team){
+  const u = UI[lang];
+  const dead = g.tbd;
+  const cls = ['game-row', team==='GB'?'team-gb':'team-min', dead?'tbd':'', g.final?'final':'', g.rivalry?'rivalry-mini':''].join(' ').trim();
+  const dateHtml = dead
+    ? `<div class="d-kst">${u.tbdDateLabel}</div><div class="d-et">${u.tbdNoteLabel}</div>`
+    : `<div class="d-kst">${fmtKST(g.dateKST)}</div><div class="d-et">${g.etLabel}</div>`;
+  const badge = `<span class="team-badge ${team.toLowerCase()}">${team}</span>`;
+  const hw = g.home ? `<span class="hw-pill">${u.homeLabel}</span>` : `<span class="hw-pill away">${u.awayLabel}</span>`;
+  const bcast = g.bcast ? `<span class="bcast">${g.bcast}</span>` : (g.final ? `<span class="final-pill">${tt(g.final)}</span>` : '');
+  const rivTag = g.rivalry ? `<span class="riv-tag">${u.rivalryTag}</span>` : '';
+  const weekLabel = (g.phase === 'pre' ? u.weekPreLabel : u.weekRegLabel) + ' ' + g.week + u.weekSuffix;
+  return `<div class="${cls}">
+    <div class="ga-date"><span class="ga-week">${weekLabel}</span>${dateHtml}</div>
+    <div class="ga-match">${badge}<div class="ga-opp"><span class="hw">${g.home?'vs':'@'}</span>${g.opponent}${rivTag}</div></div>
+    <div class="ga-right">${hw}</div>
+    <div class="ga-right">${bcast}</div>
+  </div>`;
+}
+
+function byeRow(g){
+  const u = UI[lang];
+  const weekLabel = u.weekRegLabel + ' ' + g.week + u.weekSuffix;
+  return `<div class="game-row tbd"><div class="ga-date"><span class="ga-week">${weekLabel}</span><div class="d-kst">${u.byeWeekLabel}</div></div><div class="ga-match"></div><div class="ga-right"></div><div class="ga-right"></div></div>`;
+}
+
+function rivalryRow(gbGame){
+  const u = UI[lang];
+  const home = gbGame.home ? 'GB' : 'MIN';
+  const away = gbGame.home ? 'MIN' : 'GB';
+  const homeSite = gbGame.home ? 'Green Bay' : 'Minnesota';
+  const weekLabel = u.weekRegLabel + ' ' + gbGame.week + u.weekSuffix;
+  return `<div class="game-row rivalry">
+    <span class="rivalry-ribbon">${u.rivalryTag}</span>
+    <div class="ga-date"><span class="ga-week">${weekLabel}</span><div class="d-kst">${fmtKST(gbGame.dateKST)}</div><div class="d-et">${gbGame.etLabel}</div></div>
+    <div class="ga-match"><div class="rv-teams"><span class="rv-${away.toLowerCase()}">${away}</span><span class="vs">@</span><span class="rv-${home.toLowerCase()}">${home}</span></div><span class="rv-site">${u.homeSiteSuffix(homeSite)}</span></div>
+    <div class="ga-right"></div>
+    <div class="ga-right"><span class="bcast">${gbGame.bcast || ''}</span></div>
+  </div>`;
+}
+
+function schedSectionTitle(label){ return `<div class="sched-section-title">${label}</div>`; }
+
+function renderTeamSchedule(list, team){
+  const u = UI[lang];
+  const pre = list.filter(g => g.phase === 'pre');
+  const reg = list.filter(g => g.phase === 'reg');
+  let html = schedSectionTitle(u.preseasonLabel);
+  html += '<div class="game-list">' + pre.map(g => scheduleRow(g, team)).join('') + '</div>';
+  html += schedSectionTitle(u.regularSeasonLabel);
+  html += '<div class="game-list">' + reg.map(g => g.bye ? byeRow(g) : scheduleRow(g, team)).join('') + '</div>';
+  return html;
+}
+
+function renderUnionSchedule(gb, min){
+  const u = UI[lang];
+  const pre = [...gb.filter(g=>g.phase==='pre').map(g=>({...g,team:'GB'})), ...min.filter(g=>g.phase==='pre').map(g=>({...g,team:'MIN'}))]
+    .sort((a,b)=> a.dateKST.localeCompare(b.dateKST));
+
+  const regGB = gb.filter(g=>g.phase==='reg' && !g.bye && !g.rivalry);
+  const regMIN = min.filter(g=>g.phase==='reg' && !g.bye && !g.rivalry);
+  const rivalryGames = gb.filter(g=>g.phase==='reg' && g.rivalry); // GB 시점 데이터만으로 충분(양팀 공통 경기)
+
+  let html = schedSectionTitle(u.preseasonLabel);
+  html += '<div class="game-list">' + pre.map(g => scheduleRow(g, g.team)).join('') + '</div>';
+
+  html += schedSectionTitle(u.regularSeasonLabel);
+  let rows = [];
+  rivalryGames.forEach(g => rows.push({sortKey:g.dateKST, tbd:false, html: rivalryRow(g)}));
+  regGB.filter(g=>!g.tbd).forEach(g => rows.push({sortKey:g.dateKST, tbd:false, html: scheduleRow(g,'GB')}));
+  regMIN.filter(g=>!g.tbd).forEach(g => rows.push({sortKey:g.dateKST, tbd:false, html: scheduleRow(g,'MIN')}));
+  rows.sort((a,b)=>a.sortKey.localeCompare(b.sortKey));
+  html += '<div class="game-list">' + rows.map(r=>r.html).join('') + '</div>';
+
+  const tbdList = [...regGB.filter(g=>g.tbd).map(g=>({...g,team:'GB'})), ...regMIN.filter(g=>g.tbd).map(g=>({...g,team:'MIN'}))];
+  if(tbdList.length){
+    html += schedSectionTitle(u.tbdSectionLabel);
+    html += '<div class="game-list">' + tbdList.map(g => scheduleRow(g, g.team)).join('') + '</div>';
+  }
+  return html;
+}
+
+async function renderSchedulePage(){
+  const target = document.getElementById('scheduleContent');
+  if(!scheduleData){
+    await fetchSchedule();
+  }
+  if(scheduleLoadError){
+    target.innerHTML = `<div class="load-error">${UI[lang].loadScheduleError(scheduleLoadError)}</div>`;
+    return;
+  }
+  if(activeScheduleTeam === 'union') target.innerHTML = renderUnionSchedule(scheduleData.gb, scheduleData.min);
+  else if(activeScheduleTeam === 'gb') target.innerHTML = renderTeamSchedule(scheduleData.gb, 'GB');
+  else target.innerHTML = renderTeamSchedule(scheduleData.min, 'MIN');
+}
+
+document.getElementById('navBriefingBtn').addEventListener('click', () => setActivePage('briefing'));
+document.getElementById('navScheduleBtn').addEventListener('click', () => setActivePage('schedule'));
+
+function setActivePage(page){
+  document.getElementById('navBriefingBtn').classList.toggle('active', page === 'briefing');
+  document.getElementById('navScheduleBtn').classList.toggle('active', page === 'schedule');
+  document.getElementById('page-briefing').style.display = page === 'briefing' ? '' : 'none';
+  document.getElementById('page-schedule').style.display = page === 'schedule' ? '' : 'none';
+  if(page === 'schedule') renderSchedulePage();
+}
+
+document.getElementById('teamTabs').addEventListener('click', e => {
+  if(e.target.tagName !== 'BUTTON') return;
+  activeScheduleTeam = e.target.dataset.team;
+  [...document.getElementById('teamTabs').children].forEach(b => b.classList.toggle('active', b === e.target));
+  renderSchedulePage();
+});
 
 document.getElementById('searchBox').addEventListener('input', renderArchiveList);
 
