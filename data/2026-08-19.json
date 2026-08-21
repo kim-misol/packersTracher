@@ -5,62 +5,35 @@
     "en": "2026-08-19"
   },
   "headline": {
-    "en": "The Packers continue preparations for their Week 2 preseason matchup against the Broncos while making roster moves, claiming edge rusher Arden Walker off waivers. Veteran DT Javon Hargrave is showing strong form in training camp.",
-    "ko": "패커스가 프리시즌 2주차 브롱코스전을 준비하는 가운데 엣지 러셔 아덴 워커를 웨이버를 통해 영입하는 등 로스터 조정을 진행했습니다. 베테랑 DT 자본 하그레이브는 훈련 캠프에서 뛰어난 기량을 선보이고 있습니다."
+    "ko": "패커스가 엣지 러쉬어 아덴 워커를 웨이버에서 영입했으며, DT 재본 하그레이브가 훈련 캠프에서 강력한 모습을 보이고 있습니다. 프리시즌 2주차 브롱코스전을 앞두고 있습니다.",
+    "en": "The Packers claimed edge rusher Arden Walker off waivers while DT Javon Hargrave is showing strong form at training camp. The team prepares for their preseason Week 2 matchup against the Broncos."
   },
   "stories": [
     {
-      "icon": "🏈",
-      "status": "UPCOMING",
-      "tags": [
-        "PRESEASON",
-        "SCHEDULE"
-      ],
-      "title": {
-        "en": "Packers vs. Broncos Preseason Week 2 Viewing Information",
-        "ko": "패커스 vs 브롱코스 프리시즌 2주차 시청 안내"
-      },
-      "facts": {
-        "en": [
-          "The Packers face the Denver Broncos in their second preseason game of 2026",
-          "Viewing, streaming, and listening information has been released for the matchup"
-        ],
-        "ko": [
-          "패커스가 2026년 두 번째 프리시즌 경기에서 덴버 브롱코스와 맞대결합니다",
-          "경기 시청, 스트리밍 및 청취 정보가 공개되었습니다"
-        ]
-      },
-      "interp": {
-        "en": "The second preseason game provides another opportunity for roster bubble players to make their case and for coaching staff to evaluate depth across all position groups before final cuts.",
-        "ko": "두 번째 프리시즌 경기는 로스터 경계선에 있는 선수들이 자신을 어필할 기회이자, 코칭 스태프가 최종 컷 전에 모든 포지션의 뎁스를 평가할 수 있는 기회입니다."
-      },
-      "url": "/news/packers-vs-broncos-how-to-watch-stream-listen-preseason-week-2-2026"
-    },
-    {
-      "icon": "🆕",
+      "icon": "🔄",
       "status": "CONFIRMED",
       "tags": [
         "EDGE",
         "ROSTER",
-        "TRANSACTION"
+        "MOVES"
       ],
       "title": {
-        "en": "Packers Claim Edge Rusher Arden Walker Off Waivers",
-        "ko": "패커스, 엣지 러셔 아덴 워커 웨이버 영입"
+        "ko": "패커스, 엣지 러쉬어 아덴 워커 영입",
+        "en": "Packers claim EDGE Arden Walker"
       },
       "facts": {
-        "en": [
-          "The Packers have claimed edge rusher Arden Walker off waivers",
-          "Walker adds depth to the edge rusher position group"
-        ],
         "ko": [
-          "패커스가 엣지 러셔 아덴 워커를 웨이버를 통해 영입했습니다",
-          "워커는 엣지 러셔 포지션의 뎁스를 보강합니다"
+          "패커스가 엣지 러쉬어 아덴 워커를 웨이버를 통해 영입했습니다",
+          "워커는 패스 러시 깊이를 보강할 것으로 예상됩니다"
+        ],
+        "en": [
+          "The Packers claimed edge rusher Arden Walker off waivers",
+          "Walker is expected to add depth to the pass rush rotation"
         ]
       },
       "interp": {
-        "en": "This waiver claim suggests the Packers are looking to bolster their pass rush options and compete for roster spots at edge rusher heading into the final weeks of training camp.",
-        "ko": "이번 웨이버 영입은 패커스가 훈련 캠프 막바지를 앞두고 패스 러시 옵션을 강화하고 엣지 러셔 포지션의 로스터 경쟁을 활성화하려는 의도로 보입니다."
+        "ko": "이번 영입은 패커스가 엣지 러쉬 포지션의 깊이를 강화하려는 노력을 보여주며, 로스터 마감일을 앞두고 경쟁을 심화시킬 것입니다.",
+        "en": "This move demonstrates the Packers' effort to bolster edge rusher depth and will intensify competition as the roster deadline approaches."
       },
       "url": "/news/packers-claim-edge-arden-walker-aug-19-2026"
     },
@@ -73,24 +46,78 @@
         "CAMP"
       ],
       "title": {
-        "en": "Javon Hargrave Showing Strong Form in Training Camp",
-        "ko": "자본 하그레이브, 훈련 캠프에서 강력한 기량 과시"
+        "ko": "DT 재본 하그레이브, 여전히 강력한 기량 과시",
+        "en": "DT Javon Hargrave proving he still packs a punch"
       },
       "facts": {
-        "en": [
-          "Defensive tackle Javon Hargrave is proving his value during training camp practices",
-          "The veteran DT is demonstrating he 'still packs a punch' in his performance"
-        ],
         "ko": [
-          "디펜시브 태클 자본 하그레이브가 훈련 캠프 연습에서 자신의 가치를 입증하고 있습니다",
-          "베테랑 DT는 경기력에서 '여전히 강력한 펀치를 가지고 있음'을 보여주고 있습니다"
+          "재본 하그레이브가 훈련 캠프에서 강력한 활약을 보이고 있습니다",
+          "베테랑 디펜시브 태클이 시즌을 앞두고 임팩트 있는 플레이를 선보이고 있습니다"
+        ],
+        "en": [
+          "Javon Hargrave is showing strong performance at training camp",
+          "The veteran defensive tackle is displaying impactful play heading into the season"
         ]
       },
       "interp": {
-        "en": "Hargrave's strong camp performance is a positive sign for the Packers' defensive line, as the veteran's interior presence will be crucial for stopping the run and generating interior pressure in 2026.",
-        "ko": "하그레이브의 강력한 캠프 퍼포먼스는 패커스 수비 라인에 긍정적인 신호입니다. 베테랑의 인테리어 존재감은 2026년 런 수비와 내부 압박 생성에 결정적인 역할을 할 것입니다."
+        "ko": "하그레이브의 훈련 캠프 퍼포먼스는 패커스 수비 라인의 핵심 요소로서 그의 가치를 재확인시켜주며, 2026 시즌에 대한 기대감을 높이고 있습니다.",
+        "en": "Hargrave's camp performance reaffirms his value as a key piece of the Packers' defensive line and raises expectations for the 2026 season."
       },
       "url": "/news/packers-dt-javon-hargrave-proving-he-still-packs-a-punch-aug-19-2026"
+    },
+    {
+      "icon": "📺",
+      "status": "UPCOMING",
+      "tags": [
+        "PRESEASON",
+        "SCHEDULE"
+      ],
+      "title": {
+        "ko": "프리시즌 2주차 브롱코스전 시청 안내",
+        "en": "How to watch Packers vs. Broncos in Preseason Week 2"
+      },
+      "facts": {
+        "ko": [
+          "패커스가 프리시즌 2주차에 브롱코스와 대결합니다",
+          "팬들을 위한 시청, 스트리밍 및 청취 정보가 공개되었습니다"
+        ],
+        "en": [
+          "The Packers face the Broncos in preseason Week 2",
+          "Watch, stream, and listen information has been released for fans"
+        ]
+      },
+      "interp": {
+        "ko": "이번 경기는 로스터 경쟁자들이 최종 명단 자리를 확보하기 위한 중요한 기회가 될 것이며, 코칭 스태프가 선수 평가를 계속할 수 있는 기회입니다.",
+        "en": "This game will be a crucial opportunity for roster bubble players to make their case for a final roster spot as the coaching staff continues player evaluations."
+      },
+      "url": "/news/packers-vs-broncos-how-to-watch-stream-listen-preseason-week-2-2026"
+    },
+    {
+      "icon": "📝",
+      "status": "UPDATE",
+      "tags": [
+        "CAMP",
+        "ANALYSIS"
+      ],
+      "title": {
+        "ko": "훈련 캠프에서 배운 5가지",
+        "en": "5 things learned at Packers training camp"
+      },
+      "facts": {
+        "ko": [
+          "8월 19일 훈련 캠프 세션에서 주요 관찰 사항이 공개되었습니다",
+          "선수 발전 및 팀 역학에 대한 인사이트가 제공되었습니다"
+        ],
+        "en": [
+          "Key observations from the August 19 training camp session were released",
+          "Insights into player development and team dynamics were provided"
+        ]
+      },
+      "interp": {
+        "ko": "훈련 캠프 업데이트는 팀의 발전 상황을 추적하고 정규 시즌을 앞두고 어떤 선수들이 두각을 나타내고 있는지 파악하는 데 중요한 역할을 합니다.",
+        "en": "Training camp updates are crucial for tracking the team's progress and identifying which players are standing out as the regular season approaches."
+      },
+      "url": "/news/5-things-learned-at-packers-training-camp-aug-19-2026"
     }
   ],
   "injuries": [],
@@ -98,10 +125,21 @@
     {
       "date": "08-19",
       "text": {
-        "en": "Claimed EDGE Arden Walker off waivers",
-        "ko": "엣지 러셔 아덴 워커 웨이버 영입"
+        "ko": "엣지 러쉬어 아덴 워커를 웨이버를 통해 영입",
+        "en": "Claimed EDGE Arden Walker off waivers"
       }
     }
   ],
-  "schedule": []
+  "schedule": [
+    {
+      "date": {
+        "ko": "프리시즌 2주차",
+        "en": "Preseason Week 2"
+      },
+      "text": {
+        "ko": "vs 덴버 브롱코스",
+        "en": "vs Denver Broncos"
+      }
+    }
+  ]
 }
