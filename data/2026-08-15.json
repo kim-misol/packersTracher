@@ -154,6 +154,6 @@
   "schedule": [
     { "date": { "ko": "현지 8/16 (일)", "en": "Aug 16 (Sun), local" }, "text": { "ko": "공개훈련", "en": "Public practice" } },
     { "date": { "ko": "현지 8/18 (화)", "en": "Aug 18 (Tue), local" }, "text": { "ko": "공개훈련", "en": "Public practice" } },
-    { "date": { "ko": "현지 8/21 오후 8시\n한국시간 8/22 오전 11시", "en": "Aug 21, 8:00 PM local\nAug 22, 11:00 AM KST" }, "text": { "ko": "덴버 원정 · 프리시즌 2차전", "en": "At Denver · Preseason Week 2" } }
+    { "date": { "ko": "현지 8/21 오후 8시\n한국시간 8/22 오전 10시 (정정: 기존 11시 안내 오류)", "en": "Aug 21, 8:00 PM local\nAug 22, 11:00 AM KST" }, "text": { "ko": "덴버 원정 · 프리시즌 2차전", "en": "At Denver · Preseason Week 2" } }
   ]
 }

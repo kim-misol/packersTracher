@@ -1,48 +1,84 @@
 [
   {
+    "date": "2026-08-20",
+    "dateLabel": {
+      "ko": "2026-08-20 (현지)",
+      "en": "Aug 20, 2026 (local)"
+    },
+    "headline": {
+      "ko": "러브와 골든은 덴버 주전 수비를 상대로 마지막 리허설에 들어간다. 터커 형과 조시형은 무리시키지 말고, 스맥은 이번에도 전부 넣어라. 이제 우리도 '필드골 상황이면 헤일메리' 같은 소리 좀 그만하고 싶다.",
+      "en": "Love and Golden get their final rehearsal against Denver's starting defense. Don't push Tucker or Josh, and Smack, make them all again. We'd really like to stop joking about Hail Marys on field-goal downs."
+    },
+    "storyCount": 9,
+    "moveCount": 0,
+    "tags": [
+      "SCHEDULE",
+      "QB",
+      "COMMUNITY_BRIEFING",
+      "WR",
+      "PRESEASON",
+      "INJURY",
+      "SPECIAL_TEAMS",
+      "KICKER",
+      "CB",
+      "DEPTH_CHART",
+      "TRADE_RUMOR",
+      "EVENT",
+      "FANS",
+      "DEFENSE",
+      "TRAINING"
+    ]
+  },
+  {
     "date": "2026-08-19",
     "dateLabel": {
       "ko": "2026-08-19 (현지)",
-      "en": "2026-08-19"
+      "en": "Aug 19, 2026 (local)"
     },
     "headline": {
-      "en": "Packers claimed EDGE Arden Walker off waivers as training camp continues. DT Javon Hargrave is showing strong form ahead of Preseason Week 2 matchup against the Broncos.",
-      "ko": "패커스가 웨이버를 통해 EDGE 아든 워커를 영입했으며 훈련 캠프가 계속되고 있습니다. DT 자본 하그레이브는 브롱코스와의 프리시즌 2주차 경기를 앞두고 강력한 모습을 보여주고 있습니다."
+      "ko": "러브와 주전들은 덴버에서 마지막 실전 점검을 한다. 터커 형은 ACL 수술 뒤 11대11 타깃 10개를 전부 잡았고, 이제 남은 긴장 요소는 뱅크스의 무릎과—말 안 해도 알지—그놈의 킥이다.",
+      "en": "Love and the starters get their final live tune-up in Denver. Tucker caught all 10 targets thrown his way across two 11-on-11 sessions since his ACL surgery, and the remaining stress points are Banks's knee and — you already know — the kicking situation."
     },
-    "storyCount": 4,
+    "storyCount": 7,
     "moveCount": 1,
     "tags": [
-      "EDGE",
-      "ROSTER",
-      "WAIVER",
-      "MOVES",
-      "DT",
-      "DEFENSE",
-      "CAMP",
-      "PRESEASON",
       "SCHEDULE",
-      "ANALYSIS"
+      "QB",
+      "COMMUNITY_BRIEFING",
+      "OL",
+      "TE",
+      "CB",
+      "DEPTH_CHART",
+      "KICKER",
+      "ROSTER_MOVE",
+      "EDGE",
+      "CONTRACT_RUMOR"
     ]
   },
   {
     "date": "2026-08-18",
     "dateLabel": {
       "ko": "2026-08-18 (현지)",
-      "en": "2026-08-18"
+      "en": "Aug 18, 2026 (local)"
     },
     "headline": {
-      "ko": "패커스가 8월 18일 트레이닝 캠프를 진행하며 공격 라인에서 재거 버튼의 유망한 활약이 주목받았습니다. 팀은 덴버에서의 다가오는 경기를 준비하고 있으며, 램보 필드 아트리움은 10월 24일 연례 스푹태큘러 행사를 개최할 예정입니다.",
-      "en": "The Packers held training camp on August 18 with promising performances from Jager Burton on the offensive line drawing attention. The team is preparing for an upcoming game in Denver, and Lambeau Field Atrium will host its annual Spooktacular event on October 24."
+      "ko": "러브는 대체로 날카로웠고, 부상자들이 대거 돌아왔다. 그런데 오늘도 주인공은 터커 형이다. ACL 복귀 두 번째 11대11에서 원핸드 46야드 TD라니—이 국밥집, 장사 재개하자마자 미슐랭을 노린다.",
+      "en": "Love was mostly sharp and the injury list emptied out fast, but today's headliner is still Tucker. A one-handed 46-yard TD in just his second 11-on-11 back from ACL recovery — the guy barely reopened shop and he's already going for a Michelin star."
     },
-    "storyCount": 4,
+    "storyCount": 8,
     "moveCount": 0,
     "tags": [
-      "TRAINING CAMP",
-      "PRACTICE",
-      "OL",
-      "ROSTER",
+      "TE",
+      "COMMUNITY_BRIEFING",
+      "QB",
       "PRESEASON",
       "SCHEDULE",
+      "INJURY",
+      "OL",
+      "CB",
+      "DEPTH_CHART",
+      "KICKER",
+      "ROSTER",
       "EVENT",
       "COMMUNITY"
     ]

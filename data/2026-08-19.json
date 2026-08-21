@@ -1,141 +1,186 @@
 {
   "date": "2026-08-19",
-  "dateLabel": {
-    "ko": "2026-08-19 (현지)",
-    "en": "2026-08-19"
-  },
+  "dateLabel": { "ko": "2026-08-19 (현지)", "en": "Aug 19, 2026 (local)" },
   "headline": {
-    "en": "Packers claimed EDGE Arden Walker off waivers as training camp continues. DT Javon Hargrave is showing strong form ahead of Preseason Week 2 matchup against the Broncos.",
-    "ko": "패커스가 웨이버를 통해 EDGE 아든 워커를 영입했으며 훈련 캠프가 계속되고 있습니다. DT 자본 하그레이브는 브롱코스와의 프리시즌 2주차 경기를 앞두고 강력한 모습을 보여주고 있습니다."
+    "ko": "러브와 주전들은 덴버에서 마지막 실전 점검을 한다. 터커 형은 ACL 수술 뒤 11대11 타깃 10개를 전부 잡았고, 이제 남은 긴장 요소는 뱅크스의 무릎과—말 안 해도 알지—그놈의 킥이다.",
+    "en": "Love and the starters get their final live tune-up in Denver. Tucker caught all 10 targets thrown his way across two 11-on-11 sessions since his ACL surgery, and the remaining stress points are Banks's knee and — you already know — the kicking situation."
   },
   "stories": [
     {
-      "icon": "🔄",
-      "status": "CONFIRMED",
-      "tags": [
-        "EDGE",
-        "ROSTER",
-        "WAIVER"
-      ],
-      "title": {
-        "en": "Packers claim EDGE Arden Walker",
-        "ko": "패커스, EDGE 아든 워커 영입"
-      },
-      "facts": {
-        "en": [
-          "Packers claimed EDGE Arden Walker off waivers on August 19",
-          "Walker adds depth to the edge rusher position"
-        ],
-        "ko": [
-          "패커스가 8월 19일 웨이버를 통해 EDGE 아든 워커를 영입",
-          "워커는 에지 러셔 포지션에 깊이를 더함"
-        ]
-      },
-      "interp": {
-        "en": "The addition of Walker strengthens the pass rush rotation as the Packers fine-tune their roster ahead of the regular season.",
-        "ko": "워커의 영입은 정규 시즌을 앞두고 로스터를 조정하는 패커스의 패스 러시 로테이션을 강화합니다."
-      }
-    },
-    {
-      "icon": "💪",
-      "status": "UPDATE",
-      "tags": [
-        "DT",
-        "DEFENSE",
-        "CAMP"
-      ],
-      "title": {
-        "en": "DT Javon Hargrave proving he still packs a punch",
-        "ko": "DT 자본 하그레이브, 여전한 강력함 입증"
-      },
-      "facts": {
-        "en": [
-          "Javon Hargrave is demonstrating strong performance at training camp",
-          "The veteran defensive tackle continues to show impact ability"
-        ],
-        "ko": [
-          "자본 하그레이브가 훈련 캠프에서 강력한 퍼포먼스를 보여주고 있음",
-          "베테랑 수비 태클이 계속해서 임팩트 있는 능력을 과시"
-        ]
-      },
-      "interp": {
-        "en": "Hargrave's strong camp showing is a positive sign for a defensive line looking to establish dominance up front this season.",
-        "ko": "하그레이브의 강력한 캠프 퍼포먼스는 이번 시즌 프론트에서 지배력을 확립하려는 수비 라인에 긍정적인 신호입니다."
-      }
-    },
-    {
       "icon": "🏈",
-      "status": "UPCOMING",
-      "tags": [
-        "PRESEASON",
-        "SCHEDULE"
-      ],
-      "title": {
-        "en": "Packers vs. Broncos Preseason Week 2 viewing information",
-        "ko": "패커스 vs. 브롱코스 프리시즌 2주차 시청 정보"
-      },
+      "status": "UPDATE",
+      "tags": ["SCHEDULE", "QB", "COMMUNITY_BRIEFING"],
+      "title": { "ko": "러브와 건강한 주전들, 덴버전 출전 — 라플루어 공식 발표", "en": "Love and Healthy Starters Set to Play at Denver — LaFleur Confirms" },
       "facts": {
-        "en": [
-          "Packers face the Broncos in Preseason Week 2",
-          "Viewing, streaming, and listening information is available for the matchup"
-        ],
         "ko": [
-          "패커스가 프리시즌 2주차에 브롱코스와 대결",
-          "경기 시청, 스트리밍, 청취 정보 공개"
+          "수요일은 덴버 원정을 앞둔 가벼운 워크스루성 훈련, 러브에게 새 부상·제한 없이 현지 금요일 덴버전 출전 확정",
+          "정확한 스냅·드라이브 수는 유동적이지만 피츠버그전 한 드라이브보다는 많은 기회 전망",
+          "애리조나와의 프리시즌 최종전에는 주전들이 쉬고 8월 26일 합동훈련으로 개막을 준비",
+          "정정: 정확한 킥오프는 한국시간 8월 22일 오전 10시다 (현지 중부시간 오후 8시) — 기존에 안내된 오전 11시는 오류"
+        ],
+        "en": [
+          "Wednesday was a light Denver-trip walkthrough; Love has no new injury or limitation and is confirmed to play Friday (local) at Denver",
+          "Exact snap/drive counts will depend on game flow, but he's expected to get more work than the single drive he got against Pittsburgh",
+          "Starters will sit out the preseason finale vs. Arizona, instead prepping for the opener via an Aug 26 joint practice",
+          "Correction: kickoff is 10am KST on Aug 22 (8pm local Central time) — an earlier note saying 11am KST was wrong"
         ]
       },
       "interp": {
-        "en": "This preseason game provides another opportunity to evaluate roster depth and fine-tune schemes before the regular season begins.",
-        "ko": "이번 프리시즌 경기는 정규 시즌 시작 전 로스터 깊이를 평가하고 전술을 다듬을 또 다른 기회를 제공합니다."
+        "ko": "러브의 개인 경기력보다 주전 OL과 함께 보호조정을 끝내는 과정이 중요하다. 무리해서 세 드라이브 이상 돌릴 이유는 없지만, 최소 한 차례는 골든·왓슨을 활용한 다운필드 패스와 레드존 공격을 보고 싶다.",
+        "en": "What matters more than Love's individual stat line is finishing protection calls with the starting O-line live. There's no reason to run him more than three drives, but it'd be good to see at least one downfield shot to Golden/Watson and a red-zone series."
+      }
+    },
+    {
+      "icon": "🧱",
+      "status": "UPDATE",
+      "tags": ["OL", "COMMUNITY_BRIEFING"],
+      "title": { "ko": "개막전 OL 후보가 사실상 압축됐다", "en": "The Week 1 O-Line Group Is Basically Set" },
+      "facts": {
+        "ko": [
+          "수요일 1군 조합: LT 조던 모건 · LG 애런 뱅크스 · C 션 라이언 · RG 제이컵 몽크 · RT 잭 바코베웰레",
+          "뱅크스는 이틀 연속 11대11에 들어갔지만 후반에는 스냅이 줄어듦",
+          "몽크가 앤서니 벨튼을 제치고 RG 경쟁에서 앞서가는 흐름, 신인 제이거 버튼은 뱅크스 몸 상태에 따라 LG 스냅 가능성"
+        ],
+        "en": [
+          "Wednesday's first-team group: LT Jordan Morgan, LG Aaron Banks, C Sean Rhyan, RG Jacob Monk, RT Zach Bakouvewele",
+          "Banks got 11-on-11 reps two days running, but his snap share dropped in the second half of practice",
+          "Monk has moved ahead of Anthony Belton in the RG competition; rookie Jager Burton could see LG snaps depending on Banks's health"
+        ]
+      },
+      "interp": {
+        "ko": "러브 앞의 다섯 명은 이제 보이는데 함께 맞춘 시간이 부족하다. 뱅크스가 덴버전에서 뛸 수 있다면 이 조합의 패스프로텍션을 반드시 한두 드라이브라도 시험해야 한다.",
+        "en": "The five in front of Love are basically identified now, but they haven't had much time together. If Banks can go at Denver, this group's pass protection needs at least one or two live drives to prove itself."
+      }
+    },
+    {
+      "icon": "🙌",
+      "status": "UPDATE",
+      "tags": ["TE", "COMMUNITY_BRIEFING"],
+      "title": { "ko": "터커 형, 11대11 복귀 후 타깃 10개 전부 캐치", "en": "Tucker Catches All 10 Targets Since Returning to 11-on-11" },
+      "facts": {
+        "ko": [
+          "첫 두 차례 11대11 훈련 누적: 타깃 10개·캐치 10개·터치다운 2개(46야드 원핸드 TD 포함)",
+          "정상적인 풀스피드 심루트, 부상 전과 같은 강한 블로킹과 캐치 후 몸싸움, 수요일 가벼운 훈련도 무리 없이 소화",
+          "본인은 현지 9월 13일 미네소타 개막전에서 스냅 제한 없이 뛰는 게 목표라고 언급, 다만 라플루어는 시즌 전체를 고려해 의료진과 출전량을 관리할 방침 — 덴버전 출전 여부는 미확정"
+        ],
+        "en": [
+          "Cumulative across his first two 11-on-11 sessions: 10 targets, 10 catches, 2 touchdowns (including the 46-yard one-hander)",
+          "Running full-speed seam routes normally, blocking and fighting for extra yards like before the injury, and handled Wednesday's lighter session with no issues",
+          "Kraft himself says his goal is to play the Sept 13 opener at Minnesota with no snap restrictions, but LaFleur plans to manage his workload with the medical staff over the full season — whether he plays at Denver is still undecided"
+        ]
+      },
+      "interp": {
+        "ko": "공격력도 공격력이지만 이 선수가 돌아오자 공격진의 몸싸움 강도와 분위기가 달라졌다. 터커 형은 국밥이자 리더다. 덴버전은 굳이 뛰지 않아도 되고, 지금 가장 중요한 건 이 상승 흐름을 개막일까지 무사히 가져가는 것이다.",
+        "en": "It's not just the production — the whole offense's physicality and mood shifted the moment he came back. He doesn't need to play Denver. The priority now is just carrying this momentum safely to opening day."
+      }
+    },
+    {
+      "icon": "🎯",
+      "status": "NEW",
+      "tags": ["CB", "DEPTH_CHART", "COMMUNITY_BRIEFING"],
+      "title": { "ko": "카말 해든, 불러드 대신 1군 니켈로 급부상", "en": "Kamal Hayden Steps Up at Nickel With Bullard Out" },
+      "facts": {
+        "ko": [
+          "해든은 최근 일주일간 1군 슬롯 수비 스냅을 늘렸고, 수요일에는 카일 맥코드의 패스를 오버숄더 인터셉션으로 연결",
+          "외곽 CB는 닉슨·시스·발렌타인·세인트저스트가 계속 스냅을 나눠 갖는 중",
+          "노즈태클 조너선 포드도 캠프 런스톱 부문에서 좋은 평가, 와이엇·칼 브룩스와 기본 수비 1군 소화 중"
+        ],
+        "en": [
+          "Hayden has taken on more first-team slot snaps over the past week and picked off a Kyle McCord pass over the shoulder on Wednesday",
+          "Outside, Nixon, Cisse, Valentine, and St-Juste continue splitting first-team snaps",
+          "Nose tackle Jonathan Ford is also grading well against the run in camp, working with Wyatt and Karl Brooks in the base first-team defense"
+        ]
+      },
+      "interp": {
+        "ko": "불러드가 돌아와도 해든의 니켈 적응은 3세이프티 운영과 부상 대응에 큰 자산이다. CB2가 불확실한 대신 쓸 수 있는 조합 자체는 많아지고 있다.",
+        "en": "Even once Bullard is back, Hayden's growth at nickel is an asset for three-safety looks and injury coverage. CB2 is unsettled, but the pool of usable combinations keeps growing."
+      }
+    },
+    {
+      "icon": "🦵",
+      "status": "UPDATE",
+      "tags": ["KICKER", "COMMUNITY_BRIEFING"],
+      "title": { "ko": "스맥–웰런 유닛, 덴버 고지대 시험 준비", "en": "The Smack-Whelan Unit Preps for Altitude at Denver" },
+      "facts": {
+        "ko": [
+          "수요일에는 새로운 필드골 세션 없음 — 누적 경쟁형 캠프 킥은 28/37(75.7%), 피츠버그전 공식 기록은 4/4",
+          "스맥은 덴버 고지대 경험을 보유했고, 펀터 대니얼 웰런은 홀더 역할도 안정적으로 수행 중",
+          "키커·펀터 경쟁자 추가 영입 없음 — 스맥은 웰런을 자신이 경험한 최고의 홀더 중 한 명이라고 평가"
+        ],
+        "en": [
+          "No new field-goal session Wednesday — cumulative competitive camp kicking sits at 28-of-37 (75.7%), with a perfect 4-for-4 in the Steelers game",
+          "Smack has prior experience kicking at altitude in Denver, and punter Daniel Whelan continues to hold snaps reliably",
+          "No new kicker/punter competition added — Smack called Whelan one of the best holders he's worked with"
+        ]
+      },
+      "interp": {
+        "ko": "고지대라 비거리는 걱정할 필요가 없다. 오히려 미스킥도 더 멀리 날아간다. 이번에는 50야드보다 35~45야드와 엑스트라포인트를 전부 정중앙에 넣는지 봐야 한다. 그래, 또 그놈의 킥이다.",
+        "en": "Distance isn't the concern at altitude — even the misses travel further. What matters this time is nailing the 35-45 yard range and every extra point dead center, not the 50-yarders. Yeah, it's the kicking thing again."
       }
     },
     {
       "icon": "📝",
-      "status": "NEW",
-      "tags": [
-        "CAMP",
-        "ANALYSIS"
-      ],
-      "title": {
-        "en": "Five key observations from training camp",
-        "ko": "훈련 캠프에서의 5가지 주요 관찰 사항"
-      },
+      "status": "CONFIRMED",
+      "tags": ["ROSTER_MOVE", "EDGE"],
+      "title": { "ko": "EDGE 아든 워커 웨이버 클레임 — 구단 공식", "en": "Packers Officially Claim EDGE Arden Walker Off Waivers" },
       "facts": {
-        "en": [
-          "Training camp observations released on August 19",
-          "Report highlights multiple position groups and player developments"
-        ],
         "ko": [
-          "8월 19일 훈련 캠프 관찰 보고서 발표",
-          "여러 포지션 그룹과 선수 발전 상황을 조명"
+          "패커스가 미네소타에서 웨이버된 신인 EDGE 아든 워커를 영입 — 6피트 2인치·242파운드, 콜로라도 출신 미지명 신인",
+          "대학 통산 51경기 출전, 8색·14태클포로스, 등번호 46번",
+          "데니스서튼·켈리의 부상 기간 EDGE 훈련 인원을 보충하기 위한 성격의 영입"
+        ],
+        "en": [
+          "The Packers claimed undrafted rookie EDGE Arden Walker off waivers from Minnesota — 6'2\", 242 lbs, out of Colorado",
+          "Played 51 college games with 8 sacks and 14 tackles for loss; wears No. 46",
+          "The move restocks EDGE practice numbers while Dennis-Sutton and Kelly have been out injured"
         ]
       },
       "interp": {
-        "en": "The camp observations provide insight into which players and units are trending upward as roster cut decisions loom.",
-        "ko": "캠프 관찰 보고서는 로스터 컷 결정이 다가오는 가운데 어떤 선수들과 유닛이 상승세를 보이고 있는지에 대한 통찰을 제공합니다."
+        "ko": "두 부상자가 이미 복귀했기 때문에 즉시 로테이션에 들어갈 영입은 아니다. 그래도 미네소타가 버린 젊은 EDGE를 비용 없이 긁어보는 건 언제나 환영이다.",
+        "en": "Not a move that slots into the rotation right away, since both injured EDGEs are already back. Still, taking a free look at a young pass rusher Minnesota cut loose is never a bad idea."
+      }
+    },
+    {
+      "icon": "💰",
+      "status": "UPDATE",
+      "tags": ["CONTRACT_RUMOR", "TE", "COMMUNITY_BRIEFING"],
+      "title": { "ko": "크래프트 연장계약 — 협상은 진행 중이지만 합의 없음", "en": "Kraft Extension Talks Ongoing, No Deal Yet" },
+      "facts": {
+        "ko": [
+          "현지 베테랑 기자 제이슨 와일드는 크래프트의 새 계약이 연평균 2,000만 달러 이상, 리그 최고 연봉 TE가 될 가능성을 전망 — 확정 제안액은 아님",
+          "구테쿤스트 단장은 협상에 관해 \"실질적인 새 업데이트가 없다\"고 밝혔고, 복귀 훈련과 계약 시점을 직접 연결하지 않음",
+          "아든 워커 클레임 외 최근 24시간 신규 트레이드·계약·방출 없음, 베테랑 키커·펀터 워크아웃이나 외부 OL 협상도 확인되지 않음"
+        ],
+        "en": [
+          "Veteran local reporter Jason Wilde projects Kraft's new deal could top $20M a year, making him the league's highest-paid TE — but that's a market projection, not a confirmed offer",
+          "GM Brian Gutekunst said there's \"no substantive update\" on negotiations and didn't tie Kraft's return to practice to any contract timeline",
+          "Aside from the Walker claim, no new trades, contracts, or releases in the last 24 hours; no veteran kicker/punter workouts or outside OL talks confirmed either"
+        ]
+      },
+      "interp": {
+        "ko": "크래프트의 몸값이 오르고 있다는 방향성 자체는 분명하지만, 2,000만 달러는 아직 시장의 추정치일 뿐 구단의 확정 제안이 아니다. 복귀 컨디션이 좋다고 서둘러 계약할 이유는 없다.",
+        "en": "The direction of Kraft's price tag is clear, but $20M is still a market guess, not a club offer. There's no reason to rush a deal just because his return looks good."
       }
     }
   ],
-  "injuries": [],
+  "injuries": [
+    { "player": { "ko": "조던 러브", "en": "Jordan Love" }, "issue": { "ko": "—", "en": "—" }, "status": { "ko": "새 부상·제한 없음, 덴버전 출전 확정", "en": "No new injury or limitation, confirmed to play at Denver" } },
+    { "player": { "ko": "터커 크래프트", "en": "Tucker Kraft" }, "issue": { "ko": "무릎(ACL 복귀)", "en": "Knee (ACL return)" }, "status": { "ko": "타깃 10개 전부 캐치, 새 통증·후퇴 없음", "en": "Caught all 10 targets so far, no new soreness or setback" } },
+    { "player": { "ko": "조시 제이콥스", "en": "Josh Jacobs" }, "issue": { "ko": "사타구니", "en": "Groin" }, "status": { "ko": "이틀 연속 개인훈련만 참가", "en": "Limited to individual drills two days running" } },
+    { "player": { "ko": "애런 뱅크스", "en": "Aaron Banks" }, "issue": { "ko": "무릎", "en": "Knee" }, "status": { "ko": "이틀 연속 11대11 참가했으나 후반 스냅 감소", "en": "In 11-on-11 two straight days, but snap share dropped late in practice" }, "watch": true },
+    { "player": { "ko": "대니 데니스서튼", "en": "Danny Dennis-Sutton" }, "issue": { "ko": "발열 증세", "en": "Fever-related illness" }, "status": { "ko": "개인훈련 복귀, 병원 검사 이상 없음", "en": "Back to individual drills, cleared by medical exam" } },
+    { "player": { "ko": "나이잘릭 켈리", "en": "Naijalik Kelly" }, "issue": { "ko": "무릎", "en": "Knee" }, "status": { "ko": "복귀", "en": "Back" } },
+    { "player": { "ko": "보 멜튼", "en": "Bo Melton" }, "issue": { "ko": "스팅어", "en": "Stinger" }, "status": { "ko": "복귀", "en": "Back" } },
+    { "player": { "ko": "자본 하그레이브", "en": "Javon Hargrave" }, "issue": { "ko": "—", "en": "—" }, "status": { "ko": "11대11·1대1 훈련 정상 진입", "en": "Fully back in 11-on-11 and 1-on-1 work" } },
+    { "player": { "ko": "자본 불러드", "en": "Javon Bullard" }, "issue": { "ko": "발 부상", "en": "Foot injury" }, "status": { "ko": "결장", "en": "Out" }, "watch": true },
+    { "player": { "ko": "다리안 키너드", "en": "Darian Kinnard" }, "issue": { "ko": "발목", "en": "Ankle" }, "status": { "ko": "결장", "en": "Out" }, "watch": true },
+    { "player": { "ko": "캐링턴 발렌타인", "en": "Carrington Valentine" }, "issue": { "ko": "햄스트링", "en": "Hamstring" }, "status": { "ko": "1군 외곽 CB 스냅 유지", "en": "Still getting first-team outside CB snaps" } }
+  ],
   "moves": [
-    {
-      "date": "08-19",
-      "text": {
-        "en": "Claimed EDGE Arden Walker off waivers",
-        "ko": "웨이버를 통해 EDGE 아든 워커 영입"
-      }
-    }
+    { "date": "08-19", "text": { "ko": "EDGE 아든 워커 웨이버 클레임 (미네소타 방출, 콜로라도 출신 미지명 신인, #46) — 구단 공식", "en": "Claimed EDGE Arden Walker off waivers from Minnesota (undrafted rookie out of Colorado, #46) — official" } }
   ],
   "schedule": [
-    {
-      "date": {
-        "en": "Preseason Week 2",
-        "ko": "프리시즌 2주차"
-      },
-      "text": {
-        "en": "Packers vs. Broncos",
-        "ko": "패커스 vs. 브롱코스"
-      }
-    }
+    { "date": { "ko": "현지 8/21 오후\n한국시간 8/22 오전 10시 (정정: 기존 11시 안내 오류)", "en": "Aug 21 (local) / Aug 22, 10am KST (corrected from an earlier 11am note)" }, "text": { "ko": "덴버 원정 · 러브·주전들 출전 확정", "en": "At Denver · Love and starters confirmed to play" } },
+    { "date": { "ko": "현지 8/26", "en": "Aug 26 (local)" }, "text": { "ko": "애리조나와 합동훈련 (주전 다수 스냅, 프리시즌 최종전엔 주전 불참)", "en": "Joint practice with Arizona (heavy starter reps; starters will sit the preseason finale)" } }
   ]
 }

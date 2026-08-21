@@ -1,25 +1,169 @@
 {
   "date": "2026-08-20",
-  "dateLabel": {
-    "ko": "2026-08-20 (현지)",
-    "en": "2026-08-20"
-  },
+  "dateLabel": { "ko": "2026-08-20 (현지)", "en": "Aug 20, 2026 (local)" },
   "headline": {
-    "ko": "패커스가 9월 13일 타이틀타운에서 시즌 개막 관람 파티를 개최합니다. 카일 맥코드 QB는 프리시즌 재연을 노리고 있으며, 브렌튼 콕스 주니어는 매일 최선을 다하는 모습을 보이고 있습니다.",
-    "en": "The Packers will host a Season Kickoff Watch Party at Titletown on September 13. QB Kyle McCord is aiming for a preseason repeat, while Brenton Cox Jr. continues to bring it every day in practice."
+    "ko": "러브와 골든은 덴버 주전 수비를 상대로 마지막 리허설에 들어간다. 터커 형과 조시형은 무리시키지 말고, 스맥은 이번에도 전부 넣어라. 이제 우리도 '필드골 상황이면 헤일메리' 같은 소리 좀 그만하고 싶다.",
+    "en": "Love and Golden get their final rehearsal against Denver's starting defense. Don't push Tucker or Josh, and Smack, make them all again. We'd really like to stop joking about Hail Marys on field-goal downs."
   },
   "stories": [
     {
+      "icon": "🏈",
+      "status": "UPDATE",
+      "tags": ["SCHEDULE", "QB", "COMMUNITY_BRIEFING"],
+      "title": { "ko": "러브와 주전들, 덴버전 출전 — 라플루어 공식 발표", "en": "Love and Starters Confirmed to Play at Denver" },
+      "facts": {
+        "ko": [
+          "덴버전은 한국시간 8월 22일 오전 10시 시작 (현지 중부시간 오후 8시 기준) — 이전 정정 사항 재확인",
+          "조던 러브와 건강한 주전 선수들이 출전, 피츠버그전 한 드라이브보다는 출전량이 늘어날 전망",
+          "덴버도 보 닉스와 주전진을 투입할 예정, 프리시즌 마지막 애리조나전에는 패커스 주전들이 쉬고 8월 26일 합동훈련으로 개막 준비"
+        ],
+        "en": [
+          "Kickoff is confirmed for 10am KST on Aug 22 (8pm local Central time) — reconfirming the earlier correction",
+          "Jordan Love and healthy starters will play, with more work expected than the single drive against Pittsburgh",
+          "Denver is also expected to start Bo Nix and its own starters; Packers starters will sit the preseason finale vs. Arizona, prepping instead via an Aug 26 joint practice"
+        ]
+      },
+      "interp": {
+        "ko": "러브가 정규시즌 전에 상대 주전 수비를 만나는 사실상 마지막 경기다. 성적보다 모건–뱅크스–라이언–몽크–바코베웰레 OL이 보호조정을 제대로 수행하는지, 러브가 골든·왓슨에게 다운필드 패스를 완성하는지가 중요하다.",
+        "en": "This is essentially Love's last look at a starting defense before the regular season. More than the score, what matters is whether the Morgan-Banks-Rhyan-Monk-Bakouvewele line handles protection calls, and whether Love connects downfield with Golden or Watson."
+      }
+    },
+    {
+      "icon": "🎯",
+      "status": "NEW",
+      "tags": ["WR", "QB", "COMMUNITY_BRIEFING"],
+      "title": { "ko": "러브–매튜 골든 조합, 덴버전 공격의 최우선 관전 포인트", "en": "The Love-Golden Connection Is the Top Thing to Watch on Offense" },
+      "facts": {
+        "ko": [
+          "구단은 골든이 지난 시즌 막판부터 이어온 빅플레이 생산력과 러브와의 캠프 호흡을 덴버전 핵심으로 꼽음",
+          "골든은 계속 X리시버를 중심으로 1군 스냅을 받는 중"
+        ],
+        "en": [
+          "The team singled out Golden's big-play production since late last season and his camp chemistry with Love as a key thing to watch at Denver",
+          "Golden continues to take first-team snaps primarily at the X receiver spot"
+        ]
+      },
+      "interp": {
+        "ko": "골든에게 프리시즌용 짧은 패스만 던지고 끝내면 볼 게 없다. 보 닉스가 이끄는 덴버 주전 공격과 맞붙는 만큼 러브도 골든에게 실제 시즌에 쓸 깊은 컴백이나 고립 딥볼을 시험해야 한다.",
+        "en": "Just feeding Golden safe short throws would waste the opportunity. Going up against Bo Nix's Denver starters, Love should test the deep comebacks and isolation shots he'll actually need in the regular season."
+      }
+    },
+    {
+      "icon": "🏈",
+      "status": "UPDATE",
+      "tags": ["QB", "PRESEASON", "COMMUNITY_BRIEFING"],
+      "title": { "ko": "카일 맥코드, QB3 경쟁자가 사라져도 시험은 계속", "en": "Kyle McCord's Audition Continues Even With No QB3 Rival Left" },
+      "facts": {
+        "ko": [
+          "키런 드론스가 방출되면서 맥코드가 사실상 유일한 QB3 후보가 됨",
+          "피츠버그전 16회 패스 중 12회 성공·102야드, 전반 종료 직전 37초 동안 4연속 패스로 필드골 기회 마련",
+          "덴버전에서는 피츠버그전보다 많은 스냅을 받을 가능성, 타이로드 테일러의 경기 감각 회복도 중요한 평가 대상"
+        ],
+        "en": [
+          "With Kyron Drones released, McCord is effectively the only QB3 candidate left",
+          "Went 12-of-16 for 102 yards against Pittsburgh, including four straight completions in the final 37 seconds of the half to set up a field goal",
+          "Could see more snaps at Denver than he did vs. Pittsburgh; Tyrod Taylor's game rust is also a key thing being evaluated"
+        ]
+      },
+      "interp": {
+        "ko": "경쟁자가 없다고 53인 로스터 자리가 자동으로 보장되는 건 아니다. 맥코드가 덴버에서도 안정적이면 러브–테일러 뒤의 장기 육성 QB로 남길 명분이 충분해진다.",
+        "en": "No rival doesn't mean an automatic 53-man spot. If McCord looks steady at Denver too, that's plenty of justification to keep him as a long-term developmental arm behind Love and Taylor."
+      },
+      "url": "/news/packers-qb-kyle-mccord-aims-for-preseason-repeat-aug-20-2026"
+    },
+    {
+      "icon": "❓",
+      "status": "UPDATE",
+      "tags": ["INJURY", "COMMUNITY_BRIEFING"],
+      "title": { "ko": "터커 크래프트·조시 제이콥스, 출전 여부는 아직 미확정", "en": "Kraft and Jacobs Still Questionable for Denver" },
+      "facts": {
+        "ko": [
+          "목요일에는 새로운 훈련이나 부상 업데이트 없음 — 크래프트는 11대11 복귀 후 정상적인 움직임, 새로운 통증 없음",
+          "제이콥스는 사타구니 부상 후 개인훈련까지 복귀했지만 두 선수 모두 덴버전 출전이 공식 확정되지 않음",
+          "ESPN 경기 페이지에는 둘 다 'Questionable'로 표시, 다리안 키너드도 발목 문제로 출전 불확실"
+        ],
+        "en": [
+          "No new practice or injury update Thursday — Kraft continues moving normally since returning to 11-on-11, with no new soreness",
+          "Jacobs is back up to individual drills after his groin injury, but neither player's Denver status is officially confirmed",
+          "ESPN's game page lists both as Questionable; Darian Kinnard is also uncertain for Denver with an ankle issue"
+        ]
+      },
+      "interp": {
+        "ko": "터커 형은 이미 11대11에서 타깃 10개를 전부 잡았다. 조시형까지 포함해 둘 다 굳이 프리시즌 고지대 원정에서 증명할 게 없다. 러브에게 한두 드라이브가 필요하다고 두 핵심 선수를 함께 위험에 노출할 필요는 없다.",
+        "en": "Kraft has already caught all 10 targets thrown his way in 11-on-11. Neither he nor Jacobs has anything left to prove at a preseason road game at altitude. Needing Love to get a couple of drives isn't worth risking both of them at once."
+      }
+    },
+    {
+      "icon": "🏓",
+      "status": "NEW",
+      "tags": ["SPECIAL_TEAMS", "KICKER", "COMMUNITY_BRIEFING"],
+      "title": { "ko": "롱스내퍼 애도미티스, 스맥과 다시 실전 호흡", "en": "Long Snapper Adomitis Gets Another Live Rep With Smack" },
+      "facts": {
+        "ko": [
+          "기존 롱스내퍼 맷 오젝이 종아리 문제로 계속 빠지면서 칼 애도미티스가 덴버전 스냅을 담당할 전망 — 로스터 경쟁을 뒤집을 두 번째 실전 기회",
+          "스맥은 피츠버그전에서 필드골 3개와 엑스트라포인트를 모두 성공시켰지만 캠프 경쟁형 킥은 28/37(75.7%)",
+          "대니얼 웰런은 펀터와 필드골 홀더를 계속 겸임"
+        ],
+        "en": [
+          "With regular long snapper Matt Orzech still out with a calf issue, Cal Adomitis is set to handle snaps at Denver — his second live shot to flip the roster competition",
+          "Smack went a perfect 3-for-3 on field goals plus all extra points against Pittsburgh, but his camp competitive-kick rate sits at 28-of-37 (75.7%)",
+          "Daniel Whelan continues to double as punter and field-goal holder"
+        ]
+      },
+      "interp": {
+        "ko": "펀터 웰런은 괜찮은데, 키커와 롱스내퍼가 동시에 새 얼굴이라는 게 문제다. 덴버의 얇은 공기 덕분에 거리는 쉽게 나오니 이번 시험은 35~45야드와 엑스트라포인트의 방향·타이밍이다. 그래, 또 그놈의 킥이다.",
+        "en": "Whelan at punter is fine — the issue is having a new kicker and a new long snapper at once. Denver's thin air makes distance easy, so the real test is the 35-45 yard range and the timing/direction of the extra points. Yeah, it's the kicking thing again."
+      }
+    },
+    {
+      "icon": "🔁",
+      "status": "UPDATE",
+      "tags": ["CB", "DEPTH_CHART", "COMMUNITY_BRIEFING"],
+      "title": { "ko": "카말 해든, 불러드 백업 니켈로 부상", "en": "Kamal Hayden Rising as Backup Nickel While Bullard Is Out" },
+      "facts": {
+        "ko": [
+          "새 수비는 작은 코너백보다 세이프티형 체격을 슬롯에 배치하는 방향, 제이본 불러드가 발목 문제로 빠진 동안 해든의 1군 니켈 스냅 증가",
+          "외곽 CB뿐 아니라 슬롯·세이프티까지 병행, 수요일에는 카일 맥코드의 패스를 인터셉트",
+          "덴버전은 지난 큰 발목 부상 이후 해든의 첫 실전 출전이 될 가능성"
+        ],
+        "en": [
+          "The new defense favors safety-sized bodies in the slot over smaller corners; with Javon Bullard out with an ankle issue, Hayden's first-team nickel snaps have increased",
+          "He's working outside CB as well as slot and safety, and intercepted a Kyle McCord pass on Wednesday",
+          "Denver could be Hayden's first live game action since his own significant ankle injury"
+        ]
+      },
+      "interp": {
+        "ko": "불러드가 돌아오면 당장 선발 자리는 없지만, 해든이 슬롯까지 소화하면 개넌의 3세이프티 수비를 유지할 수 있다. 외곽 CB 경쟁이 혼란스러운 상황에서 멀티포지션 능력은 로스터 생존에 유리하다.",
+        "en": "There's no starting job waiting once Bullard's back, but Hayden covering the slot lets Gannon keep running his three-safety looks. With the outside CB race still muddled, being multi-positional is a real asset for making the roster."
+      }
+    },
+    {
+      "icon": "💬",
+      "status": "RUMOR",
+      "tags": ["TRADE_RUMOR", "CB", "COMMUNITY_BRIEFING"],
+      "title": { "ko": "캐링턴 발렌타인 트레이드설 — 신뢰도 낮은 매체 추측", "en": "Carrington Valentine Trade Buzz — Low-Confidence Speculation" },
+      "facts": {
+        "ko": [
+          "마이애미가 제프 해플리 감독과의 인연을 이유로 발렌타인에게 관심을 보인다는 주장, 신시내티·피츠버그도 언급됨",
+          "패커스는 발렌타인을 현재 선발 경쟁에 포함시키고 있고, 구단 간 협상이나 실제 오퍼를 확인한 담당 기자 보도는 없음",
+          "셰프터·라포포트 등 공신력 있는 인사이더의 확인도 없어 실제 협상 보도가 아니라 연결 가능성을 확대한 추측으로 보는 게 맞음"
+        ],
+        "en": [
+          "A report claims Miami is interested in Valentine due to a connection with head coach Jeff Hafley, with Cincinnati and Pittsburgh also mentioned",
+          "The Packers currently have Valentine in the starting competition, and no beat reporter has confirmed any actual front-office talks or offer",
+          "No confirmation from major insiders like Schefter or Rapoport either — this reads as speculative connection-drawing, not an actual negotiation report"
+        ]
+      },
+      "interp": {
+        "ko": "CB2조차 결정하지 못한 팀이 주전 경험 있는 발렌타인을 헐값에 보낼 이유가 없다. 상대가 의미 있는 지명권을 내놓는 게 아니라면 움직일 가능성은 낮다.",
+        "en": "A team that hasn't even settled CB2 has no reason to sell a starting-caliber corner like Valentine cheap. Unless someone offers a meaningful pick, a move seems unlikely."
+      }
+    },
+    {
       "icon": "🎉",
       "status": "UPCOMING",
-      "tags": [
-        "EVENT",
-        "FANS"
-      ],
-      "title": {
-        "ko": "패커스, 9월 13일 타이틀타운에서 시즌 개막 관람 파티 개최",
-        "en": "Packers to Host Season Kickoff Watch Party at Titletown on Sept. 13"
-      },
+      "tags": ["EVENT", "FANS"],
+      "title": { "ko": "패커스, 9월 13일 타이틀타운에서 시즌 개막 관람 파티 개최", "en": "Packers to Host Season Kickoff Watch Party at Titletown on Sept. 13" },
       "facts": {
         "ko": [
           "패커스가 일요일 9월 13일 타이틀타운에서 시즌 개막 관람 파티를 개최할 예정",
@@ -37,43 +181,10 @@
       "url": "/news/packers-to-host-season-kickoff-watch-party-at-titletown-sunday-sept-13-2026"
     },
     {
-      "icon": "🏈",
-      "status": "NEW",
-      "tags": [
-        "QB",
-        "PRESEASON"
-      ],
-      "title": {
-        "ko": "QB 카일 맥코드, 프리시즌 재연 목표",
-        "en": "QB Kyle McCord Aims for Preseason Repeat"
-      },
-      "facts": {
-        "ko": [
-          "카일 맥코드가 프리시즌에서 좋은 성적의 재연을 목표로 하고 있음",
-          "백업 쿼터백으로서 지속적인 발전을 보여주고 있음"
-        ],
-        "en": [
-          "Kyle McCord is aiming to repeat his strong preseason performance",
-          "Backup quarterback continues to show development in his role"
-        ]
-      },
-      "interp": {
-        "ko": "맥코드의 프리시즌 성과는 패커스의 쿼터백 뎁스를 강화하는 데 중요합니다. 그의 일관된 플레이는 팀에 귀중한 보험을 제공합니다.",
-        "en": "McCord's preseason performance is crucial for strengthening the Packers' quarterback depth. His consistent play provides valuable insurance for the team."
-      },
-      "url": "/news/packers-qb-kyle-mccord-aims-for-preseason-repeat-aug-20-2026"
-    },
-    {
       "icon": "💪",
       "status": "NEW",
-      "tags": [
-        "DEFENSE",
-        "TRAINING"
-      ],
-      "title": {
-        "ko": "브렌튼 콕스 주니어, 매일 최선을 다하는 모습",
-        "en": "Brenton Cox Jr. Brings It Every Day"
-      },
+      "tags": ["DEFENSE", "TRAINING"],
+      "title": { "ko": "브렌튼 콕스 주니어, 매일 최선을 다하는 모습", "en": "Brenton Cox Jr. Brings It Every Day" },
       "facts": {
         "ko": [
           "브렌튼 콕스 주니어가 훈련에서 매일 강한 노력을 보이고 있음",
@@ -91,18 +202,18 @@
       "url": "/news/inbox-brenton-cox-jr-brings-it-every-day-aug-20-2026"
     }
   ],
-  "injuries": [],
+  "injuries": [
+    { "player": { "ko": "조던 러브", "en": "Jordan Love" }, "issue": { "ko": "—", "en": "—" }, "status": { "ko": "건강, 덴버전 출전 확정", "en": "Healthy, confirmed to play at Denver" } },
+    { "player": { "ko": "터커 크래프트", "en": "Tucker Kraft" }, "issue": { "ko": "무릎(ACL 복귀)", "en": "Knee (ACL return)" }, "status": { "ko": "정상 움직임, 덴버전 출전은 Questionable", "en": "Moving normally, listed Questionable for Denver" }, "watch": true },
+    { "player": { "ko": "조시 제이콥스", "en": "Josh Jacobs" }, "issue": { "ko": "사타구니", "en": "Groin" }, "status": { "ko": "개인훈련까지 복귀, 덴버전 출전은 Questionable", "en": "Back to individual drills, listed Questionable for Denver" }, "watch": true },
+    { "player": { "ko": "다리안 키너드", "en": "Darian Kinnard" }, "issue": { "ko": "발목", "en": "Ankle" }, "status": { "ko": "덴버전 출전 불확실", "en": "Uncertain for Denver" }, "watch": true },
+    { "player": { "ko": "제이본 불러드", "en": "Javon Bullard" }, "issue": { "ko": "발목", "en": "Ankle" }, "status": { "ko": "결장 지속", "en": "Remains out" }, "watch": true },
+    { "player": { "ko": "맷 오젝", "en": "Matt Orzech" }, "issue": { "ko": "종아리", "en": "Calf" }, "status": { "ko": "계속 결장, 애도미티스가 덴버전 롱스냅 담당 예정", "en": "Still out; Adomitis expected to handle Denver long-snap duties" } }
+  ],
   "moves": [],
   "schedule": [
-    {
-      "date": {
-        "ko": "9월 13일 (일)",
-        "en": "September 13 (Sunday)"
-      },
-      "text": {
-        "ko": "타이틀타운에서 시즌 개막 관람 파티",
-        "en": "Season Kickoff Watch Party at Titletown"
-      }
-    }
+    { "date": { "ko": "현지 8/21 오후\n한국시간 8/22 오전 10시", "en": "Aug 21 (local) / Aug 22, 10am KST" }, "text": { "ko": "덴버 원정 · 러브·주전들 출전, 보 닉스도 덴버 선발 예정", "en": "At Denver · Love and starters playing; Bo Nix expected to start for Denver too" } },
+    { "date": { "ko": "현지 8/26", "en": "Aug 26 (local)" }, "text": { "ko": "애리조나와 합동훈련 (프리시즌 최종전엔 주전 불참)", "en": "Joint practice with Arizona (starters will sit the preseason finale)" } },
+    { "date": { "ko": "9월 13일 (일)", "en": "September 13 (Sunday)" }, "text": { "ko": "타이틀타운에서 시즌 개막 관람 파티", "en": "Season Kickoff Watch Party at Titletown" } }
   ]
 }

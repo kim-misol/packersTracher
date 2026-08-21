@@ -1,6 +1,9 @@
 {
   "date": "2026-08-18",
-  "dateLabel": { "ko": "2026-08-18 (현지)", "en": "Aug 18, 2026 (local)" },
+  "dateLabel": {
+    "ko": "2026-08-18 (현지)",
+    "en": "Aug 18, 2026 (local)"
+  },
   "headline": {
     "ko": "러브는 대체로 날카로웠고, 부상자들이 대거 돌아왔다. 그런데 오늘도 주인공은 터커 형이다. ACL 복귀 두 번째 11대11에서 원핸드 46야드 TD라니—이 국밥집, 장사 재개하자마자 미슐랭을 노린다.",
     "en": "Love was mostly sharp and the injury list emptied out fast, but today's headliner is still Tucker. A one-handed 46-yard TD in just his second 11-on-11 back from ACL recovery — the guy barely reopened shop and he's already going for a Michelin star."
@@ -9,8 +12,14 @@
     {
       "icon": "🙌",
       "status": "UPDATE",
-      "tags": ["TE", "COMMUNITY_BRIEFING"],
-      "title": { "ko": "터커 형, 이번엔 46야드 원핸드 TD", "en": "Tucker Kraft's 46-Yard One-Handed TD" },
+      "tags": [
+        "TE",
+        "COMMUNITY_BRIEFING"
+      ],
+      "title": {
+        "ko": "터커 형, 이번엔 46야드 원핸드 TD",
+        "en": "Tucker Kraft's 46-Yard One-Handed TD"
+      },
       "facts": {
         "ko": [
           "두 번째 11대11 훈련에서도 자신에게 온 패스를 전부 잡음",
@@ -31,8 +40,14 @@
     {
       "icon": "🎯",
       "status": "UPDATE",
-      "tags": ["QB", "COMMUNITY_BRIEFING"],
-      "title": { "ko": "러브는 전반적으로 날카로웠지만 2분 드릴은 인터셉션으로 종료", "en": "Love Mostly Sharp, but the 2-Minute Drill Ended in an Interception" },
+      "tags": [
+        "QB",
+        "COMMUNITY_BRIEFING"
+      ],
+      "title": {
+        "ko": "러브는 전반적으로 날카로웠지만 2분 드릴은 인터셉션으로 종료",
+        "en": "Love Mostly Sharp, but the 2-Minute Drill Ended in an Interception"
+      },
       "facts": {
         "ko": [
           "새로운 부상이나 제한 없이 1군 공격을 정상 지휘, 매튜 골든에게 여러 차례 정확한 패스",
@@ -53,16 +68,23 @@
     {
       "icon": "✈️",
       "status": "UPCOMING",
-      "tags": ["PRESEASON", "SCHEDULE", "COMMUNITY_BRIEFING"],
-      "title": { "ko": "주전들, 덴버전에서 더 뛴다 — 라플루어 공식 발표", "en": "Starters to Play More vs. Denver — LaFleur Confirms" },
+      "tags": [
+        "PRESEASON",
+        "SCHEDULE",
+        "COMMUNITY_BRIEFING"
+      ],
+      "title": {
+        "ko": "주전들, 덴버전에서 더 뛴다 — 라플루어 공식 발표",
+        "en": "Starters to Play More vs. Denver — LaFleur Confirms"
+      },
       "facts": {
         "ko": [
-          "라플루어는 현지 8월 21일 덴버전(한국시간 8월 22일 오전 11시)에서 주전들이 피츠버그전보다 많은 스냅을 소화한다고 확인, 정확한 드라이브 수는 미발표",
+          "라플루어는 현지 8월 21일 덴버전(한국시간 8월 22일 오전 10시 (정정: 기존 11시 안내 오류))에서 주전들이 피츠버그전보다 많은 스냅을 소화한다고 확인, 정확한 드라이브 수는 미발표",
           "프리시즌 최종 애리조나전에는 주전 불참 예정",
           "대신 현지 8월 26일 애리조나와 합동훈련에서 많은 스냅을 소화할 예정"
         ],
         "en": [
-          "LaFleur confirmed starters will play more snaps against Denver (Aug 21 local / 11am KST Aug 22) than they did vs. Pittsburgh; exact drive counts aren't set yet",
+          "LaFleur confirmed starters will play more snaps against Denver (Aug 21 local / 10am KST (corrected from an earlier 11am note) Aug 22) than they did vs. Pittsburgh; exact drive counts aren't set yet",
           "Starters won't play in the preseason finale against Arizona",
           "Instead they'll get heavy reps at the Aug 26 (local) joint practice with Arizona"
         ]
@@ -75,8 +97,15 @@
     {
       "icon": "🩹",
       "status": "UPDATE",
-      "tags": ["INJURY", "OL", "COMMUNITY_BRIEFING"],
-      "title": { "ko": "조시형 복귀, 뱅크스·하그레이브도 첫 11대11", "en": "Jacobs Returns, Banks and Hargrave Get First 11-on-11 Reps" },
+      "tags": [
+        "INJURY",
+        "OL",
+        "COMMUNITY_BRIEFING"
+      ],
+      "title": {
+        "ko": "조시형 복귀, 뱅크스·하그레이브도 첫 11대11",
+        "en": "Jacobs Returns, Banks and Hargrave Get First 11-on-11 Reps"
+      },
       "facts": {
         "ko": [
           "조시 제이콥스가 사타구니 부상 후 약 12일 만에 복귀했으나 개인훈련만 참가, 애런 뱅크스는 캠프 첫 11대11 스냅",
@@ -99,8 +128,15 @@
     {
       "icon": "🔁",
       "status": "UPDATE",
-      "tags": ["CB", "DEPTH_CHART", "COMMUNITY_BRIEFING"],
-      "title": { "ko": "CB는 진짜 4~5인 오픈 경쟁", "en": "The CB Battle Is Genuinely a 4-5 Man Competition" },
+      "tags": [
+        "CB",
+        "DEPTH_CHART",
+        "COMMUNITY_BRIEFING"
+      ],
+      "title": {
+        "ko": "CB는 진짜 4~5인 오픈 경쟁",
+        "en": "The CB Battle Is Genuinely a 4-5 Man Competition"
+      },
       "facts": {
         "ko": [
           "닉슨·브랜든 시스·세인트저스트·발렌타인이 모두 1군 외곽 CB 스냅을 나눠 가졌고, 복귀한 도마니 잭슨도 일부 1군에 들어감",
@@ -121,8 +157,14 @@
     {
       "icon": "🦵",
       "status": "UPDATE",
-      "tags": ["KICKER", "COMMUNITY_BRIEFING"],
-      "title": { "ko": "스맥 42야드 성공, 47야드 실패", "en": "Smack Hits from 42, Misses from 47" },
+      "tags": [
+        "KICKER",
+        "COMMUNITY_BRIEFING"
+      ],
+      "title": {
+        "ko": "스맥 42야드 성공, 47야드 실패",
+        "en": "Smack Hits from 42, Misses from 47"
+      },
       "facts": {
         "ko": [
           "2분 드릴 종료 후 두 차례 필드골 시도 — 42야드 성공, 47야드는 오른쪽으로 빗나감",
@@ -141,32 +183,16 @@
       }
     },
     {
-      "icon": "📝",
-      "status": "CONFIRMED",
-      "tags": ["ROSTER_MOVE", "EDGE", "COMMUNITY_BRIEFING"],
-      "title": { "ko": "EDGE 아든 워커 웨이버 클레임", "en": "Packers Claim EDGE Arden Walker Off Waivers" },
-      "facts": {
-        "ko": [
-          "패커스가 미네소타에서 웨이버된 신인 EDGE 아든 워커(콜로라도 출신 미지명 신인)를 클레임",
-          "바이킹스 프리시즌 첫 경기에서 18스냅 소화, 드론스 방출로 비어 있던 로스터 자리를 채움",
-          "파슨스가 PUP이고 데니스서튼·켈리도 빠진 EDGE 숫자를 보충하는 영입, 작성 시점 구단 공식 페이지 반영 전이지만 NFL 일일 거래 공시와 애덤 셰프터가 확인"
-        ],
-        "en": [
-          "The Packers claimed undrafted rookie EDGE Arden Walker (Colorado) off waivers from Minnesota",
-          "He played 18 snaps in the Vikings' preseason opener; the move fills the roster spot opened by the Drones release",
-          "It restocks EDGE depth with Parsons on PUP and Dennis-Sutton and Kelly both out; confirmed by the NFL's daily transaction wire and Adam Schefter, ahead of the team's own official page"
-        ]
-      },
-      "interp": {
-        "ko": "당장 로테이션을 바꿀 대형 영입은 아니다. 덴버전과 애리조나 합동훈련에서 쓸 EDGE 훈련 인원을 확보하고, 미네소타가 버린 젊은 선수를 한 번 긁어보는 전형적인 막판 로스터 무브다.",
-        "en": "Not a move that changes the rotation right away. It's a classic late-camp roster churn — securing EDGE bodies for Denver and the Arizona joint practice while taking a flier on a young player Minnesota let go."
-      }
-    },
-    {
       "icon": "🛡️",
       "status": "NEW",
-      "tags": ["OL", "ROSTER"],
-      "title": { "ko": "재거 버튼, 선발 여부와 무관하게 공격 라인에 유망한 보강", "en": "Jager Burton a Promising Addition to Offensive Line" },
+      "tags": [
+        "OL",
+        "ROSTER"
+      ],
+      "title": {
+        "ko": "재거 버튼, 선발 여부와 무관하게 공격 라인에 유망한 보강",
+        "en": "Jager Burton a Promising Addition to Offensive Line"
+      },
       "facts": {
         "ko": [
           "재거 버튼이 패커스 공격 라인에 유망한 선수로 평가받고 있습니다",
@@ -187,8 +213,14 @@
     {
       "icon": "🎃",
       "status": "UPCOMING",
-      "tags": ["EVENT", "COMMUNITY"],
-      "title": { "ko": "램보 필드 아트리움, 10월 24일 연례 스푹태큘러 개최", "en": "Lambeau Field Atrium to Host Annual Spooktacular on Oct. 24" },
+      "tags": [
+        "EVENT",
+        "COMMUNITY"
+      ],
+      "title": {
+        "ko": "램보 필드 아트리움, 10월 24일 연례 스푹태큘러 개최",
+        "en": "Lambeau Field Atrium to Host Annual Spooktacular on Oct. 24"
+      },
       "facts": {
         "ko": [
           "램보 필드 아트리움에서 10월 24일 연례 스푹태큘러 행사가 열립니다",
@@ -208,23 +240,180 @@
     }
   ],
   "injuries": [
-    { "player": { "ko": "조던 러브", "en": "Jordan Love" }, "issue": { "ko": "—", "en": "—" }, "status": { "ko": "정상적으로 1군 지휘, 새 부상 없음", "en": "Ran the first team normally, no new injury" } },
-    { "player": { "ko": "터커 크래프트", "en": "Tucker Kraft" }, "issue": { "ko": "무릎(ACL 복귀)", "en": "Knee (ACL return)" }, "status": { "ko": "두 번째 11대11도 전부 소화, 사실상 정상 컨디션", "en": "Handled his second full 11-on-11, looking essentially back to normal" } },
-    { "player": { "ko": "조시 제이콥스", "en": "Josh Jacobs" }, "issue": { "ko": "사타구니", "en": "Groin" }, "status": { "ko": "약 12일 만에 복귀, 개인훈련만 참가", "en": "Back after about 12 days, limited to individual drills" } },
-    { "player": { "ko": "애런 뱅크스", "en": "Aaron Banks" }, "issue": { "ko": "무릎", "en": "Knee" }, "status": { "ko": "캠프 첫 11대11 스냅 소화", "en": "Took his first 11-on-11 reps of camp" } },
-    { "player": { "ko": "자본 하그레이브", "en": "Javon Hargrave" }, "issue": { "ko": "—", "en": "—" }, "status": { "ko": "캠프 첫 11대11 및 1대1 패스러시 참가", "en": "Took his first camp 11-on-11 and 1-on-1 pass-rush reps" } },
-    { "player": { "ko": "루카스 밴네스", "en": "Lukas Van Ness" }, "issue": { "ko": "어깨", "en": "Shoulder" }, "status": { "ko": "복귀, 패스러시에서 좋은 평가", "en": "Back and grading well in pass rush" } },
-    { "player": { "ko": "캐링턴 발렌타인", "en": "Carrington Valentine" }, "issue": { "ko": "햄스트링", "en": "Hamstring" }, "status": { "ko": "11대11 복귀", "en": "Back to 11-on-11" } },
-    { "player": { "ko": "도마니 잭슨", "en": "Domani Jackson" }, "issue": { "ko": "—", "en": "—" }, "status": { "ko": "11대11 복귀, 일부 1군 스냅", "en": "Back to 11-on-11, seeing some first-team snaps" } },
-    { "player": { "ko": "나이잘릭 켈리", "en": "Naijalik Kelly" }, "issue": { "ko": "무릎", "en": "Knee" }, "status": { "ko": "새로운 결장자", "en": "New absence" }, "watch": true },
-    { "player": { "ko": "보 멜튼", "en": "Bo Melton" }, "issue": { "ko": "—", "en": "—" }, "status": { "ko": "다이빙 캐치 중 스팅어, 본인은 괜찮다고 설명", "en": "Took a stinger on a diving catch, says he's fine" }, "watch": true }
+    {
+      "player": {
+        "ko": "조던 러브",
+        "en": "Jordan Love"
+      },
+      "issue": {
+        "ko": "—",
+        "en": "—"
+      },
+      "status": {
+        "ko": "정상적으로 1군 지휘, 새 부상 없음",
+        "en": "Ran the first team normally, no new injury"
+      }
+    },
+    {
+      "player": {
+        "ko": "터커 크래프트",
+        "en": "Tucker Kraft"
+      },
+      "issue": {
+        "ko": "무릎(ACL 복귀)",
+        "en": "Knee (ACL return)"
+      },
+      "status": {
+        "ko": "두 번째 11대11도 전부 소화, 사실상 정상 컨디션",
+        "en": "Handled his second full 11-on-11, looking essentially back to normal"
+      }
+    },
+    {
+      "player": {
+        "ko": "조시 제이콥스",
+        "en": "Josh Jacobs"
+      },
+      "issue": {
+        "ko": "사타구니",
+        "en": "Groin"
+      },
+      "status": {
+        "ko": "약 12일 만에 복귀, 개인훈련만 참가",
+        "en": "Back after about 12 days, limited to individual drills"
+      }
+    },
+    {
+      "player": {
+        "ko": "애런 뱅크스",
+        "en": "Aaron Banks"
+      },
+      "issue": {
+        "ko": "무릎",
+        "en": "Knee"
+      },
+      "status": {
+        "ko": "캠프 첫 11대11 스냅 소화",
+        "en": "Took his first 11-on-11 reps of camp"
+      }
+    },
+    {
+      "player": {
+        "ko": "자본 하그레이브",
+        "en": "Javon Hargrave"
+      },
+      "issue": {
+        "ko": "—",
+        "en": "—"
+      },
+      "status": {
+        "ko": "캠프 첫 11대11 및 1대1 패스러시 참가",
+        "en": "Took his first camp 11-on-11 and 1-on-1 pass-rush reps"
+      }
+    },
+    {
+      "player": {
+        "ko": "루카스 밴네스",
+        "en": "Lukas Van Ness"
+      },
+      "issue": {
+        "ko": "어깨",
+        "en": "Shoulder"
+      },
+      "status": {
+        "ko": "복귀, 패스러시에서 좋은 평가",
+        "en": "Back and grading well in pass rush"
+      }
+    },
+    {
+      "player": {
+        "ko": "캐링턴 발렌타인",
+        "en": "Carrington Valentine"
+      },
+      "issue": {
+        "ko": "햄스트링",
+        "en": "Hamstring"
+      },
+      "status": {
+        "ko": "11대11 복귀",
+        "en": "Back to 11-on-11"
+      }
+    },
+    {
+      "player": {
+        "ko": "도마니 잭슨",
+        "en": "Domani Jackson"
+      },
+      "issue": {
+        "ko": "—",
+        "en": "—"
+      },
+      "status": {
+        "ko": "11대11 복귀, 일부 1군 스냅",
+        "en": "Back to 11-on-11, seeing some first-team snaps"
+      }
+    },
+    {
+      "player": {
+        "ko": "나이잘릭 켈리",
+        "en": "Naijalik Kelly"
+      },
+      "issue": {
+        "ko": "무릎",
+        "en": "Knee"
+      },
+      "status": {
+        "ko": "새로운 결장자",
+        "en": "New absence"
+      },
+      "watch": true
+    },
+    {
+      "player": {
+        "ko": "보 멜튼",
+        "en": "Bo Melton"
+      },
+      "issue": {
+        "ko": "—",
+        "en": "—"
+      },
+      "status": {
+        "ko": "다이빙 캐치 중 스팅어, 본인은 괜찮다고 설명",
+        "en": "Took a stinger on a diving catch, says he's fine"
+      },
+      "watch": true
+    }
   ],
-  "moves": [
-    { "date": "08-18", "text": { "ko": "EDGE 아든 워커 웨이버 클레임 — 콜로라도 출신 미지명 신인, 드론스 방출로 비어있던 자리 채움", "en": "Claimed EDGE Arden Walker off waivers — undrafted rookie out of Colorado, filling the roster spot opened by the Drones release" } }
-  ],
+  "moves": [],
   "schedule": [
-    { "date": { "ko": "현지 8/21 오후\n한국시간 8/22 오전 11시", "en": "Aug 21 (local) / Aug 22, 11am KST" }, "text": { "ko": "덴버 원정 · 주전들 더 많은 스냅 예정", "en": "At Denver · Starters expected to play more snaps" } },
-    { "date": { "ko": "현지 8/26", "en": "Aug 26 (local)" }, "text": { "ko": "애리조나와 합동훈련 (주전 다수 스냅 예정)", "en": "Joint practice with Arizona (starters expected to see heavy reps)" } },
-    { "date": { "ko": "10월 24일", "en": "October 24" }, "text": { "ko": "램보 필드 아트리움 연례 스푹태큘러 행사", "en": "Lambeau Field Atrium Annual Spooktacular Event" } }
+    {
+      "date": {
+        "ko": "현지 8/21 오후\n한국시간 8/22 오전 10시 (정정: 기존 11시 안내 오류)",
+        "en": "Aug 21 (local) / Aug 22, 10am KST (corrected from an earlier 11am note)"
+      },
+      "text": {
+        "ko": "덴버 원정 · 주전들 더 많은 스냅 예정",
+        "en": "At Denver · Starters expected to play more snaps"
+      }
+    },
+    {
+      "date": {
+        "ko": "현지 8/26",
+        "en": "Aug 26 (local)"
+      },
+      "text": {
+        "ko": "애리조나와 합동훈련 (주전 다수 스냅 예정)",
+        "en": "Joint practice with Arizona (starters expected to see heavy reps)"
+      }
+    },
+    {
+      "date": {
+        "ko": "10월 24일",
+        "en": "October 24"
+      },
+      "text": {
+        "ko": "램보 필드 아트리움 연례 스푹태큘러 행사",
+        "en": "Lambeau Field Atrium Annual Spooktacular Event"
+      }
+    }
   ]
 }

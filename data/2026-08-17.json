@@ -14,12 +14,12 @@
       "facts": {
         "ko": [
           "피츠버그전과 주말 강훈련 이후 현지 월요일은 신체 부담이 적은 워크스루만 진행",
-          "현지 8/18 다시 강도 높은 공개훈련, 8/19 비공개훈련, 8/21 덴버 원정(한국시간 8/22 오전 11시)",
+          "현지 8/18 다시 강도 높은 공개훈련, 8/19 비공개훈련, 8/21 덴버 원정(한국시간 8/22 오전 10시 (정정: 기존 11시 안내 오류))",
           "조던 러브에게 새로운 부상은 보고되지 않았으나 덴버전 주전 출전 여부·스냅 수는 미발표"
         ],
         "en": [
           "After the Steelers game and a hard weekend of practice, Monday (local) was a light walkthrough only",
-          "Local Aug 18 returns to full practice, Aug 19 is closed, Aug 21 is the Denver road game (11am KST on Aug 22)",
+          "Local Aug 18 returns to full practice, Aug 19 is closed, Aug 21 is the Denver road game (10am KST (corrected from an earlier 11am note) on Aug 22)",
           "No new injury reported for Jordan Love, but his snap count and starter status for the Denver game haven't been announced"
         ]
       },
@@ -129,6 +129,6 @@
   "schedule": [
     { "date": { "ko": "현지 8/18 (화)", "en": "Aug 18 (local)" }, "text": { "ko": "공개훈련", "en": "Open practice" } },
     { "date": { "ko": "현지 8/19 (수)", "en": "Aug 19 (local)" }, "text": { "ko": "비공개훈련", "en": "Closed practice" } },
-    { "date": { "ko": "현지 8/21 오후\n한국시간 8/22 오전 11시", "en": "Aug 21 (local) / Aug 22, 11am KST" }, "text": { "ko": "덴버 원정 · 프리시즌 2차전", "en": "At Denver · Preseason Week 2" } }
+    { "date": { "ko": "현지 8/21 오후\n한국시간 8/22 오전 10시 (정정: 기존 11시 안내 오류)", "en": "Aug 21 (local) / Aug 22, 10am KST (corrected from an earlier 11am note)" }, "text": { "ko": "덴버 원정 · 프리시즌 2차전", "en": "At Denver · Preseason Week 2" } }
   ]
 }
