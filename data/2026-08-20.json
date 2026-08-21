@@ -1,0 +1,108 @@
+{
+  "date": "2026-08-20",
+  "dateLabel": {
+    "ko": "2026-08-20 (현지)",
+    "en": "2026-08-20"
+  },
+  "headline": {
+    "ko": "패커스가 9월 13일 타이틀타운에서 시즌 개막 관람 파티를 개최합니다. 카일 맥코드 QB는 프리시즌 재연을 노리고 있으며, 브렌튼 콕스 주니어는 매일 최선을 다하는 모습을 보이고 있습니다.",
+    "en": "The Packers will host a Season Kickoff Watch Party at Titletown on September 13. QB Kyle McCord is aiming for a preseason repeat, while Brenton Cox Jr. continues to bring it every day in practice."
+  },
+  "stories": [
+    {
+      "icon": "🎉",
+      "status": "UPCOMING",
+      "tags": [
+        "EVENT",
+        "FANS"
+      ],
+      "title": {
+        "ko": "패커스, 9월 13일 타이틀타운에서 시즌 개막 관람 파티 개최",
+        "en": "Packers to Host Season Kickoff Watch Party at Titletown on Sept. 13"
+      },
+      "facts": {
+        "ko": [
+          "패커스가 일요일 9월 13일 타이틀타운에서 시즌 개막 관람 파티를 개최할 예정",
+          "팬들을 위한 시즌 시작 행사로 기획됨"
+        ],
+        "en": [
+          "Packers will host a Season Kickoff Watch Party at Titletown on Sunday, September 13",
+          "Event designed to celebrate the start of the season with fans"
+        ]
+      },
+      "interp": {
+        "ko": "이 행사는 팬들과 함께 새 시즌의 시작을 축하하는 전통적인 패커스의 커뮤니티 참여를 보여줍니다. 타이틀타운은 그린베이 팬 경험의 중심지로 자리잡고 있습니다.",
+        "en": "This event showcases the Packers' traditional community engagement, celebrating the start of a new season with fans. Titletown continues to serve as the hub of the Green Bay fan experience."
+      },
+      "url": "/news/packers-to-host-season-kickoff-watch-party-at-titletown-sunday-sept-13-2026"
+    },
+    {
+      "icon": "🏈",
+      "status": "NEW",
+      "tags": [
+        "QB",
+        "PRESEASON"
+      ],
+      "title": {
+        "ko": "QB 카일 맥코드, 프리시즌 재연 목표",
+        "en": "QB Kyle McCord Aims for Preseason Repeat"
+      },
+      "facts": {
+        "ko": [
+          "카일 맥코드가 프리시즌에서 좋은 성적의 재연을 목표로 하고 있음",
+          "백업 쿼터백으로서 지속적인 발전을 보여주고 있음"
+        ],
+        "en": [
+          "Kyle McCord is aiming to repeat his strong preseason performance",
+          "Backup quarterback continues to show development in his role"
+        ]
+      },
+      "interp": {
+        "ko": "맥코드의 프리시즌 성과는 패커스의 쿼터백 뎁스를 강화하는 데 중요합니다. 그의 일관된 플레이는 팀에 귀중한 보험을 제공합니다.",
+        "en": "McCord's preseason performance is crucial for strengthening the Packers' quarterback depth. His consistent play provides valuable insurance for the team."
+      },
+      "url": "/news/packers-qb-kyle-mccord-aims-for-preseason-repeat-aug-20-2026"
+    },
+    {
+      "icon": "💪",
+      "status": "NEW",
+      "tags": [
+        "DEFENSE",
+        "TRAINING"
+      ],
+      "title": {
+        "ko": "브렌튼 콕스 주니어, 매일 최선을 다하는 모습",
+        "en": "Brenton Cox Jr. Brings It Every Day"
+      },
+      "facts": {
+        "ko": [
+          "브렌튼 콕스 주니어가 훈련에서 매일 강한 노력을 보이고 있음",
+          "수비 라인에서 일관된 강도와 헌신을 보여주고 있음"
+        ],
+        "en": [
+          "Brenton Cox Jr. is showing strong effort in practice every day",
+          "Demonstrating consistent intensity and dedication on the defensive line"
+        ]
+      },
+      "interp": {
+        "ko": "콕스의 지속적인 노력은 패커스 수비 라인의 경쟁력을 높이고 있습니다. 그의 매일의 강도는 로스터 자리를 확보하는 데 핵심이 될 것입니다.",
+        "en": "Cox's consistent effort is elevating the competition on the Packers' defensive line. His daily intensity will be key to earning a roster spot."
+      },
+      "url": "/news/inbox-brenton-cox-jr-brings-it-every-day-aug-20-2026"
+    }
+  ],
+  "injuries": [],
+  "moves": [],
+  "schedule": [
+    {
+      "date": {
+        "ko": "9월 13일 (일)",
+        "en": "September 13 (Sunday)"
+      },
+      "text": {
+        "ko": "타이틀타운에서 시즌 개막 관람 파티",
+        "en": "Season Kickoff Watch Party at Titletown"
+      }
+    }
+  ]
+}

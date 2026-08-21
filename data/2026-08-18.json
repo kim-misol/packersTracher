@@ -1,53 +1,172 @@
 {
   "date": "2026-08-18",
-  "dateLabel": {
-    "ko": "2026-08-18 (현지)",
-    "en": "2026-08-18"
-  },
+  "dateLabel": { "ko": "2026-08-18 (현지)", "en": "Aug 18, 2026 (local)" },
   "headline": {
-    "ko": "패커스가 8월 18일 트레이닝 캠프를 진행하며 공격 라인에서 재거 버튼의 유망한 활약이 주목받았습니다. 팀은 덴버에서의 다가오는 경기를 준비하고 있으며, 램보 필드 아트리움은 10월 24일 연례 스푹태큘러 행사를 개최할 예정입니다.",
-    "en": "The Packers held training camp on August 18 with promising performances from Jager Burton on the offensive line drawing attention. The team is preparing for an upcoming game in Denver, and Lambeau Field Atrium will host its annual Spooktacular event on October 24."
+    "ko": "러브는 대체로 날카로웠고, 부상자들이 대거 돌아왔다. 그런데 오늘도 주인공은 터커 형이다. ACL 복귀 두 번째 11대11에서 원핸드 46야드 TD라니—이 국밥집, 장사 재개하자마자 미슐랭을 노린다.",
+    "en": "Love was mostly sharp and the injury list emptied out fast, but today's headliner is still Tucker. A one-handed 46-yard TD in just his second 11-on-11 back from ACL recovery — the guy barely reopened shop and he's already going for a Michelin star."
   },
   "stories": [
     {
-      "icon": "🏋️",
+      "icon": "🙌",
       "status": "UPDATE",
-      "tags": [
-        "TRAINING CAMP",
-        "PRACTICE"
-      ],
-      "title": {
-        "ko": "패커스 트레이닝 캠프 8월 18일 현장 소식",
-        "en": "Packers Training Camp Update - August 18"
-      },
+      "tags": ["TE", "COMMUNITY_BRIEFING"],
+      "title": { "ko": "터커 형, 이번엔 46야드 원핸드 TD", "en": "Tucker Kraft's 46-Yard One-Handed TD" },
       "facts": {
         "ko": [
-          "패커스가 8월 18일 트레이닝 캠프 연습을 진행했습니다",
-          "캠프에서 5가지 주요 학습 포인트가 확인되었습니다",
-          "팀은 시즌 준비를 위한 집중 훈련을 계속하고 있습니다"
+          "두 번째 11대11 훈련에서도 자신에게 온 패스를 전부 잡음",
+          "러브의 다소 높은 중앙 패스를 한 손으로 쳐낸 뒤 헬멧까지 활용해 다시 확보, 두 수비수 사이 균형을 유지하며 46야드 TD",
+          "플랫에서는 자이르 프랭클린과 강하게 충돌하는 등 거친 몸싸움도 이어감 — 프랭클린은 크래프트가 공격에 부족했던 투쟁심과 에너지를 가져왔다고 평가"
         ],
         "en": [
-          "Packers held training camp practice on August 18",
-          "Five key learning points were identified from camp",
-          "Team continues focused preparation for the season"
+          "Caught every pass thrown his way again in his second 11-on-11 session",
+          "One-handed a slightly high, over-the-middle throw from Love, secured it off his helmet, kept his balance between two defenders, and took it 46 yards for a TD",
+          "Took a hard hit from Jayr Franklin on a flat route and kept battling physically all day — Franklin said Kraft brought a fight and energy the offense had been missing"
         ]
       },
       "interp": {
-        "ko": "시즌 개막을 앞두고 트레이닝 캠프가 막바지에 접어들면서 코칭 스태프는 로스터 결정과 게임 플랜 수립에 필요한 중요한 정보를 수집하고 있습니다.",
-        "en": "As training camp enters its final stages before the season opener, the coaching staff is gathering crucial information for roster decisions and game planning."
+        "ko": "터커 형은 단순히 러브의 안전망이 아니라 공격진의 분위기와 강도를 올리는 리더다. ACL 복귀 두 번째 팀 훈련에서 이 정도면 '개막전 출전 가능하냐'보다 '개막전 몇 스냅까지 허용하느냐'가 실제 질문이 됐다.",
+        "en": "Kraft isn't just Love's safety valve — he's raising the whole offense's tempo and physicality. This good, this early in his ACL comeback, the real question isn't whether he plays Week 1, it's how many snaps they let him have."
+      }
+    },
+    {
+      "icon": "🎯",
+      "status": "UPDATE",
+      "tags": ["QB", "COMMUNITY_BRIEFING"],
+      "title": { "ko": "러브는 전반적으로 날카로웠지만 2분 드릴은 인터셉션으로 종료", "en": "Love Mostly Sharp, but the 2-Minute Drill Ended in an Interception" },
+      "facts": {
+        "ko": [
+          "새로운 부상이나 제한 없이 1군 공격을 정상 지휘, 매튜 골든에게 여러 차례 정확한 패스",
+          "조시 와일에게 백숄더 패스, 크래프트의 원핸드 빅플레이 합작, 레드존에서는 드레이크 대브니에게 정확한 심패스 TD",
+          "다만 2분 드릴 마지막 골라인 패스는 에저린 쿠퍼가 쳐냈고 프랭클린이 인터셉트"
+        ],
+        "en": [
+          "Ran the first-team offense normally with no new injury or limitation, hitting Matthew Golden accurately several times",
+          "Connected with Josh Wile on a back-shoulder throw, combined with Kraft on the one-handed highlight play, and hit Drake Dabney on an accurate deep red-zone TD",
+          "But the final goal-line throw of the 2-minute drill was batted by Edgerrin Cooper and picked off by Franklin"
+        ]
+      },
+      "interp": {
+        "ko": "일요일 두 번의 INT보다는 확실히 좋은 날이었다. 마지막 공도 무리한 실투라기보다 좁은 창문을 노렸다가 쿠퍼가 만든 수비 빅플레이다. 골든–크래프트–와일–대브니로 패스가 고르게 분배된 게 반갑다.",
+        "en": "Clearly a better day than Sunday's two picks. The final ball wasn't a bad decision so much as a tight-window shot that Cooper made a defensive play on. Good to see the ball spread evenly across Golden, Kraft, Wile, and Dabney."
+      }
+    },
+    {
+      "icon": "✈️",
+      "status": "UPCOMING",
+      "tags": ["PRESEASON", "SCHEDULE", "COMMUNITY_BRIEFING"],
+      "title": { "ko": "주전들, 덴버전에서 더 뛴다 — 라플루어 공식 발표", "en": "Starters to Play More vs. Denver — LaFleur Confirms" },
+      "facts": {
+        "ko": [
+          "라플루어는 현지 8월 21일 덴버전(한국시간 8월 22일 오전 11시)에서 주전들이 피츠버그전보다 많은 스냅을 소화한다고 확인, 정확한 드라이브 수는 미발표",
+          "프리시즌 최종 애리조나전에는 주전 불참 예정",
+          "대신 현지 8월 26일 애리조나와 합동훈련에서 많은 스냅을 소화할 예정"
+        ],
+        "en": [
+          "LaFleur confirmed starters will play more snaps against Denver (Aug 21 local / 11am KST Aug 22) than they did vs. Pittsburgh; exact drive counts aren't set yet",
+          "Starters won't play in the preseason finale against Arizona",
+          "Instead they'll get heavy reps at the Aug 26 (local) joint practice with Arizona"
+        ]
+      },
+      "interp": {
+        "ko": "덴버전이 러브–골든–크래프트 조합과 사실상 개막전 OL을 실전에서 함께 볼 유일한 경기다. 터커 형과 조시형의 실제 경기 출전 여부는 아직 별도 확인이 필요하다.",
+        "en": "Denver is the only live game where we'll see the Love-Golden-Kraft combo and the presumptive Week 1 O-line together. Whether Kraft and Jacobs specifically suit up still needs separate confirmation."
+      }
+    },
+    {
+      "icon": "🩹",
+      "status": "UPDATE",
+      "tags": ["INJURY", "OL", "COMMUNITY_BRIEFING"],
+      "title": { "ko": "조시형 복귀, 뱅크스·하그레이브도 첫 11대11", "en": "Jacobs Returns, Banks and Hargrave Get First 11-on-11 Reps" },
+      "facts": {
+        "ko": [
+          "조시 제이콥스가 사타구니 부상 후 약 12일 만에 복귀했으나 개인훈련만 참가, 애런 뱅크스는 캠프 첫 11대11 스냅",
+          "자본 하그레이브가 캠프 첫 11대11 및 1대1 패스러시에 참가, 루카스 밴네스는 어깨 부상에서 복귀해 패스러시에서 좋은 평가",
+          "캐링턴 발렌타인·도마니 잭슨은 11대11 복귀, 새로운 결장자는 무릎 부상의 EDGE 나이잘릭 켈리, 보 멜튼은 다이빙 캐치 중 스팅어를 입었지만 본인은 괜찮다고 설명",
+          "모건–뱅크스–션 라이언–제이컵 몽크–자크 바코베웰레가 처음으로 함께 1군 스냅을 받음"
+        ],
+        "en": [
+          "Josh Jacobs returned roughly 12 days after his groin injury but was limited to individual drills; Aaron Banks got his first 11-on-11 reps of camp",
+          "Javon Hargrave got his first camp 11-on-11 and 1-on-1 pass-rush reps; Lukas Van Ness returned from his shoulder issue and graded well in pass rush",
+          "Carrington Valentine and Domani Jackson returned to 11-on-11; new absence is EDGE Naijalik Kelly (knee); Bo Melton took a stinger on a diving catch but said he's fine",
+          "Morgan, Banks, Sean Rhyan, Jacob Monk, and Zach Bakouvewele took first-team O-line snaps together for the first time"
+        ]
+      },
+      "interp": {
+        "ko": "캠프 시작 후 가장 완전체에 가까운 날이다. 뱅크스가 건강하면 버튼을 급하게 선발로 투입할 필요가 없고, 바코베웰레까지 포함한 러브 보호진도 마침내 형태를 갖춘다.",
+        "en": "The closest to full health the roster has looked all camp. A healthy Banks means there's no rush to start Burton, and with Bakouvewele back too, Love's protection group is finally taking shape."
+      }
+    },
+    {
+      "icon": "🔁",
+      "status": "UPDATE",
+      "tags": ["CB", "DEPTH_CHART", "COMMUNITY_BRIEFING"],
+      "title": { "ko": "CB는 진짜 4~5인 오픈 경쟁", "en": "The CB Battle Is Genuinely a 4-5 Man Competition" },
+      "facts": {
+        "ko": [
+          "닉슨·브랜든 시스·세인트저스트·발렌타인이 모두 1군 외곽 CB 스냅을 나눠 가졌고, 복귀한 도마니 잭슨도 일부 1군에 들어감",
+          "라플루어는 주전 두 명을 고정하지 못하더라도 정규시즌에 CB를 로테이션하는 걸 두려워하지 않는다고 밝힘",
+          "닉슨은 기본적으로 왼쪽 1군에서 시작했지만 자동 선발 보장은 아님"
+        ],
+        "en": [
+          "Nixon, Cisse, St-Juste, and Valentine all split first-team outside-CB snaps, with returning Domani Jackson also getting some first-team run",
+          "LaFleur said he isn't afraid to rotate corners during the regular season even without two fixed starters",
+          "Nixon is starting on the left with the first team by default, but that's not a guaranteed starting job"
+        ]
+      },
+      "interp": {
+        "ko": "시스가 단순 발렌타인 대체자가 아니라 진짜 주전 후보가 됐다. 현재 흐름은 닉슨–시스가 먼저 나가되 경기력에 따라 발렌타인·세인트저스트를 섞는 형태에 가깝다.",
+        "en": "Cisse is no longer just a Valentine fill-in — he's a real starting candidate now. The current shape looks like Nixon and Cisse opening, with Valentine and St-Juste mixed in based on performance."
+      }
+    },
+    {
+      "icon": "🦵",
+      "status": "UPDATE",
+      "tags": ["KICKER", "COMMUNITY_BRIEFING"],
+      "title": { "ko": "스맥 42야드 성공, 47야드 실패", "en": "Smack Hits from 42, Misses from 47" },
+      "facts": {
+        "ko": [
+          "2분 드릴 종료 후 두 차례 필드골 시도 — 42야드 성공, 47야드는 오른쪽으로 빗나감",
+          "캠프 시작 후 모든 경쟁형 킥 합계는 28/37(75.7%), 피츠버그 프리시즌 경기 공식 기록은 3/3",
+          "펀터 대니얼 웰런은 최근 24시간 새로운 부상이나 경쟁 변화 없음"
+        ],
+        "en": [
+          "Attempted two field goals after the 2-minute drill — made from 42, missed right from 47",
+          "His full camp competitive-kick tally is 28-of-37 (75.7%); his official Steelers preseason line is a perfect 3-for-3",
+          "Punter Daniel Whelan has no new injury or competition change reported in the last 24 hours"
+        ]
+      },
+      "interp": {
+        "ko": "실제 경기에서 58야드까지 넣은 건 고무적이지만 캠프 75.7%는 안심할 숫자가 아니다. 덴버에서 짧은 킥·엑스트라포인트까지 깨끗하게 처리해야 한다.",
+        "en": "Hitting from 58 in a real game is encouraging, but a 75.7% camp rate isn't a number to relax over. He needs to clean up the short kicks and extra points too when Denver comes around."
+      }
+    },
+    {
+      "icon": "📝",
+      "status": "CONFIRMED",
+      "tags": ["ROSTER_MOVE", "EDGE", "COMMUNITY_BRIEFING"],
+      "title": { "ko": "EDGE 아든 워커 웨이버 클레임", "en": "Packers Claim EDGE Arden Walker Off Waivers" },
+      "facts": {
+        "ko": [
+          "패커스가 미네소타에서 웨이버된 신인 EDGE 아든 워커(콜로라도 출신 미지명 신인)를 클레임",
+          "바이킹스 프리시즌 첫 경기에서 18스냅 소화, 드론스 방출로 비어 있던 로스터 자리를 채움",
+          "파슨스가 PUP이고 데니스서튼·켈리도 빠진 EDGE 숫자를 보충하는 영입, 작성 시점 구단 공식 페이지 반영 전이지만 NFL 일일 거래 공시와 애덤 셰프터가 확인"
+        ],
+        "en": [
+          "The Packers claimed undrafted rookie EDGE Arden Walker (Colorado) off waivers from Minnesota",
+          "He played 18 snaps in the Vikings' preseason opener; the move fills the roster spot opened by the Drones release",
+          "It restocks EDGE depth with Parsons on PUP and Dennis-Sutton and Kelly both out; confirmed by the NFL's daily transaction wire and Adam Schefter, ahead of the team's own official page"
+        ]
+      },
+      "interp": {
+        "ko": "당장 로테이션을 바꿀 대형 영입은 아니다. 덴버전과 애리조나 합동훈련에서 쓸 EDGE 훈련 인원을 확보하고, 미네소타가 버린 젊은 선수를 한 번 긁어보는 전형적인 막판 로스터 무브다.",
+        "en": "Not a move that changes the rotation right away. It's a classic late-camp roster churn — securing EDGE bodies for Denver and the Arizona joint practice while taking a flier on a young player Minnesota let go."
       }
     },
     {
       "icon": "🛡️",
       "status": "NEW",
-      "tags": [
-        "OL",
-        "ROSTER"
-      ],
-      "title": {
-        "ko": "재거 버튼, 선발 여부와 무관하게 공격 라인에 유망한 보강",
-        "en": "Jager Burton a Promising Addition to Offensive Line"
-      },
+      "tags": ["OL", "ROSTER"],
+      "title": { "ko": "재거 버튼, 선발 여부와 무관하게 공격 라인에 유망한 보강", "en": "Jager Burton a Promising Addition to Offensive Line" },
       "facts": {
         "ko": [
           "재거 버튼이 패커스 공격 라인에 유망한 선수로 평가받고 있습니다",
@@ -66,44 +185,10 @@
       }
     },
     {
-      "icon": "🏈",
-      "status": "UPCOMING",
-      "tags": [
-        "PRESEASON",
-        "SCHEDULE"
-      ],
-      "title": {
-        "ko": "덴버 원정 경기에서 더 많은 것을 배울 예정",
-        "en": "More to Learn in Upcoming Denver Game"
-      },
-      "facts": {
-        "ko": [
-          "패커스가 덴버에서 프리시즌 경기를 앞두고 있습니다",
-          "이 경기에서 팀의 실력과 준비 상태에 대해 더 많은 정보를 얻을 것으로 예상됩니다",
-          "코칭 스태프와 팬들 모두 중요한 평가 기회로 인식하고 있습니다"
-        ],
-        "en": [
-          "Packers have an upcoming preseason game in Denver",
-          "The game is expected to provide more information about the team's readiness",
-          "Both coaching staff and fans recognize it as an important evaluation opportunity"
-        ]
-      },
-      "interp": {
-        "ko": "프리시즌 경기는 선수들이 실전 상황에서 자신의 기량을 증명할 수 있는 기회이며, 덴버전은 정규 시즌 로스터 확정 전 마지막 평가 기회가 될 것입니다.",
-        "en": "Preseason games offer players the chance to prove themselves in live situations, and the Denver game will be a final evaluation opportunity before regular season roster decisions."
-      }
-    },
-    {
       "icon": "🎃",
       "status": "UPCOMING",
-      "tags": [
-        "EVENT",
-        "COMMUNITY"
-      ],
-      "title": {
-        "ko": "램보 필드 아트리움, 10월 24일 연례 스푹태큘러 개최",
-        "en": "Lambeau Field Atrium to Host Annual Spooktacular on Oct. 24"
-      },
+      "tags": ["EVENT", "COMMUNITY"],
+      "title": { "ko": "램보 필드 아트리움, 10월 24일 연례 스푹태큘러 개최", "en": "Lambeau Field Atrium to Host Annual Spooktacular on Oct. 24" },
       "facts": {
         "ko": [
           "램보 필드 아트리움에서 10월 24일 연례 스푹태큘러 행사가 열립니다",
@@ -122,18 +207,24 @@
       }
     }
   ],
-  "injuries": [],
-  "moves": [],
+  "injuries": [
+    { "player": { "ko": "조던 러브", "en": "Jordan Love" }, "issue": { "ko": "—", "en": "—" }, "status": { "ko": "정상적으로 1군 지휘, 새 부상 없음", "en": "Ran the first team normally, no new injury" } },
+    { "player": { "ko": "터커 크래프트", "en": "Tucker Kraft" }, "issue": { "ko": "무릎(ACL 복귀)", "en": "Knee (ACL return)" }, "status": { "ko": "두 번째 11대11도 전부 소화, 사실상 정상 컨디션", "en": "Handled his second full 11-on-11, looking essentially back to normal" } },
+    { "player": { "ko": "조시 제이콥스", "en": "Josh Jacobs" }, "issue": { "ko": "사타구니", "en": "Groin" }, "status": { "ko": "약 12일 만에 복귀, 개인훈련만 참가", "en": "Back after about 12 days, limited to individual drills" } },
+    { "player": { "ko": "애런 뱅크스", "en": "Aaron Banks" }, "issue": { "ko": "무릎", "en": "Knee" }, "status": { "ko": "캠프 첫 11대11 스냅 소화", "en": "Took his first 11-on-11 reps of camp" } },
+    { "player": { "ko": "자본 하그레이브", "en": "Javon Hargrave" }, "issue": { "ko": "—", "en": "—" }, "status": { "ko": "캠프 첫 11대11 및 1대1 패스러시 참가", "en": "Took his first camp 11-on-11 and 1-on-1 pass-rush reps" } },
+    { "player": { "ko": "루카스 밴네스", "en": "Lukas Van Ness" }, "issue": { "ko": "어깨", "en": "Shoulder" }, "status": { "ko": "복귀, 패스러시에서 좋은 평가", "en": "Back and grading well in pass rush" } },
+    { "player": { "ko": "캐링턴 발렌타인", "en": "Carrington Valentine" }, "issue": { "ko": "햄스트링", "en": "Hamstring" }, "status": { "ko": "11대11 복귀", "en": "Back to 11-on-11" } },
+    { "player": { "ko": "도마니 잭슨", "en": "Domani Jackson" }, "issue": { "ko": "—", "en": "—" }, "status": { "ko": "11대11 복귀, 일부 1군 스냅", "en": "Back to 11-on-11, seeing some first-team snaps" } },
+    { "player": { "ko": "나이잘릭 켈리", "en": "Naijalik Kelly" }, "issue": { "ko": "무릎", "en": "Knee" }, "status": { "ko": "새로운 결장자", "en": "New absence" }, "watch": true },
+    { "player": { "ko": "보 멜튼", "en": "Bo Melton" }, "issue": { "ko": "—", "en": "—" }, "status": { "ko": "다이빙 캐치 중 스팅어, 본인은 괜찮다고 설명", "en": "Took a stinger on a diving catch, says he's fine" }, "watch": true }
+  ],
+  "moves": [
+    { "date": "08-18", "text": { "ko": "EDGE 아든 워커 웨이버 클레임 — 콜로라도 출신 미지명 신인, 드론스 방출로 비어있던 자리 채움", "en": "Claimed EDGE Arden Walker off waivers — undrafted rookie out of Colorado, filling the roster spot opened by the Drones release" } }
+  ],
   "schedule": [
-    {
-      "date": {
-        "ko": "10월 24일",
-        "en": "October 24"
-      },
-      "text": {
-        "ko": "램보 필드 아트리움 연례 스푹태큘러 행사",
-        "en": "Lambeau Field Atrium Annual Spooktacular Event"
-      }
-    }
+    { "date": { "ko": "현지 8/21 오후\n한국시간 8/22 오전 11시", "en": "Aug 21 (local) / Aug 22, 11am KST" }, "text": { "ko": "덴버 원정 · 주전들 더 많은 스냅 예정", "en": "At Denver · Starters expected to play more snaps" } },
+    { "date": { "ko": "현지 8/26", "en": "Aug 26 (local)" }, "text": { "ko": "애리조나와 합동훈련 (주전 다수 스냅 예정)", "en": "Joint practice with Arizona (starters expected to see heavy reps)" } },
+    { "date": { "ko": "10월 24일", "en": "October 24" }, "text": { "ko": "램보 필드 아트리움 연례 스푹태큘러 행사", "en": "Lambeau Field Atrium Annual Spooktacular Event" } }
   ]
 }
