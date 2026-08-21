@@ -26,21 +26,41 @@
       "en": "2026-08-19"
     },
     "headline": {
-      "ko": "패커스가 엣지 러쉬어 아덴 워커를 웨이버에서 영입했으며, DT 재본 하그레이브가 훈련 캠프에서 강력한 모습을 보이고 있습니다. 프리시즌 2주차 브롱코스전을 앞두고 있습니다.",
-      "en": "The Packers claimed edge rusher Arden Walker off waivers while DT Javon Hargrave is showing strong form at training camp. The team prepares for their preseason Week 2 matchup against the Broncos."
+      "en": "The Packers continue preparations for their Week 2 preseason matchup against the Broncos while making roster moves, claiming edge rusher Arden Walker off waivers. Veteran DT Javon Hargrave is showing strong form in training camp.",
+      "ko": "패커스가 프리시즌 2주차 브롱코스전을 준비하는 가운데 엣지 러셔 아덴 워커를 웨이버를 통해 영입하는 등 로스터 조정을 진행했습니다. 베테랑 DT 자본 하그레이브는 훈련 캠프에서 뛰어난 기량을 선보이고 있습니다."
     },
-    "storyCount": 4,
+    "storyCount": 3,
     "moveCount": 1,
     "tags": [
-      "EDGE",
-      "ROSTER",
-      "MOVES",
-      "DT",
-      "DEFENSE",
-      "CAMP",
       "PRESEASON",
       "SCHEDULE",
-      "ANALYSIS"
+      "EDGE",
+      "ROSTER",
+      "TRANSACTION",
+      "DT",
+      "DEFENSE",
+      "CAMP"
+    ]
+  },
+  {
+    "date": "2026-08-20",
+    "dateLabel": {
+      "ko": "2026-08-20 (현지)",
+      "en": "2026-08-20"
+    },
+    "headline": {
+      "en": "Packers preparing for preseason action as QB Kyle McCord looks to build on strong performances, while the team announces a Season Kickoff Watch Party at Titletown for September 13.",
+      "ko": "패커스가 프리시즌 경기를 준비하는 가운데 QB 카일 맥코드가 강력한 퍼포먼스를 이어가기를 목표로 하고 있으며, 팀은 9월 13일 타이틀타운에서 시즌 킥오프 워치 파티를 개최한다고 발표했습니다."
+    },
+    "storyCount": 3,
+    "moveCount": 0,
+    "tags": [
+      "EVENT",
+      "FANS",
+      "QB",
+      "PRESEASON",
+      "DEFENSE",
+      "CAMP"
     ]
   }
 ]
