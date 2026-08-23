@@ -1,58 +1,52 @@
 [
   {
-    "date": "2026-08-20",
+    "date": "2026-08-15",
     "dateLabel": {
-      "ko": "2026-08-20 (현지)",
-      "en": "Aug 20, 2026 (local)"
+      "ko": "2026-08-15 (현지)",
+      "en": "Aug 15, 2026 (local)"
     },
     "headline": {
-      "ko": "러브와 골든은 덴버 주전 수비를 상대로 마지막 리허설에 들어간다. 터커 형과 조시형은 무리시키지 말고, 스맥은 이번에도 전부 넣어라. 이제 우리도 '필드골 상황이면 헤일메리' 같은 소리 좀 그만하고 싶다.",
-      "en": "Love and Golden get their final rehearsal against Denver's starting defense. Don't push Tucker or Josh, and Smack, make them all again. We'd really like to stop joking about Hail Marys on field-goal downs."
+      "ko": "러브는 건강하고 팀의 리더로 완전히 자리 잡았다. 모건은 하이스미스를 상대로 압박 0회, 시스는 CB2 자리를 계속 밀어붙인다. 스맥까지 덴버에서 한 번 더 해주면 정말 그놈의 킥 걱정을 잠시 내려놓을 수도 있다.",
+      "en": "Love is healthy and fully entrenched as the team's leader. Morgan allowed zero pressures against Highsmith, and Cisse keeps pushing for the CB2 spot. If Smack delivers one more good outing in Denver, the kicking worries might finally take a back seat."
     },
-    "storyCount": 9,
-    "moveCount": 0,
+    "storyCount": 6,
+    "moveCount": 1,
     "tags": [
-      "SCHEDULE",
       "QB",
-      "COMMUNITY_BRIEFING",
-      "WR",
-      "PRESEASON",
-      "INJURY",
-      "SPECIAL_TEAMS",
-      "KICKER",
+      "LEADERSHIP",
+      "OL",
+      "LT",
+      "DEFENSE",
+      "DL",
+      "ROSTER_MOVE",
       "CB",
       "DEPTH_CHART",
-      "TRADE_RUMOR",
-      "EVENT",
-      "FANS",
-      "DEFENSE",
-      "TRAINING"
+      "TRADE_RUMOR"
     ]
   },
   {
-    "date": "2026-08-19",
+    "date": "2026-08-17",
     "dateLabel": {
-      "ko": "2026-08-19 (현지)",
-      "en": "Aug 19, 2026 (local)"
+      "ko": "2026-08-17 (현지)",
+      "en": "Aug 17, 2026 (local)"
     },
     "headline": {
-      "ko": "러브와 주전들은 덴버에서 마지막 실전 점검을 한다. 터커 형은 ACL 수술 뒤 11대11 타깃 10개를 전부 잡았고, 이제 남은 긴장 요소는 뱅크스의 무릎과—말 안 해도 알지—그놈의 킥이다.",
-      "en": "Love and the starters get their final live tune-up in Denver. Tucker caught all 10 targets thrown his way across two 11-on-11 sessions since his ACL surgery, and the remaining stress points are Banks's knee and — you already know — the kicking situation."
+      "ko": "러브와 터커 형은 이상 없고, 오늘 공개훈련에서 다시 호흡을 맞춘다. 새 거래는 없으며, 크래프트 4년 7,800만 달러 이야기는 아직 소스 없는 숫자 놀음이다.",
+      "en": "Love and Tucker are both fine and get back on the field together at today's open practice. No new moves, and the rumored 4-year, $78M Kraft extension is still an unsourced number floating around online."
     },
-    "storyCount": 7,
-    "moveCount": 1,
+    "storyCount": 5,
+    "moveCount": 0,
     "tags": [
       "SCHEDULE",
-      "QB",
+      "TRAINING_CAMP",
       "COMMUNITY_BRIEFING",
-      "OL",
-      "TE",
+      "PRESEASON",
       "CB",
       "DEPTH_CHART",
-      "KICKER",
-      "ROSTER_MOVE",
-      "EDGE",
-      "CONTRACT_RUMOR"
+      "CONTRACT_RUMOR",
+      "TE",
+      "COMMUNITY",
+      "ENVIRONMENT"
     ]
   },
   {
@@ -84,53 +78,77 @@
     ]
   },
   {
-    "date": "2026-08-17",
+    "date": "2026-08-19",
     "dateLabel": {
-      "ko": "2026-08-17 (현지)",
-      "en": "Aug 17, 2026 (local)"
+      "ko": "2026-08-19 (현지)",
+      "en": "Aug 19, 2026 (local)"
     },
     "headline": {
-      "ko": "러브와 터커 형은 이상 없고, 오늘 공개훈련에서 다시 호흡을 맞춘다. 새 거래는 없으며, 크래프트 4년 7,800만 달러 이야기는 아직 소스 없는 숫자 놀음이다.",
-      "en": "Love and Tucker are both fine and get back on the field together at today's open practice. No new moves, and the rumored 4-year, $78M Kraft extension is still an unsourced number floating around online."
+      "ko": "러브와 주전들은 덴버에서 마지막 실전 점검을 한다. 터커 형은 ACL 수술 뒤 11대11 타깃 10개를 전부 잡았고, 이제 남은 긴장 요소는 뱅크스의 무릎과—말 안 해도 알지—그놈의 킥이다.",
+      "en": "Love and the starters get their final live tune-up in Denver. Tucker caught all 10 targets thrown his way across two 11-on-11 sessions since his ACL surgery, and the remaining stress points are Banks's knee and — you already know — the kicking situation."
     },
-    "storyCount": 5,
-    "moveCount": 0,
+    "storyCount": 7,
+    "moveCount": 1,
     "tags": [
       "SCHEDULE",
-      "TRAINING_CAMP",
+      "QB",
       "COMMUNITY_BRIEFING",
-      "PRESEASON",
+      "OL",
+      "TE",
       "CB",
       "DEPTH_CHART",
-      "CONTRACT_RUMOR",
-      "TE",
-      "COMMUNITY",
-      "ENVIRONMENT"
+      "KICKER",
+      "ROSTER_MOVE",
+      "EDGE",
+      "CONTRACT_RUMOR"
     ]
   },
   {
-    "date": "2026-08-15",
+    "date": "2026-08-20",
     "dateLabel": {
-      "ko": "2026-08-15 (현지)",
-      "en": "Aug 15, 2026 (local)"
+      "ko": "2026-08-20 (현지)",
+      "en": "Aug 20, 2026 (local)"
     },
     "headline": {
-      "ko": "러브는 건강하고 팀의 리더로 완전히 자리 잡았다. 모건은 하이스미스를 상대로 압박 0회, 시스는 CB2 자리를 계속 밀어붙인다. 스맥까지 덴버에서 한 번 더 해주면 정말 그놈의 킥 걱정을 잠시 내려놓을 수도 있다.",
-      "en": "Love is healthy and fully entrenched as the team's leader. Morgan allowed zero pressures against Highsmith, and Cisse keeps pushing for the CB2 spot. If Smack delivers one more good outing in Denver, the kicking worries might finally take a back seat."
+      "ko": "러브와 골든은 덴버 주전 수비를 상대로 마지막 리허설에 들어간다. 터커 형과 조시형은 무리시키지 말고, 스맥은 이번에도 전부 넣어라. 이제 우리도 '필드골 상황이면 헤일메리' 같은 소리 좀 그만하고 싶다.",
+      "en": "Love and Golden get their final rehearsal against Denver's starting defense. Don't push Tucker or Josh, and Smack, make them all again. We'd really like to stop joking about Hail Marys on field-goal downs."
     },
-    "storyCount": 6,
-    "moveCount": 1,
+    "storyCount": 9,
+    "moveCount": 0,
     "tags": [
+      "SCHEDULE",
       "QB",
-      "LEADERSHIP",
-      "OL",
-      "LT",
-      "DEFENSE",
-      "DL",
-      "ROSTER_MOVE",
+      "COMMUNITY_BRIEFING",
+      "WR",
+      "PRESEASON",
+      "INJURY",
+      "SPECIAL_TEAMS",
+      "KICKER",
       "CB",
       "DEPTH_CHART",
-      "TRADE_RUMOR"
+      "TRADE_RUMOR",
+      "EVENT",
+      "FANS",
+      "DEFENSE",
+      "TRAINING"
+    ]
+  },
+  {
+    "date": "2026-08-21",
+    "dateLabel": {
+      "ko": "2026-08-21 (현지)",
+      "en": "2026-08-21"
+    },
+    "headline": {
+      "en": "The Packers dominated the Broncos 33-13 in their second preseason game in Denver, with 14 players held out of action.",
+      "ko": "패커스가 덴버에서 열린 두 번째 프리시즌 경기에서 브롱코스를 33-13으로 압도했으며, 14명의 선수가 출전하지 않았습니다."
+    },
+    "storyCount": 2,
+    "moveCount": 0,
+    "tags": [
+      "PRESEASON",
+      "TEAM",
+      "ROSTER"
     ]
   }
 ]
