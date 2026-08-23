@@ -150,5 +150,24 @@
       "TEAM",
       "ROSTER"
     ]
+  },
+  {
+    "date": "2026-08-22",
+    "dateLabel": {
+      "ko": "2026-08-22 (현지)",
+      "en": "2026-08-22"
+    },
+    "headline": {
+      "ko": "패커스가 프리시즌 2주차 브롱코스전에서 승리를 거뒀습니다. 신인 러닝백 MarShawn Lloyd가 오랜만에 엔드존을 찾으며 눈에 띄는 활약을 펼쳤습니다.",
+      "en": "The Packers secured a preseason win over the Broncos in Week 2. Rookie running back MarShawn Lloyd made a notable impact with his long-awaited return to the end zone."
+    },
+    "storyCount": 2,
+    "moveCount": 0,
+    "tags": [
+      "PRESEASON",
+      "BRONCOS",
+      "RB",
+      "LLOYD"
+    ]
   }
 ]
