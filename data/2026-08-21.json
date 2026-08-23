@@ -1,0 +1,72 @@
+{
+  "date": "2026-08-21",
+  "dateLabel": {
+    "ko": "2026-08-21 (현지)",
+    "en": "2026-08-21"
+  },
+  "headline": {
+    "en": "The Packers dominated the Broncos 33-13 in their second preseason game in Denver, with 14 players held out of action.",
+    "ko": "패커스가 덴버에서 열린 두 번째 프리시즌 경기에서 브롱코스를 33-13으로 압도했으며, 14명의 선수가 출전하지 않았습니다."
+  },
+  "stories": [
+    {
+      "icon": "🏈",
+      "status": "CONFIRMED",
+      "tags": [
+        "PRESEASON",
+        "TEAM"
+      ],
+      "title": {
+        "en": "Packers defeat Broncos 33-13 in preseason Week 2",
+        "ko": "패커스, 프리시즌 2주차에서 브롱코스를 33-13으로 격파"
+      },
+      "facts": {
+        "en": [
+          "Green Bay defeated Denver 33-13 in their second preseason game",
+          "The game was played in Denver",
+          "14 Packers players did not suit up for the contest"
+        ],
+        "ko": [
+          "그린베이가 두 번째 프리시즌 경기에서 덴버를 33-13으로 격파",
+          "경기는 덴버에서 개최됨",
+          "14명의 패커스 선수들이 이번 경기에 출전하지 않음"
+        ]
+      },
+      "interp": {
+        "en": "A convincing preseason victory shows the Packers' depth as they rested key players while still dominating. The 20-point margin suggests strong performance from the roster's bottom half competing for final spots.",
+        "ko": "주요 선수들을 쉬게 하면서도 압도적인 경기를 펼친 이번 프리시즌 승리는 패커스의 뎁스를 보여줍니다. 20점 차 승리는 최종 로스터 자리를 놓고 경쟁하는 하위 로스터 선수들의 강력한 활약을 시사합니다."
+      },
+      "url": "/news/in-game-updates-preseason-week-2-broncos-2026"
+    },
+    {
+      "icon": "👥",
+      "status": "CONFIRMED",
+      "tags": [
+        "ROSTER",
+        "PRESEASON"
+      ],
+      "title": {
+        "en": "14 Packers held out of Denver preseason game",
+        "ko": "14명의 패커스 선수들 덴버 프리시즌 경기 불참"
+      },
+      "facts": {
+        "en": [
+          "Fourteen Packers players did not suit up for the game in Denver",
+          "The decision to rest players came during the second preseason week"
+        ],
+        "ko": [
+          "14명의 패커스 선수들이 덴버 원정 경기에 출전하지 않음",
+          "선수들을 쉬게 한 결정은 프리시즌 2주차에 이루어짐"
+        ]
+      },
+      "interp": {
+        "en": "The coaching staff is prioritizing health and roster evaluation by keeping veterans and key starters out of harm's way. This approach gives younger players crucial game reps while managing injury risk ahead of the regular season.",
+        "ko": "코칭 스태프는 베테랑과 주전급 선수들을 부상 위험에서 보호하며 건강과 로스터 평가를 우선시하고 있습니다. 이러한 접근은 정규 시즌을 앞두고 부상 위험을 관리하면서 젊은 선수들에게 중요한 실전 경험을 제공합니다."
+      },
+      "url": "/news/14-packers-not-suiting-up-in-denver"
+    }
+  ],
+  "injuries": [],
+  "moves": [],
+  "schedule": []
+}
