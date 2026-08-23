@@ -1,0 +1,70 @@
+{
+  "date": "2026-08-22",
+  "dateLabel": {
+    "ko": "2026-08-22 (현지)",
+    "en": "2026-08-22"
+  },
+  "headline": {
+    "ko": "패커스가 프리시즌 2주차 브롱코스전에서 승리를 거뒀습니다. 신인 러닝백 MarShawn Lloyd가 오랜만에 엔드존을 찾으며 눈에 띄는 활약을 펼쳤습니다.",
+    "en": "The Packers secured a preseason win over the Broncos in Week 2. Rookie running back MarShawn Lloyd made a notable impact with his long-awaited return to the end zone."
+  },
+  "stories": [
+    {
+      "icon": "🏈",
+      "status": "CONFIRMED",
+      "tags": [
+        "PRESEASON",
+        "BRONCOS"
+      ],
+      "title": {
+        "ko": "패커스, 프리시즌 2주차 브롱코스전 승리",
+        "en": "Packers defeat Broncos in preseason Week 2"
+      },
+      "facts": {
+        "ko": [
+          "패커스가 프리시즌 2주차 브롱코스를 상대로 승리를 거뒀습니다",
+          "경기 리캡에서 5가지 주요 포인트가 정리되었습니다"
+        ],
+        "en": [
+          "Packers secured a win against the Broncos in preseason Week 2",
+          "Five key takeaways were highlighted from the game recap"
+        ]
+      },
+      "interp": {
+        "ko": "프리시즌 경기에서 나온 여러 포인트들은 정규시즌을 앞둔 로스터 경쟁과 팀 구성에 중요한 시사점을 제공합니다.",
+        "en": "The multiple takeaways from this preseason game provide important insights into roster competition and team composition heading into the regular season."
+      },
+      "url": "/news/game-recap-5-takeaways-from-packers-preseason-win-over-broncos-preseason-week-2-2026"
+    },
+    {
+      "icon": "🏃",
+      "status": "CONFIRMED",
+      "tags": [
+        "RB",
+        "LLOYD"
+      ],
+      "title": {
+        "ko": "신인 RB MarShawn Lloyd, 오랜만의 터치다운",
+        "en": "Rookie RB MarShawn Lloyd scores long-awaited touchdown"
+      },
+      "facts": {
+        "ko": [
+          "러닝백 MarShawn Lloyd가 오랜만에 엔드존에 복귀하며 터치다운을 기록했습니다",
+          "Lloyd는 득점 후 큰 만족감을 표현했습니다"
+        ],
+        "en": [
+          "Running back MarShawn Lloyd returned to the end zone after a long wait with a touchdown",
+          "Lloyd expressed great satisfaction after scoring"
+        ]
+      },
+      "interp": {
+        "ko": "신인 러닝백 Lloyd의 득점은 백업 러닝백 경쟁에서 그의 입지를 강화하고, 패커스 러닝게임에 깊이를 더해줄 수 있는 긍정적인 신호입니다.",
+        "en": "Lloyd's touchdown is a positive sign that could strengthen his position in the backup running back competition and add depth to the Packers' running game."
+      },
+      "url": "/news/game-notes-packers-rb-marshawn-lloyd-relished-long-awaited-return-to-end-zone-pre-week-2-2026"
+    }
+  ],
+  "injuries": [],
+  "moves": [],
+  "schedule": []
+}
