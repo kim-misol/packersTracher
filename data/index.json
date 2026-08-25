@@ -169,5 +169,26 @@
       "RB",
       "LLOYD"
     ]
+  },
+  {
+    "date": "2026-08-24",
+    "dateLabel": {
+      "ko": "2026-08-24 (현지)",
+      "en": "2026-08-24"
+    },
+    "headline": {
+      "en": "The Packers wrap up training camp with preparations for joint practices and a preseason finale against the Arizona Cardinals. Several practice schedule adjustments have been announced as the team heads into final roster decisions.",
+      "ko": "패커스가 애리조나 카디널스와의 합동 연습과 프리시즌 마지막 경기를 준비하며 훈련 캠프를 마무리하고 있습니다. 최종 로스터 결정을 앞두고 여러 연습 일정 조정이 발표되었습니다."
+    },
+    "storyCount": 4,
+    "moveCount": 0,
+    "tags": [
+      "CAMP",
+      "CARDINALS",
+      "PRESEASON",
+      "MEDIA",
+      "GAMEDAY",
+      "OL"
+    ]
   }
 ]
