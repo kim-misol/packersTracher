@@ -1,0 +1,135 @@
+{
+  "date": "2026-08-25",
+  "dateLabel": {
+    "ko": "2026-08-25 (현지)",
+    "en": "2026-08-25"
+  },
+  "headline": {
+    "ko": "패커스가 프리시즌 3주차 카디널스 전을 앞두고 있으며, Thrivent와 함께하는 새로운 커뮤니티 프로그램을 발표했습니다. 또한 팀의 고유한 소유 구조를 기념하는 NFL 라이벌리 유니폼을 공개했습니다.",
+    "en": "The Packers are preparing for their preseason Week 3 matchup against the Cardinals while announcing a new community program with Thrivent and unveiling NFL Rivalries uniforms celebrating the team's unique ownership structure."
+  },
+  "stories": [
+    {
+      "icon": "🤝",
+      "status": "NEW",
+      "tags": [
+        "COMMUNITY",
+        "PARTNERSHIP"
+      ],
+      "title": {
+        "ko": "패커스와 Thrivent, 새로운 'Game Changing Players' 커뮤니티 프로그램 세부사항 발표",
+        "en": "Packers and Thrivent announce details of new 'Game Changing Players' community program"
+      },
+      "facts": {
+        "ko": [
+          "패커스가 Thrivent와 협력하여 'Game Changing Players'라는 새로운 커뮤니티 프로그램을 발표했습니다",
+          "이 프로그램은 지역사회에 긍정적인 영향을 미치기 위한 것입니다"
+        ],
+        "en": [
+          "The Packers partnered with Thrivent to launch a new community program called 'Game Changing Players'",
+          "The program is designed to make a positive impact in the community"
+        ]
+      },
+      "interp": {
+        "ko": "이번 파트너십은 패커스가 위스콘신 지역사회와의 유대를 더욱 강화하려는 지속적인 노력의 일환입니다. 팀의 고유한 커뮤니티 소유 구조와 잘 부합하는 이니셔티브입니다.",
+        "en": "This partnership reflects the Packers' ongoing commitment to strengthening ties with the Wisconsin community, aligning well with the team's unique community-owned structure."
+      },
+      "url": "/news/packers-thrivent-announce-details-of-new-game-changing-players-community-program-2026"
+    },
+    {
+      "icon": "🏈",
+      "status": "UPCOMING",
+      "tags": [
+        "PRESEASON",
+        "BROADCAST"
+      ],
+      "title": {
+        "ko": "패커스 vs 카디널스 프리시즌 3주차 시청 및 청취 정보",
+        "en": "Packers vs. Cardinals Preseason Week 3 viewing and listening information"
+      },
+      "facts": {
+        "ko": [
+          "패커스가 프리시즌 3주차에 카디널스와 대결합니다",
+          "팬들을 위한 시청, 스트리밍 및 청취 옵션이 제공됩니다"
+        ],
+        "en": [
+          "The Packers face the Cardinals in Preseason Week 3",
+          "Viewing, streaming, and listening options are available for fans"
+        ]
+      },
+      "interp": {
+        "ko": "프리시즌 3주차 경기는 전통적으로 스타터들이 가장 많은 플레이 타임을 받는 경기로, 정규 시즌 로스터 확정 전 선수들을 평가하는 중요한 기회입니다.",
+        "en": "The third preseason game traditionally gives starters their most playing time, making it a crucial opportunity to evaluate players before final roster decisions for the regular season."
+      },
+      "url": "/news/packers-vs-cardinals-how-to-watch-stream-listen-preseason-week-3-2026"
+    },
+    {
+      "icon": "👕",
+      "status": "NEW",
+      "tags": [
+        "UNIFORM",
+        "BRANDING"
+      ],
+      "title": {
+        "ko": "패커스, 팀의 고유한 소유 구조를 기념하는 NFL 라이벌리 유니폼 공개",
+        "en": "Packers reveal NFL Rivalries uniforms celebrating team's unique ownership"
+      },
+      "facts": {
+        "ko": [
+          "패커스가 NFL 라이벌리 시리즈의 일환으로 새로운 유니폼을 공개했습니다",
+          "이 유니폼은 팀의 고유한 커뮤니티 소유 구조를 기념합니다"
+        ],
+        "en": [
+          "The Packers unveiled new uniforms as part of the NFL Rivalries series",
+          "The uniforms celebrate the team's unique community-ownership structure"
+        ]
+      },
+      "interp": {
+        "ko": "이 특별 유니폼은 패커스를 NFL에서 차별화시키는 요소인 팬 소유 모델을 강조하며, 팀과 그린베이 커뮤니티 간의 독특한 관계를 부각시킵니다.",
+        "en": "These special uniforms highlight the fan-ownership model that distinguishes the Packers in the NFL, emphasizing the unique relationship between the team and the Green Bay community."
+      },
+      "url": "/news/packers-reveal-nfl-rivalries-uniforms-celebrating-team-s-unique-ownership"
+    },
+    {
+      "icon": "📬",
+      "status": "UPDATE",
+      "tags": [
+        "INSIDER",
+        "ANALYSIS"
+      ],
+      "title": {
+        "ko": "Inbox: 올바른 방향으로 나아가고 있습니다",
+        "en": "Inbox: It's trending in the right direction"
+      },
+      "facts": {
+        "ko": [
+          "패커스 인사이더가 팬들의 질문에 답변하는 정기 칼럼이 게재되었습니다",
+          "현재 팀 상황이 긍정적인 방향으로 발전하고 있다는 분석이 제시되었습니다"
+        ],
+        "en": [
+          "The regular Packers insider column responding to fan questions was published",
+          "Analysis suggests the team's current situation is trending in a positive direction"
+        ]
+      },
+      "interp": {
+        "ko": "프리시즌이 진행되면서 긍정적인 신호가 나타나고 있으며, 이는 정규 시즌을 앞두고 팬들과 코칭 스태프 모두에게 고무적인 소식입니다.",
+        "en": "With preseason underway, positive signs are emerging that should be encouraging for both fans and the coaching staff heading into the regular season."
+      },
+      "url": "/news/inbox-it-s-trending-in-the-right-direction-aug-25-2026"
+    }
+  ],
+  "injuries": [],
+  "moves": [],
+  "schedule": [
+    {
+      "date": {
+        "ko": "프리시즌 3주차",
+        "en": "Preseason Week 3"
+      },
+      "text": {
+        "ko": "패커스 vs 카디널스",
+        "en": "Packers vs Cardinals"
+      }
+    }
+  ]
+}
