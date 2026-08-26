@@ -190,5 +190,28 @@
       "GAMEDAY",
       "OL"
     ]
+  },
+  {
+    "date": "2026-08-25",
+    "dateLabel": {
+      "ko": "2026-08-25 (현지)",
+      "en": "2026-08-25"
+    },
+    "headline": {
+      "ko": "패커스가 프리시즌 3주차 카디널스 전을 앞두고 있으며, Thrivent와 함께하는 새로운 커뮤니티 프로그램을 발표했습니다. 또한 팀의 고유한 소유 구조를 기념하는 NFL 라이벌리 유니폼을 공개했습니다.",
+      "en": "The Packers are preparing for their preseason Week 3 matchup against the Cardinals while announcing a new community program with Thrivent and unveiling NFL Rivalries uniforms celebrating the team's unique ownership structure."
+    },
+    "storyCount": 4,
+    "moveCount": 0,
+    "tags": [
+      "COMMUNITY",
+      "PARTNERSHIP",
+      "PRESEASON",
+      "BROADCAST",
+      "UNIFORM",
+      "BRANDING",
+      "INSIDER",
+      "ANALYSIS"
+    ]
   }
 ]
