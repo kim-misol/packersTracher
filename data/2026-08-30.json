@@ -1,0 +1,183 @@
+{
+  "date": "2026-08-30",
+  "dateLabel": {
+    "ko": "2026-08-30 (현지)",
+    "en": "2026-08-30"
+  },
+  "headline": {
+    "ko": "패커스가 2026년 시즌 초기 로스터를 확정하며 와이드 리시버 6명, 수비 라인 7명을 유지했습니다. 로스터 컷 데드라인 전에 램스 및 돌핀스와의 트레이드를 포함한 여러 로스터 조정이 이루어졌습니다.",
+    "en": "The Packers finalized their initial 2026 roster, keeping six wide receivers and seven defensive linemen. Multiple roster moves were made ahead of the cutdown deadline, including trades with the Rams and Dolphins."
+  },
+  "stories": [
+    {
+      "icon": "📋",
+      "status": "CONFIRMED",
+      "tags": [
+        "ROSTER",
+        "WR",
+        "DL"
+      ],
+      "title": {
+        "ko": "패커스, 초기 로스터에 리시버 6명과 수비 라인 7명 유지",
+        "en": "Packers keep six receivers, seven defensive linemen on initial roster"
+      },
+      "facts": {
+        "ko": [
+          "패커스가 2026년 시즌 초기 53인 로스터를 확정했습니다",
+          "와이드 리시버 포지션에 6명의 선수를 유지했습니다",
+          "수비 라인에 7명의 선수를 배치했습니다"
+        ],
+        "en": [
+          "The Packers finalized their initial 53-man roster for the 2026 season",
+          "Six wide receivers were kept on the roster",
+          "Seven defensive linemen were placed on the roster"
+        ]
+      },
+      "interp": {
+        "ko": "로스터 구성은 패커스가 리시버 뎁스와 수비 라인 로테이션에 우선순위를 두고 있음을 보여줍니다. 이는 시즌 초반 팀의 전략적 방향을 나타냅니다.",
+        "en": "The roster construction shows the Packers are prioritizing receiver depth and defensive line rotation. This signals the team's strategic direction heading into the season."
+      },
+      "url": "/news/packers-keep-six-receivers-seven-defensive-linemen-here-s-the-initial-2026-roster"
+    },
+    {
+      "icon": "🏃",
+      "status": "NEW",
+      "tags": [
+        "RB",
+        "ROSTER"
+      ],
+      "title": {
+        "ko": "신입 러닝백 칼렙 존슨에 대해 알아야 할 5가지",
+        "en": "5 things to know about new Packers RB Kaleb Johnson"
+      },
+      "facts": {
+        "ko": [
+          "패커스가 러닝백 칼렙 존슨을 로스터에 영입했습니다",
+          "존슨은 패커스 백필드에 새롭게 합류한 선수입니다"
+        ],
+        "en": [
+          "The Packers added running back Kaleb Johnson to their roster",
+          "Johnson is a new addition to the Packers backfield"
+        ]
+      },
+      "interp": {
+        "ko": "존슨의 영입은 패커스가 러닝백 뎁스를 강화하려는 의도를 보여줍니다. 이는 로스터 컷 데드라인 전 백필드 경쟁을 마무리하는 움직임입니다.",
+        "en": "Johnson's addition shows the Packers looking to bolster running back depth. This finalizes the backfield competition ahead of the roster cutdown deadline."
+      },
+      "url": "/news/5-things-to-know-about-new-packers-rb-kaleb-johnson-aug-30-2026"
+    },
+    {
+      "icon": "📝",
+      "status": "CONFIRMED",
+      "tags": [
+        "ROSTER",
+        "TRANSACTIONS"
+      ],
+      "title": {
+        "ko": "패커스, 공식 로스터 조정 발표",
+        "en": "Packers announce official roster moves"
+      },
+      "facts": {
+        "ko": [
+          "패커스가 8월 30일 로스터 조정을 공식 발표했습니다",
+          "로스터 컷 데드라인에 맞춰 여러 선수 이동이 이루어졌습니다"
+        ],
+        "en": [
+          "The Packers officially announced roster moves on August 30",
+          "Multiple player transactions were made to meet the roster cutdown deadline"
+        ]
+      },
+      "interp": {
+        "ko": "이번 조정은 패커스가 53인 로스터를 확정하기 위한 필수 과정입니다. 프랙티스 스쿼드 구성도 곧 이어질 것으로 예상됩니다.",
+        "en": "These moves are part of the necessary process to finalize the 53-man roster. Practice squad formations are expected to follow shortly."
+      },
+      "url": "/news/packers-announce-roster-moves-aug-30-2026"
+    },
+    {
+      "icon": "🔄",
+      "status": "CONFIRMED",
+      "tags": [
+        "TRADE",
+        "RAMS"
+      ],
+      "title": {
+        "ko": "패커스, 램스와 트레이드 합의",
+        "en": "Packers agree to terms on trade with Rams"
+      },
+      "facts": {
+        "ko": [
+          "패커스가 로스앤젤레스 램스와 트레이드 조건에 합의했습니다",
+          "거래는 8월 30일 공식 발표되었습니다"
+        ],
+        "en": [
+          "The Packers agreed to trade terms with the Los Angeles Rams",
+          "The deal was officially announced on August 30"
+        ]
+      },
+      "interp": {
+        "ko": "램스와의 트레이드는 로스터 조정 과정의 일환으로 보입니다. 이번 거래는 패커스가 최종 53인 로스터를 구성하는 데 도움이 될 것입니다.",
+        "en": "The Rams trade appears to be part of the roster adjustment process. This deal helps the Packers shape their final 53-man roster."
+      },
+      "url": "/news/packers-agree-to-terms-on-trade-with-rams-aug-30-2026"
+    },
+    {
+      "icon": "🔄",
+      "status": "CONFIRMED",
+      "tags": [
+        "TRADE",
+        "DOLPHINS"
+      ],
+      "title": {
+        "ko": "패커스, 돌핀스와 트레이드 발표",
+        "en": "Packers announce trade with Dolphins"
+      },
+      "facts": {
+        "ko": [
+          "패커스가 마이애미 돌핀스와의 트레이드를 발표했습니다",
+          "거래는 8월 30일 공식화되었습니다"
+        ],
+        "en": [
+          "The Packers announced a trade with the Miami Dolphins",
+          "The transaction was made official on August 30"
+        ]
+      },
+      "interp": {
+        "ko": "돌핀스와의 트레이드는 패커스의 로스터 마감일 활동의 또 다른 부분입니다. 두 개의 트레이드는 프런트 오피스가 로스터 구성을 적극적으로 조정하고 있음을 보여줍니다.",
+        "en": "The Dolphins trade is another piece of the Packers' deadline day activity. Two trades show the front office actively shaping the roster composition."
+      },
+      "url": "/news/packers-announce-trade-with-dolphins-aug-30-2026"
+    }
+  ],
+  "injuries": [],
+  "moves": [
+    {
+      "date": "08-30",
+      "text": {
+        "ko": "패커스, 램스와 트레이드 합의",
+        "en": "Packers agree to trade with Rams"
+      }
+    },
+    {
+      "date": "08-30",
+      "text": {
+        "ko": "패커스, 돌핀스와 트레이드 발표",
+        "en": "Packers announce trade with Dolphins"
+      }
+    },
+    {
+      "date": "08-30",
+      "text": {
+        "ko": "RB 칼렙 존슨 영입",
+        "en": "Added RB Kaleb Johnson"
+      }
+    },
+    {
+      "date": "08-30",
+      "text": {
+        "ko": "초기 53인 로스터 확정 (WR 6명, DL 7명 포함)",
+        "en": "Finalized initial 53-man roster (including 6 WRs, 7 DL)"
+      }
+    }
+  ],
+  "schedule": []
+}
