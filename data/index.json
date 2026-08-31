@@ -213,5 +213,26 @@
       "INSIDER",
       "ANALYSIS"
     ]
+  },
+  {
+    "date": "2026-08-28",
+    "dateLabel": {
+      "ko": "2026-08-28 (현지)",
+      "en": "2026-08-28"
+    },
+    "headline": {
+      "ko": "패커스가 프리시즌 마지막 경기에서 카디널스를 42-38로 꺾으며 시즌 준비를 마무리했습니다. 키션 존슨이 램보 필드에서 인상적인 활약을 펼쳤고, 주전 선수 37명은 출전하지 않았습니다.",
+      "en": "The Packers wrapped up their preseason with a 42-38 victory over the Cardinals in their final tune-up before the regular season. Kisean Johnson had a memorable performance at Lambeau Field, while 37 players were held out of the game."
+    },
+    "storyCount": 4,
+    "moveCount": 0,
+    "tags": [
+      "PRESEASON",
+      "WIN",
+      "WR",
+      "ROSTER",
+      "DEPTH",
+      "COMMUNITY"
+    ]
   }
 ]
