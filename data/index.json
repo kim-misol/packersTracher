@@ -252,5 +252,28 @@
       "SIGNING",
       "OFFENSE"
     ]
+  },
+  {
+    "date": "2026-08-30",
+    "dateLabel": {
+      "ko": "2026-08-30 (현지)",
+      "en": "2026-08-30"
+    },
+    "headline": {
+      "ko": "패커스가 2026년 시즌 초기 로스터를 확정하며 와이드 리시버 6명, 수비 라인 7명을 유지했습니다. 로스터 컷 데드라인 전에 램스 및 돌핀스와의 트레이드를 포함한 여러 로스터 조정이 이루어졌습니다.",
+      "en": "The Packers finalized their initial 2026 roster, keeping six wide receivers and seven defensive linemen. Multiple roster moves were made ahead of the cutdown deadline, including trades with the Rams and Dolphins."
+    },
+    "storyCount": 5,
+    "moveCount": 4,
+    "tags": [
+      "ROSTER",
+      "WR",
+      "DL",
+      "RB",
+      "TRANSACTIONS",
+      "TRADE",
+      "RAMS",
+      "DOLPHINS"
+    ]
   }
 ]
