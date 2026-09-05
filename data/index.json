@@ -298,5 +298,27 @@
       "EVENT",
       "LAMBEAU"
     ]
+  },
+  {
+    "date": "2026-09-03",
+    "dateLabel": {
+      "ko": "2026-09-03 (현지)",
+      "en": "2026-09-03"
+    },
+    "headline": {
+      "ko": "9월 3일 패커스 일일 브리핑: 램보 필드 대학 미식축구 경기 준비, 2026 시즌 경기 테마 발표, 역대 선수 평가 분석 및 팬 메일함 업데이트",
+      "en": "September 3rd Packers Daily Briefing: Lambeau Field prepares for college football matchup, 2026 season game themes announced, all-time player ratings analysis, and fan inbox update"
+    },
+    "storyCount": 4,
+    "moveCount": 0,
+    "tags": [
+      "LAMBEAU",
+      "EVENT",
+      "SEASON",
+      "STATS",
+      "HISTORY",
+      "FANS",
+      "INBOX"
+    ]
   }
 ]
