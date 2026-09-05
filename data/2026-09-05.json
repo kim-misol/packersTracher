@@ -1,0 +1,43 @@
+{
+  "date": "2026-09-05",
+  "dateLabel": {
+    "ko": "2026-09-05 (현지)",
+    "en": "2026-09-05"
+  },
+  "headline": {
+    "ko": "9월 5일 그린베이 패커스 데일리 브리핑 - 기사 본문을 가져올 수 없어 상세 내용을 제공할 수 없습니다.",
+    "en": "Green Bay Packers Daily Briefing for September 5, 2026 - Article content unavailable for detailed reporting."
+  },
+  "stories": [
+    {
+      "icon": "♟️",
+      "status": "UPCOMING",
+      "tags": [
+        "GAMEDAY",
+        "STRATEGY"
+      ],
+      "title": {
+        "ko": "다가오는 경기에 대한 전략적 접근",
+        "en": "Strategic Approach to Upcoming Game"
+      },
+      "facts": {
+        "ko": [
+          "기사 제목은 '진짜 체스 경기가 될 것'이라는 전략적 매치업을 암시",
+          "전체 기사 내용을 가져올 수 없어 추가 세부 정보 확인 불가"
+        ],
+        "en": [
+          "Article headline suggests a strategic matchup described as 'a real chess match'",
+          "Full article content could not be retrieved for additional details"
+        ]
+      },
+      "interp": {
+        "ko": "헤드라인은 다가오는 경기가 전략적으로 중요한 매치업이 될 것임을 시사합니다. 기사 전문이 확보되면 코칭 스태프의 게임 플랜과 상대 전략에 대한 더 많은 통찰을 얻을 수 있을 것입니다.",
+        "en": "The headline suggests the upcoming game will be a strategically important matchup. More insight into the coaching staff's game plan and opponent strategy would be available with full article access."
+      },
+      "url": "/news/inbox-it-s-gonna-be-a-real-chess-match-sept-5-2026"
+    }
+  ],
+  "injuries": [],
+  "moves": [],
+  "schedule": []
+}
