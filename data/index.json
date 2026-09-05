@@ -274,5 +274,29 @@
       "RAMS",
       "DOLPHINS"
     ]
+  },
+  {
+    "date": "2026-09-02",
+    "dateLabel": {
+      "ko": "2026-09-02 (현지)",
+      "en": "2026-09-02"
+    },
+    "headline": {
+      "ko": "패커스가 9월 2일 로스터 이동을 발표했고, 신인 러닝백 마숀 로이드가 팀에 합류할 준비를 완료했습니다. 패커스 재단은 연례 기부금으로 160만 달러를 지원했으며, 램보 필드는 2027년 2월 NCAA 하키 더블헤더를 개최할 예정입니다.",
+      "en": "The Packers announced roster moves on September 2, with rookie running back MarShawn Lloyd ready to contribute to the team. The Packers Foundation awarded $1.6 million in annual grants, and Lambeau Field will host an NCAA hockey doubleheader in February 2027."
+    },
+    "storyCount": 5,
+    "moveCount": 1,
+    "tags": [
+      "RB",
+      "ROSTER",
+      "MOVES",
+      "TE",
+      "OFFENSE",
+      "COMMUNITY",
+      "FOUNDATION",
+      "EVENT",
+      "LAMBEAU"
+    ]
   }
 ]
