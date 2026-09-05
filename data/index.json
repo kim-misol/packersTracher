@@ -320,5 +320,23 @@
       "FANS",
       "INBOX"
     ]
+  },
+  {
+    "date": "2026-09-04",
+    "dateLabel": {
+      "ko": "2026-09-04 (현지)",
+      "en": "2026-09-04"
+    },
+    "headline": {
+      "ko": "패커스가 53인 로스터를 확정하며 J. Michael Sturdivant의 끈기가 결실을 맺었습니다. 팀 관계자들은 젊은 선수들의 기회와 가능성에 대해 논의했습니다.",
+      "en": "The Packers finalized their 53-man roster with J. Michael Sturdivant's perseverance paying off. Team officials discussed opportunities and potential for young players."
+    },
+    "storyCount": 2,
+    "moveCount": 0,
+    "tags": [
+      "ROSTER",
+      "DB",
+      "ANALYSIS"
+    ]
   }
 ]
