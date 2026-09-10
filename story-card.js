@@ -15,7 +15,9 @@
   // (see api/_lib/claude.js buildOrganizePrompt). Manually-written/legacy
   // stories simply have no url field, so they fall back to plain cards.
   function isLinkedStory(story) {
-    return !!story && typeof story.url === "string" && story.url.trim().length > 0;
+    return (
+      !!story && typeof story.url === "string" && story.url.trim().length > 0
+    );
   }
 
   // Desktop hover is handled entirely by CSS (:hover). Touch devices have no

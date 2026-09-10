@@ -90,6 +90,12 @@
 
   .game-row.tbd{opacity:.6;}
   .game-row.tbd .d-kst{color:var(--muted);}
+  .past-list .game-row{opacity:.65;}
+  .past-list .game-row:hover{opacity:1;}
+
+  .league-row.featured{border-left:4px solid var(--gb-gold);background:linear-gradient(90deg, rgba(32,55,49,0.04) 0%, rgba(79,38,131,0.04) 100%);}
+  .sched-subweek{font-size:11px;font-weight:800;color:var(--muted);margin:14px 2px 6px;}
+  .sched-subweek:first-of-type{margin-top:8px;}
   .final-pill{font-size:11px;font-weight:800;padding:3px 9px;border-radius:6px;background:#e9e9e9;color:#555;}
 
   .game-row.rivalry-mini{border-left:4px solid var(--gb-gold);}
@@ -270,6 +276,7 @@
       <button class="active" data-team="union">UNION</button>
       <button data-team="gb">GB</button>
       <button data-team="min">MIN</button>
+      <button data-team="all">ALL</button>
     </div>
   </div>
 
@@ -306,6 +313,7 @@ const UI = {
     preseasonLabel: "프리시즌",
     regularSeasonLabel: "정규시즌",
     tbdSectionLabel: "일정 미정",
+    pastGamesLabel: "지난 경기",
     homeLabel: "홈",
     awayLabel: "원정",
     byeWeekLabel: "바이위크",
@@ -352,6 +360,7 @@ const UI = {
     preseasonLabel: "Preseason",
     regularSeasonLabel: "Regular Season",
     tbdSectionLabel: "TBD",
+    pastGamesLabel: "Past Games",
     homeLabel: "Home",
     awayLabel: "Away",
     byeWeekLabel: "Bye Week",
@@ -771,28 +780,54 @@ function rivalryRow(gbGame){
 
 function schedSectionTitle(label){ return `<div class="sched-section-title">${label}</div>`; }
 
+// 킥오프 시각(dateKST)이 실제로 지난 경기만 "지난 경기"로 분류한다. bye/TBD처럼
+// 확정된 날짜가 없는 항목은 원래 자리(상단 예정 목록)에 그대로 남긴다.
+// 페이지에 들어갈 때마다(=이 함수가 호출될 때마다) 현재 시각 기준으로 새로 계산되므로 항상 최신 상태를 반영한다.
+function isPastGame(g, now){
+  return !!g.dateKST && new Date(g.dateKST) < now;
+}
+
+function splitPastUpcoming(games, now){
+  const past = [];
+  const upcoming = [];
+  games.forEach(g => (isPastGame(g, now) ? past : upcoming).push(g));
+  return { past, upcoming };
+}
+
 function renderTeamSchedule(list, team){
   const u = UI[lang];
+  const now = new Date();
   const pre = list.filter(g => g.phase === 'pre');
   const reg = list.filter(g => g.phase === 'reg');
+  const { past: prePast, upcoming: preUpcoming } = splitPastUpcoming(pre, now);
+  const { past: regPast, upcoming: regUpcoming } = splitPastUpcoming(reg, now);
+
   let html = schedSectionTitle(u.preseasonLabel);
-  html += '<div class="game-list">' + pre.map(g => scheduleRow(g, team)).join('') + '</div>';
+  html += '<div class="game-list">' + preUpcoming.map(g => scheduleRow(g, team)).join('') + '</div>';
   html += schedSectionTitle(u.regularSeasonLabel);
-  html += '<div class="game-list">' + reg.map(g => g.bye ? byeRow(g) : scheduleRow(g, team)).join('') + '</div>';
+  html += '<div class="game-list">' + regUpcoming.map(g => g.bye ? byeRow(g) : scheduleRow(g, team)).join('') + '</div>';
+
+  const past = [...prePast, ...regPast].sort((a, b) => b.dateKST.localeCompare(a.dateKST));
+  if(past.length){
+    html += schedSectionTitle(u.pastGamesLabel);
+    html += '<div class="game-list past-list">' + past.map(g => scheduleRow(g, team)).join('') + '</div>';
+  }
   return html;
 }
 
 function renderUnionSchedule(gb, min){
   const u = UI[lang];
-  const pre = [...gb.filter(g=>g.phase==='pre').map(g=>({...g,team:'GB'})), ...min.filter(g=>g.phase==='pre').map(g=>({...g,team:'MIN'}))]
+  const now = new Date();
+  const preAll = [...gb.filter(g=>g.phase==='pre').map(g=>({...g,team:'GB'})), ...min.filter(g=>g.phase==='pre').map(g=>({...g,team:'MIN'}))]
     .sort((a,b)=> a.dateKST.localeCompare(b.dateKST));
+  const { past: prePast, upcoming: preUpcoming } = splitPastUpcoming(preAll, now);
 
   const regGB = gb.filter(g=>g.phase==='reg' && !g.bye && !g.rivalry);
   const regMIN = min.filter(g=>g.phase==='reg' && !g.bye && !g.rivalry);
   const rivalryGames = gb.filter(g=>g.phase==='reg' && g.rivalry); // GB 시점 데이터만으로 충분(양팀 공통 경기)
 
   let html = schedSectionTitle(u.preseasonLabel);
-  html += '<div class="game-list">' + pre.map(g => scheduleRow(g, g.team)).join('') + '</div>';
+  html += '<div class="game-list">' + preUpcoming.map(g => scheduleRow(g, g.team)).join('') + '</div>';
 
   html += schedSectionTitle(u.regularSeasonLabel);
   let rows = [];
@@ -800,12 +835,81 @@ function renderUnionSchedule(gb, min){
   regGB.filter(g=>!g.tbd).forEach(g => rows.push({sortKey:g.dateKST, tbd:false, html: scheduleRow(g,'GB')}));
   regMIN.filter(g=>!g.tbd).forEach(g => rows.push({sortKey:g.dateKST, tbd:false, html: scheduleRow(g,'MIN')}));
   rows.sort((a,b)=>a.sortKey.localeCompare(b.sortKey));
-  html += '<div class="game-list">' + rows.map(r=>r.html).join('') + '</div>';
+  const rowsUpcoming = rows.filter(r => new Date(r.sortKey) >= now);
+  const rowsPast = rows.filter(r => new Date(r.sortKey) < now);
+  html += '<div class="game-list">' + rowsUpcoming.map(r=>r.html).join('') + '</div>';
 
   const tbdList = [...regGB.filter(g=>g.tbd).map(g=>({...g,team:'GB'})), ...regMIN.filter(g=>g.tbd).map(g=>({...g,team:'MIN'}))];
   if(tbdList.length){
     html += schedSectionTitle(u.tbdSectionLabel);
     html += '<div class="game-list">' + tbdList.map(g => scheduleRow(g, g.team)).join('') + '</div>';
+  }
+
+  const pastRows = [...prePast.map(g => ({sortKey:g.dateKST, html: scheduleRow(g, g.team)})), ...rowsPast]
+    .sort((a,b)=> b.sortKey.localeCompare(a.sortKey));
+  if(pastRows.length){
+    html += schedSectionTitle(u.pastGamesLabel);
+    html += '<div class="game-list past-list">' + pastRows.map(r=>r.html).join('') + '</div>';
+  }
+  return html;
+}
+
+// ── ALL 탭: 리그 전체 32개 팀 정규시즌 일정(주차별) ──────────────────
+const TEAM_ABBR = {
+  "Arizona Cardinals":"ARI","Atlanta Falcons":"ATL","Baltimore Ravens":"BAL","Buffalo Bills":"BUF",
+  "Carolina Panthers":"CAR","Chicago Bears":"CHI","Cincinnati Bengals":"CIN","Cleveland Browns":"CLE",
+  "Dallas Cowboys":"DAL","Denver Broncos":"DEN","Detroit Lions":"DET","Green Bay Packers":"GB",
+  "Houston Texans":"HOU","Indianapolis Colts":"IND","Jacksonville Jaguars":"JAX","Kansas City Chiefs":"KC",
+  "Las Vegas Raiders":"LV","Los Angeles Chargers":"LAC","Los Angeles Rams":"LAR","Miami Dolphins":"MIA",
+  "Minnesota Vikings":"MIN","New England Patriots":"NE","New Orleans Saints":"NO","New York Giants":"NYG",
+  "New York Jets":"NYJ","Philadelphia Eagles":"PHI","Pittsburgh Steelers":"PIT","San Francisco 49ers":"SF",
+  "Seattle Seahawks":"SEA","Tampa Bay Buccaneers":"TB","Tennessee Titans":"TEN","Washington Commanders":"WAS",
+};
+function isFocusTeam(name){ return name === 'Green Bay Packers' || name === 'Minnesota Vikings'; }
+function focusCls(name){ return name === 'Green Bay Packers' ? 'rv-gb' : (name === 'Minnesota Vikings' ? 'rv-min' : ''); }
+
+function leagueRow(g){
+  const u = UI[lang];
+  const dead = g.tbd;
+  const weekLabel = u.weekRegLabel + ' ' + g.week + u.weekSuffix;
+  const dateHtml = dead
+    ? `<div class="d-kst">${u.tbdDateLabel}</div><div class="d-et">${u.tbdNoteLabel}</div>`
+    : `<div class="d-kst">${fmtKST(g.dateKST)}</div><div class="d-et">${g.etLabel}</div>`;
+  const cls = ['game-row','league-row', dead?'tbd':'', (isFocusTeam(g.away)||isFocusTeam(g.home))?'featured':''].join(' ').trim();
+  const bcast = g.bcast ? `<span class="bcast">${g.bcast}</span>` : '';
+  return `<div class="${cls}">
+    <div class="ga-date"><span class="ga-week">${weekLabel}</span>${dateHtml}</div>
+    <div class="ga-match"><div class="rv-teams"><span class="${focusCls(g.away)}">${TEAM_ABBR[g.away]||g.away}</span><span class="vs">@</span><span class="${focusCls(g.home)}">${TEAM_ABBR[g.home]||g.home}</span></div></div>
+    <div class="ga-right"></div>
+    <div class="ga-right">${bcast}</div>
+  </div>`;
+}
+
+function groupByWeek(list){
+  const byWeek = {};
+  list.forEach(g => { (byWeek[g.week] = byWeek[g.week] || []).push(g); });
+  return byWeek;
+}
+
+function renderAllSchedule(games){
+  const u = UI[lang];
+  const now = new Date();
+  const { past, upcoming } = splitPastUpcoming(games, now);
+  const upByWeek = groupByWeek(upcoming);
+  const pastByWeek = groupByWeek(past);
+
+  let html = '';
+  Object.keys(upByWeek).map(Number).sort((a,b)=>a-b).forEach(w => {
+    html += schedSectionTitle(u.weekRegLabel + ' ' + w + u.weekSuffix);
+    html += '<div class="game-list">' + upByWeek[w].map(g => leagueRow(g)).join('') + '</div>';
+  });
+
+  if(past.length){
+    html += schedSectionTitle(u.pastGamesLabel);
+    Object.keys(pastByWeek).map(Number).sort((a,b)=>b-a).forEach(w => {
+      html += `<div class="sched-subweek">${u.weekRegLabel} ${w}${u.weekSuffix}</div>`;
+      html += '<div class="game-list past-list">' + pastByWeek[w].map(g => leagueRow(g)).join('') + '</div>';
+    });
   }
   return html;
 }
@@ -821,7 +925,8 @@ async function renderSchedulePage(){
   }
   if(activeScheduleTeam === 'union') target.innerHTML = renderUnionSchedule(scheduleData.gb, scheduleData.min);
   else if(activeScheduleTeam === 'gb') target.innerHTML = renderTeamSchedule(scheduleData.gb, 'GB');
-  else target.innerHTML = renderTeamSchedule(scheduleData.min, 'MIN');
+  else if(activeScheduleTeam === 'min') target.innerHTML = renderTeamSchedule(scheduleData.min, 'MIN');
+  else target.innerHTML = renderAllSchedule(scheduleData.all);
 }
 
 document.getElementById('navBriefingBtn').addEventListener('click', () => setActivePage('briefing'));
