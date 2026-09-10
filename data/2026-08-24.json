@@ -1,0 +1,132 @@
+{
+  "date": "2026-08-24",
+  "dateLabel": {
+    "ko": "2026-08-24 (현지)",
+    "en": "2026-08-24"
+  },
+  "headline": {
+    "en": "The Packers wrap up training camp with preparations for joint practices and a preseason finale against the Arizona Cardinals. Several practice schedule adjustments have been announced as the team heads into final roster decisions.",
+    "ko": "패커스가 애리조나 카디널스와의 합동 연습과 프리시즌 마지막 경기를 준비하며 훈련 캠프를 마무리하고 있습니다. 최종 로스터 결정을 앞두고 여러 연습 일정 조정이 발표되었습니다."
+  },
+  "stories": [
+    {
+      "icon": "🤝",
+      "status": "CONFIRMED",
+      "tags": [
+        "CAMP",
+        "CARDINALS"
+      ],
+      "title": {
+        "en": "Packers to host Cardinals for joint practice with bike tradition",
+        "ko": "패커스, 카디널스와 합동 연습 개최 및 자전거 전통 행사 진행"
+      },
+      "facts": {
+        "en": [
+          "The Packers will welcome the Arizona Cardinals to Green Bay for a joint practice session",
+          "The traditional bike ride event with fans will take place as part of the Cardinals' visit",
+          "Practice time has been changed from the originally scheduled slot"
+        ],
+        "ko": [
+          "패커스가 애리조나 카디널스를 그린베이로 맞이하여 합동 연습 세션을 진행합니다",
+          "카디널스 방문의 일환으로 팬들과 함께하는 전통적인 자전거 라이드 행사가 열립니다",
+          "연습 시간이 원래 예정된 일정에서 변경되었습니다"
+        ]
+      },
+      "interp": {
+        "en": "The joint practice gives the Packers valuable work against an outside opponent before the preseason finale, while the bike tradition continues to be a fan-favorite summer event in Green Bay.",
+        "ko": "합동 연습은 프리시즌 마지막 경기 전 외부 상대와의 귀중한 훈련 기회를 제공하며, 자전거 행사는 그린베이의 여름 팬 행사 전통을 이어갑니다."
+      },
+      "url": "/news/packers-to-welcome-arizona-cardinals-for-joint-practice-bike-tradition-2026"
+    },
+    {
+      "icon": "🏈",
+      "status": "UPCOMING",
+      "tags": [
+        "PRESEASON",
+        "CARDINALS"
+      ],
+      "title": {
+        "en": "Packers to conclude preseason against Cardinals",
+        "ko": "패커스, 카디널스전으로 프리시즌 마무리"
+      },
+      "facts": {
+        "en": [
+          "The Packers will face the Cardinals in their final preseason game",
+          "This matchup serves as the conclusion of the 2026 preseason schedule",
+          "The game follows joint practice sessions between the two teams"
+        ],
+        "ko": [
+          "패커스가 카디널스와의 마지막 프리시즌 경기를 치릅니다",
+          "이번 경기는 2026년 프리시즌 일정의 마무리가 됩니다",
+          "경기는 두 팀 간의 합동 연습 세션 이후 진행됩니다"
+        ]
+      },
+      "interp": {
+        "en": "The final preseason game is crucial for roster bubble players making last impressions before cuts, and gives coaching staff one more evaluation opportunity before setting the Week 1 roster.",
+        "ko": "마지막 프리시즌 경기는 로스터 경계선에 있는 선수들이 컷 전 마지막 인상을 남기는 중요한 기회이며, 코칭 스태프가 1주차 로스터를 확정하기 전 마지막으로 평가할 수 있는 기회입니다."
+      },
+      "url": "/news/packers-finish-preseason-against-cardinals-pre-week-3-2026"
+    },
+    {
+      "icon": "📺",
+      "status": "NEW",
+      "tags": [
+        "MEDIA",
+        "GAMEDAY"
+      ],
+      "title": {
+        "en": "Titletown Gameday Live to debut for regular season",
+        "ko": "타이틀타운 게임데이 라이브, 정규시즌 데뷔 예정"
+      },
+      "facts": {
+        "en": [
+          "A new show called 'Titletown Gameday Live presented by American Family Insurance' will launch for the regular season",
+          "The program is scheduled to debut as the regular season begins",
+          "The show will provide gameday coverage for Packers fans"
+        ],
+        "ko": [
+          "'아메리칸 패밀리 인슈어런스 프레젠츠 타이틀타운 게임데이 라이브'라는 새로운 프로그램이 정규시즌에 시작됩니다",
+          "이 프로그램은 정규시즌 개막과 함께 데뷔할 예정입니다",
+          "쇼는 패커스 팬들을 위한 게임데이 중계를 제공합니다"
+        ]
+      },
+      "interp": {
+        "en": "The new gameday show expands the Packers' media presence and gives fans enhanced coverage and analysis, strengthening the team's connection with its fanbase as the meaningful games begin.",
+        "ko": "새로운 게임데이 쇼는 패커스의 미디어 입지를 확대하고 팬들에게 향상된 중계와 분석을 제공하며, 중요한 경기가 시작되면서 팀과 팬층 간의 연결을 강화합니다."
+      },
+      "url": "/news/titletown-gameday-live-presented-by-american-family-insurance-set-to-debut-for-regular-season-aug-24-2026"
+    },
+    {
+      "icon": "⭐",
+      "status": "UPDATE",
+      "tags": [
+        "OL",
+        "CAMP"
+      ],
+      "title": {
+        "en": "John Williams emerging as 'big surprise' on offensive line",
+        "ko": "존 윌리엄스, 공격 라인에서 '큰 서프라이즈'로 부상"
+      },
+      "facts": {
+        "en": [
+          "John Williams has been described as a 'big surprise this preseason' for the Packers' offensive line",
+          "Williams' performance during training camp and preseason games has exceeded expectations",
+          "His emergence adds depth and competition to the offensive line position group"
+        ],
+        "ko": [
+          "존 윌리엄스는 패커스 공격 라인에서 '이번 프리시즌의 큰 서프라이즈'로 평가받고 있습니다",
+          "윌리엄스의 훈련 캠프와 프리시즌 경기 성적이 기대치를 초과했습니다",
+          "그의 성장은 공격 라인 포지션 그룹에 깊이와 경쟁을 더합니다"
+        ]
+      },
+      "interp": {
+        "en": "Williams' unexpected strong camp could earn him a roster spot or practice squad role, providing valuable offensive line depth that every team needs heading into the season.",
+        "ko": "윌리엄스의 예상 밖의 강력한 캠프 성적은 그에게 로스터 자리나 연습팀 역할을 안겨줄 수 있으며, 모든 팀이 시즌을 앞두고 필요로 하는 귀중한 공격 라인 뎁스를 제공합니다."
+      },
+      "url": "/news/john-williams-has-been-big-surprise-this-preseason-for-packers-o-line-aug-22-2026"
+    }
+  ],
+  "injuries": [],
+  "moves": [],
+  "schedule": []
+}

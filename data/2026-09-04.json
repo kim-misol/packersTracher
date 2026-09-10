@@ -1,0 +1,70 @@
+{
+  "date": "2026-09-04",
+  "dateLabel": {
+    "ko": "2026-09-04 (현지)",
+    "en": "2026-09-04"
+  },
+  "headline": {
+    "ko": "패커스가 53인 로스터를 확정하며 J. Michael Sturdivant의 끈기가 결실을 맺었습니다. 팀 관계자들은 젊은 선수들의 기회와 가능성에 대해 논의했습니다.",
+    "en": "The Packers finalized their 53-man roster with J. Michael Sturdivant's perseverance paying off. Team officials discussed opportunities and potential for young players."
+  },
+  "stories": [
+    {
+      "icon": "💪",
+      "status": "CONFIRMED",
+      "tags": [
+        "ROSTER",
+        "DB"
+      ],
+      "title": {
+        "ko": "J. Michael Sturdivant, 끈기로 패커스 53인 로스터 진입",
+        "en": "J. Michael Sturdivant earns spot on Packers' 53-man roster through perseverance"
+      },
+      "facts": {
+        "ko": [
+          "Sturdivant가 패커스 최종 53인 로스터에 포함되었습니다",
+          "그의 로스터 진입은 끈기와 인내의 결과로 평가받고 있습니다"
+        ],
+        "en": [
+          "Sturdivant made the Packers' final 53-man roster",
+          "His roster spot is being credited to his perseverance and persistence"
+        ]
+      },
+      "interp": {
+        "ko": "Sturdivant의 로스터 진입은 패커스가 끈질긴 노력과 발전을 보이는 선수들에게 보상한다는 것을 보여줍니다. 이는 2차 유닛 깊이 확보에 중요한 의미를 가집니다.",
+        "en": "Sturdivant's roster inclusion shows the Packers reward players who demonstrate relentless work ethic and improvement. This is significant for secondary depth heading into the season."
+      },
+      "url": "/news/perseverance-paved-j-michael-sturdivant-s-path-to-packers-53-sept-4-2026"
+    },
+    {
+      "icon": "📬",
+      "status": "UPDATE",
+      "tags": [
+        "ROSTER",
+        "ANALYSIS"
+      ],
+      "title": {
+        "ko": "패커스 관계자, 젊은 선수들의 기회에 대해 논의",
+        "en": "Packers officials discuss opportunities for young players"
+      },
+      "facts": {
+        "ko": [
+          "팀 관계자가 특정 선수가 기회를 얻을 것이며 성공할 가능성이 있다고 언급했습니다",
+          "팀 내부에서 젊은 선수들의 발전 가능성에 대한 낙관적인 전망이 나오고 있습니다"
+        ],
+        "en": [
+          "Team officials stated that a certain player will get his chance and has a real opportunity to succeed",
+          "Optimistic outlook from within the organization about young player development potential"
+        ]
+      },
+      "interp": {
+        "ko": "패커스 코칭 스태프는 젊은 선수들에게 실전 기회를 부여할 준비가 되어 있으며, 이는 시즌 초반 로스터 경쟁과 깊이 확보에 영향을 미칠 것입니다.",
+        "en": "The Packers' coaching staff appears ready to give younger players genuine playing opportunities, which will impact roster competition and depth early in the season."
+      },
+      "url": "/news/inbox-he-ll-get-his-chance-and-he-s-got-a-chance-sept-4-2026"
+    }
+  ],
+  "injuries": [],
+  "moves": [],
+  "schedule": []
+}

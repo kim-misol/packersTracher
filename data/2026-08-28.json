@@ -1,0 +1,125 @@
+{
+  "date": "2026-08-28",
+  "dateLabel": {
+    "ko": "2026-08-28 (현지)",
+    "en": "2026-08-28"
+  },
+  "headline": {
+    "ko": "패커스가 프리시즌 마지막 경기에서 카디널스를 42-38로 꺾으며 시즌 준비를 마무리했습니다. 키션 존슨이 램보 필드에서 인상적인 활약을 펼쳤고, 주전 선수 37명은 출전하지 않았습니다.",
+    "en": "The Packers wrapped up their preseason with a 42-38 victory over the Cardinals in their final tune-up before the regular season. Kisean Johnson had a memorable performance at Lambeau Field, while 37 players were held out of the game."
+  },
+  "stories": [
+    {
+      "icon": "🏈",
+      "status": "CONFIRMED",
+      "tags": [
+        "PRESEASON",
+        "WIN"
+      ],
+      "title": {
+        "ko": "패커스, 프리시즌 마지막 경기에서 카디널스 42-38 격파",
+        "en": "Packers defeat Cardinals 42-38 in preseason finale"
+      },
+      "facts": {
+        "ko": [
+          "패커스가 프리시즌 3주차 경기에서 카디널스를 42-38로 이겼습니다",
+          "이번 승리로 패커스는 프리시즌을 마무리했습니다",
+          "경기는 램보 필드에서 열렸습니다"
+        ],
+        "en": [
+          "The Packers defeated the Cardinals 42-38 in their preseason Week 3 matchup",
+          "The victory closed out Green Bay's preseason schedule",
+          "The game was played at Lambeau Field"
+        ]
+      },
+      "interp": {
+        "ko": "프리시즌 마지막 경기는 정규시즌 로스터 확정을 앞두고 마지막 기회를 노리는 후보 선수들에게 중요한 무대였습니다. 높은 점수 경기는 양 팀 모두 공격 측면에서 젊은 선수들이 활약했음을 보여줍니다.",
+        "en": "This final preseason game served as a crucial showcase for roster bubble players looking to make their case before final cuts. The high-scoring affair suggests both teams gave opportunities to younger players on the offensive side of the ball."
+      },
+      "url": "/news/in-game-updates-preseason-week-3-cardinals-2026"
+    },
+    {
+      "icon": "⭐",
+      "status": "NEW",
+      "tags": [
+        "WR",
+        "ROSTER"
+      ],
+      "title": {
+        "ko": "키션 존슨, 램보 필드에서 인상적인 활약으로 주목받아",
+        "en": "Kisean Johnson captures his Lambeau Field moment"
+      },
+      "facts": {
+        "ko": [
+          "키션 존슨이 프리시즌 경기에서 눈에 띄는 활약을 펼쳤습니다",
+          "존슨은 램보 필드에서 자신을 증명할 기회를 잡았습니다"
+        ],
+        "en": [
+          "Kisean Johnson had a standout performance in the preseason game",
+          "Johnson seized his opportunity to make an impression at Lambeau Field"
+        ]
+      },
+      "interp": {
+        "ko": "로스터 자리를 놓고 치열한 경쟁이 벌어지는 가운데, 존슨의 타이밍 좋은 활약은 최종 53인 로스터 발표를 앞두고 코칭스태프에게 어려운 결정을 안겨줄 수 있습니다.",
+        "en": "With roster spots highly competitive, Johnson's timely performance could force some difficult decisions for the coaching staff ahead of final 53-man roster announcements."
+      },
+      "url": "/news/game-notes-kisean-johnson-captures-his-lambeau-field-moment-pre-week-3-2026"
+    },
+    {
+      "icon": "👥",
+      "status": "CONFIRMED",
+      "tags": [
+        "ROSTER",
+        "DEPTH"
+      ],
+      "title": {
+        "ko": "37명의 패커스 선수들 카디널스전 불출전",
+        "en": "37 Packers held out of Cardinals game"
+      },
+      "facts": {
+        "ko": [
+          "패커스는 카디널스와의 경기에서 37명의 선수를 출전시키지 않았습니다",
+          "불출전 선수들은 대부분 주전급 선수들로 추정됩니다"
+        ],
+        "en": [
+          "The Packers did not suit up 37 players for the game against the Cardinals",
+          "The inactive players were likely mostly starters and key contributors"
+        ]
+      },
+      "interp": {
+        "ko": "이는 프리시즌 마지막 경기에서 흔히 볼 수 있는 모습으로, 팀이 정규시즌을 앞두고 핵심 선수들의 부상 위험을 최소화하면서 로스터 경쟁 선수들을 평가하는 데 집중했음을 보여줍니다.",
+        "en": "This is standard practice for the final preseason game, as teams prioritize evaluating roster bubble players while minimizing injury risk to key contributors ahead of the regular season."
+      },
+      "url": "/news/37-packers-not-suiting-up-vs-cardinals"
+    },
+    {
+      "icon": "🇺🇸",
+      "status": "NEW",
+      "tags": [
+        "COMMUNITY"
+      ],
+      "title": {
+        "ko": "패커스, 'Operation Fan Mail' 행사에서 공군 참전용사 모건 사라세나 예우",
+        "en": "Packers honor U.S. Air Force veteran Morgan Saracena for Operation Fan Mail"
+      },
+      "facts": {
+        "ko": [
+          "패커스가 미 공군 참전용사 모건 사라세나를 'Operation Fan Mail' 행사에서 예우했습니다",
+          "이 행사는 프리시즌 3주차 경기에서 진행되었습니다"
+        ],
+        "en": [
+          "The Packers honored U.S. Air Force veteran Morgan Saracena during Operation Fan Mail",
+          "The tribute took place during the preseason Week 3 game"
+        ]
+      },
+      "interp": {
+        "ko": "패커스는 지역사회 및 군 참전용사 지원에 대한 오랜 전통을 이어가며, 경기일에 복무한 이들을 기리는 것을 우선순위로 삼고 있습니다.",
+        "en": "The Packers continue their long-standing tradition of community engagement and military appreciation, making it a priority to recognize those who have served on game days."
+      },
+      "url": "/news/packers-salute-u-s-air-force-veteran-morgan-saracena-for-operation-fan-mail-pre-week-3-2026"
+    }
+  ],
+  "injuries": [],
+  "moves": [],
+  "schedule": []
+}

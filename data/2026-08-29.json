@@ -1,0 +1,54 @@
+{
+  "date": "2026-08-29",
+  "dateLabel": {
+    "ko": "2026-08-29 (현지)",
+    "en": "2026-08-29"
+  },
+  "headline": {
+    "ko": "그린베이 패커스가 타이트엔드 Jonnu Smith를 영입했습니다. 로스터 보강을 위한 베테랑 영입으로, 시즌을 앞두고 공격진 깊이를 더하게 되었습니다.",
+    "en": "The Green Bay Packers have signed tight end Jonnu Smith. The veteran addition strengthens the roster and adds offensive depth heading into the season."
+  },
+  "stories": [
+    {
+      "icon": "✍️",
+      "status": "CONFIRMED",
+      "tags": [
+        "TE",
+        "SIGNING",
+        "OFFENSE"
+      ],
+      "title": {
+        "ko": "패커스, 베테랑 타이트엔드 Jonnu Smith 영입",
+        "en": "Packers Sign Veteran Tight End Jonnu Smith"
+      },
+      "facts": {
+        "ko": [
+          "그린베이 패커스가 타이트엔드 Jonnu Smith와 계약을 체결했습니다",
+          "Smith는 NFL 경험을 갖춘 베테랑 선수로 팀에 합류합니다",
+          "이번 영입은 패커스의 타이트엔드 포지션 깊이를 강화합니다"
+        ],
+        "en": [
+          "The Green Bay Packers have signed tight end Jonnu Smith to a contract",
+          "Smith joins the team as a veteran player with NFL experience",
+          "The signing strengthens the Packers' depth at the tight end position"
+        ]
+      },
+      "interp": {
+        "ko": "시즌 개막을 앞두고 이루어진 이번 영입은 패커스가 공격진 옵션을 다각화하고 타이트엔드 로테이션에 경험 있는 선수를 추가하려는 의도를 보여줍니다. Smith의 다재다능함이 공격 스킴에 새로운 차원을 더할 수 있습니다.",
+        "en": "This late-summer signing shows the Packers' intent to diversify their offensive options and add an experienced player to their tight end rotation. Smith's versatility could add a new dimension to the offensive scheme."
+      },
+      "url": "/news/packers-sign-te-jonnu-smith-aug-29-2026"
+    }
+  ],
+  "injuries": [],
+  "moves": [
+    {
+      "date": "08-29",
+      "text": {
+        "ko": "TE Jonnu Smith 영입",
+        "en": "Signed TE Jonnu Smith"
+      }
+    }
+  ],
+  "schedule": []
+}
