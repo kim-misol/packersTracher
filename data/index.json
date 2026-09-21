@@ -409,5 +409,29 @@
       "TE",
       "POSITION"
     ]
+  },
+  {
+    "date": "2026-09-20",
+    "dateLabel": {
+      "ko": "2026-09-20 (현지)",
+      "en": "2026-09-20"
+    },
+    "headline": {
+      "ko": "패커스가 제츠를 상대로 연장전 끝에 20-17 승리를 거두며 극적인 역전승을 달성했습니다. Skyy Moore의 활약과 여러 무명 영웅들의 기여가 Week 2 승리의 핵심이었습니다.",
+      "en": "The Packers secured a dramatic 20-17 overtime victory over the Jets in Week 2. Skyy Moore's heroics and contributions from several unsung heroes were key to the comeback win."
+    },
+    "storyCount": 4,
+    "moveCount": 0,
+    "tags": [
+      "WEEK2",
+      "JETS",
+      "OT",
+      "WR",
+      "SKYY MOORE",
+      "LB",
+      "DEFENSE",
+      "OL",
+      "ROSTER"
+    ]
   }
 ]
