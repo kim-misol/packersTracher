@@ -1,0 +1,96 @@
+{
+  "date": "2026-09-18",
+  "dateLabel": {
+    "ko": "2026-09-18 (현지)",
+    "en": "2026-09-18"
+  },
+  "headline": {
+    "en": "The Packers released their Week 2 injury report ahead of Sunday's matchup against the Jets, listing four players as questionable and one as doubtful. Off the field, the team announced its annual Tundra Tales reading program and honored a local high school coach.",
+    "ko": "패커스가 일요일 제츠와의 2주차 경기를 앞두고 부상자 명단을 발표했으며, 4명의 선수를 출전 불투명으로, 1명을 출전 가능성 낮음으로 분류했습니다. 필드 밖에서는 팀이 연례 툰드라 테일즈 독서 프로그램을 발표하고 지역 고등학교 코치를 표창했습니다."
+  },
+  "stories": [
+    {
+      "icon": "🏥",
+      "status": "UPDATE",
+      "tags": [
+        "INJURY",
+        "WEEK2"
+      ],
+      "title": {
+        "en": "Four Packers questionable, one doubtful for Jets game",
+        "ko": "4명의 패커스 선수 출전 불투명, 1명은 출전 가능성 낮음"
+      },
+      "facts": {
+        "en": [
+          "Four Packers players are listed as questionable for Sunday's Week 2 game against the Jets",
+          "One player is listed as doubtful on the official injury report"
+        ],
+        "ko": [
+          "일요일 제츠와의 2주차 경기를 앞두고 4명의 패커스 선수가 출전 불투명으로 분류됨",
+          "공식 부상자 명단에 1명의 선수가 출전 가능성 낮음으로 기재됨"
+        ]
+      },
+      "interp": {
+        "en": "With five players carrying injury designations, the Packers will need to make some game-time decisions before facing the Jets. The doubtful designation typically means there's only about a 25% chance that player suits up Sunday.",
+        "ko": "5명의 선수가 부상 지정을 받은 상황에서 패커스는 제츠와의 경기 전 경기 당일 결정을 내려야 할 것입니다. 출전 가능성 낮음 지정은 일반적으로 해당 선수가 일요일에 출전할 확률이 약 25%에 불과하다는 것을 의미합니다."
+      },
+      "url": "/news/packers-list-four-questionable-one-doubtful-vs-jets-week-2-injury-report"
+    },
+    {
+      "icon": "📚",
+      "status": "NEW",
+      "tags": [
+        "COMMUNITY"
+      ],
+      "title": {
+        "en": "Packers open registration for 2026 Tundra Tales reading program",
+        "ko": "패커스, 2026 툰드라 테일즈 독서 프로그램 등록 개시"
+      },
+      "facts": {
+        "en": [
+          "The Green Bay Packers have opened registration for the 2026 Tundra Tales reading program",
+          "The community initiative encourages youth literacy and education"
+        ],
+        "ko": [
+          "그린베이 패커스가 2026 툰드라 테일즈 독서 프로그램 등록을 시작했습니다",
+          "이 지역 사회 이니셔티브는 청소년 문해력과 교육을 장려합니다"
+        ]
+      },
+      "interp": {
+        "en": "The Tundra Tales program continues the Packers' commitment to community outreach and education, using the team's platform to promote reading among young fans in Wisconsin.",
+        "ko": "툰드라 테일즈 프로그램은 위스콘신의 젊은 팬들 사이에서 독서를 장려하기 위해 팀의 플랫폼을 활용하며, 지역 사회 봉사 및 교육에 대한 패커스의 헌신을 이어갑니다."
+      },
+      "url": "/news/registration-open-for-tundra-tales-reading-program-2026"
+    },
+    {
+      "icon": "🏆",
+      "status": "NEW",
+      "tags": [
+        "COMMUNITY",
+        "AWARD"
+      ],
+      "title": {
+        "en": "Waukesha South's Darnell Wiltz named High School Coach of the Week",
+        "ko": "와우케샤 사우스의 다넬 윌츠, 이번 주 고등학교 코치로 선정"
+      },
+      "facts": {
+        "en": [
+          "Darnell Wiltz of Waukesha South High School was named Green Bay Packers High School Coach of the Week",
+          "The award was announced on September 18, 2026"
+        ],
+        "ko": [
+          "와우케샤 사우스 고등학교의 다넬 윌츠가 그린베이 패커스 이번 주 고등학교 코치로 선정되었습니다",
+          "이 상은 2026년 9월 18일에 발표되었습니다"
+        ]
+      },
+      "interp": {
+        "en": "The Packers' weekly coach recognition program highlights the work of high school football coaches across Wisconsin who demonstrate excellence both on and off the field.",
+        "ko": "패커스의 주간 코치 인정 프로그램은 필드 안팎에서 탁월함을 보여주는 위스콘신 전역의 고등학교 풋볼 코치들의 노력을 조명합니다."
+      },
+      "url": "/news/darnell-wiltz-of-waukesha-south-high-school-named-green-bay-packers-high-school-coach-of-the-week-sept-18-2026"
+    }
+  ],
+  "injuries": [],
+  "moves": [],
+  "schedule": []
+}
