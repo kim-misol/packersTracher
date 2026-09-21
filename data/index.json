@@ -372,5 +372,24 @@
       "LEADERSHIP",
       "TEAM"
     ]
+  },
+  {
+    "date": "2026-09-18",
+    "dateLabel": {
+      "ko": "2026-09-18 (현지)",
+      "en": "2026-09-18"
+    },
+    "headline": {
+      "en": "The Packers released their Week 2 injury report ahead of Sunday's matchup against the Jets, listing four players as questionable and one as doubtful. Off the field, the team announced its annual Tundra Tales reading program and honored a local high school coach.",
+      "ko": "패커스가 일요일 제츠와의 2주차 경기를 앞두고 부상자 명단을 발표했으며, 4명의 선수를 출전 불투명으로, 1명을 출전 가능성 낮음으로 분류했습니다. 필드 밖에서는 팀이 연례 툰드라 테일즈 독서 프로그램을 발표하고 지역 고등학교 코치를 표창했습니다."
+    },
+    "storyCount": 3,
+    "moveCount": 0,
+    "tags": [
+      "INJURY",
+      "WEEK2",
+      "COMMUNITY",
+      "AWARD"
+    ]
   }
 ]
