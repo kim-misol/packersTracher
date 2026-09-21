@@ -391,5 +391,23 @@
       "COMMUNITY",
       "AWARD"
     ]
+  },
+  {
+    "date": "2026-09-19",
+    "dateLabel": {
+      "ko": "2026-09-19 (현지)",
+      "en": "2026-09-19"
+    },
+    "headline": {
+      "ko": "패커스가 9월 19일 부상 업데이트를 발표했으며, 타이트엔드 포지션의 다재다능한 역할에 대한 분석이 공개되었습니다.",
+      "en": "The Packers announced injury updates on September 19th, while analysis highlights the versatile role of the tight end position."
+    },
+    "storyCount": 2,
+    "moveCount": 0,
+    "tags": [
+      "INJURY",
+      "TE",
+      "POSITION"
+    ]
   }
 ]
