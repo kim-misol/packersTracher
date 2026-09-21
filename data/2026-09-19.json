@@ -1,0 +1,69 @@
+{
+  "date": "2026-09-19",
+  "dateLabel": {
+    "ko": "2026-09-19 (현지)",
+    "en": "2026-09-19"
+  },
+  "headline": {
+    "ko": "패커스가 9월 19일 부상 업데이트를 발표했으며, 타이트엔드 포지션의 다재다능한 역할에 대한 분석이 공개되었습니다.",
+    "en": "The Packers announced injury updates on September 19th, while analysis highlights the versatile role of the tight end position."
+  },
+  "stories": [
+    {
+      "icon": "🏥",
+      "status": "UPDATE",
+      "tags": [
+        "INJURY"
+      ],
+      "title": {
+        "ko": "패커스 부상 상황 업데이트 발표",
+        "en": "Packers Release Injury Updates"
+      },
+      "facts": {
+        "ko": [
+          "패커스가 9월 19일 공식 부상 업데이트를 발표했습니다",
+          "팀의 현재 부상 상황에 대한 최신 정보가 제공되었습니다"
+        ],
+        "en": [
+          "The Packers announced official injury updates on September 19th",
+          "Latest information on the team's current injury situation was provided"
+        ]
+      },
+      "interp": {
+        "ko": "주중 부상 리포트는 주말 경기를 앞두고 팀의 전력 구성에 중요한 지표가 됩니다. 선수들의 가용성 여부가 게임 플랜에 직접적인 영향을 미칠 것입니다.",
+        "en": "Mid-week injury reports are critical indicators for roster composition heading into weekend games. Player availability will directly impact game planning."
+      },
+      "url": "/news/packers-announce-injury-updates-sept-19-2026"
+    },
+    {
+      "icon": "🎯",
+      "status": "CONFIRMED",
+      "tags": [
+        "TE",
+        "POSITION"
+      ],
+      "title": {
+        "ko": "타이트엔드, 만능 포지션으로 재조명",
+        "en": "Tight End Position Highlighted as Jack-of-All-Trades"
+      },
+      "facts": {
+        "ko": [
+          "패커스 인박스 코너에서 타이트엔드 포지션의 다재다능한 역할을 분석했습니다",
+          "타이트엔드는 블로킹과 리시빙을 모두 수행하는 하이브리드 포지션으로 평가됩니다"
+        ],
+        "en": [
+          "The Packers Inbox column analyzed the versatile role of the tight end position",
+          "Tight ends are evaluated as hybrid positions performing both blocking and receiving duties"
+        ]
+      },
+      "interp": {
+        "ko": "현대 NFL에서 타이트엔드의 역할은 계속 진화하고 있으며, 패커스의 공격 전략에서도 핵심적인 요소입니다. 다재다능한 타이트엔드 활용이 공격의 다양성을 높이는 열쇠가 될 것입니다.",
+        "en": "The tight end role continues to evolve in the modern NFL and remains a key element in the Packers' offensive strategy. Utilizing versatile tight ends will be the key to increasing offensive diversity."
+      },
+      "url": "/news/inbox-tight-end-is-a-jack-of-all-trades-position-sept-19-2026"
+    }
+  ],
+  "injuries": [],
+  "moves": [],
+  "schedule": []
+}
