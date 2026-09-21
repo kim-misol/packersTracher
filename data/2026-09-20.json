@@ -1,0 +1,127 @@
+{
+  "date": "2026-09-20",
+  "dateLabel": {
+    "ko": "2026-09-20 (현지)",
+    "en": "2026-09-20"
+  },
+  "headline": {
+    "ko": "패커스가 제츠를 상대로 연장전 끝에 20-17 승리를 거두며 극적인 역전승을 달성했습니다. Skyy Moore의 활약과 여러 무명 영웅들의 기여가 Week 2 승리의 핵심이었습니다.",
+    "en": "The Packers secured a dramatic 20-17 overtime victory over the Jets in Week 2. Skyy Moore's heroics and contributions from several unsung heroes were key to the comeback win."
+  },
+  "stories": [
+    {
+      "icon": "🏈",
+      "status": "CONFIRMED",
+      "tags": [
+        "WEEK2",
+        "JETS",
+        "OT"
+      ],
+      "title": {
+        "ko": "패커스, 제츠 상대로 연장전 역전승 달성",
+        "en": "Packers rally to beat Jets in overtime, 20-17"
+      },
+      "facts": {
+        "ko": [
+          "패커스가 제츠를 상대로 연장전 끝에 20-17로 승리했습니다",
+          "Week 2 경기에서 극적인 역전승을 거두었습니다",
+          "여러 무명 영웅들이 승리에 기여했습니다"
+        ],
+        "en": [
+          "Packers defeated the Jets 20-17 in overtime",
+          "Secured a dramatic comeback victory in Week 2",
+          "Multiple unsung heroes contributed to the win"
+        ]
+      },
+      "interp": {
+        "ko": "패커스가 시즌 초반 중요한 승리를 거두며 2-0 기록을 달성할 가능성을 보여줬습니다. 역경 속에서도 팀이 회복력을 발휘하며 연장전까지 가는 접전을 승리로 이끌었습니다.",
+        "en": "The Packers showed resilience in securing an important early-season victory, potentially improving to 2-0. The team demonstrated the ability to overcome adversity in a hard-fought game that went to overtime."
+      },
+      "url": "/news/in-game-updates-week-2-jets-2026"
+    },
+    {
+      "icon": "⭐",
+      "status": "CONFIRMED",
+      "tags": [
+        "WR",
+        "SKYY MOORE"
+      ],
+      "title": {
+        "ko": "Skyy Moore의 영웅적 활약이 패커스 컴백 승리 이끌어",
+        "en": "Skyy Moore's heroics ignite Packers' comeback win"
+      },
+      "facts": {
+        "ko": [
+          "Skyy Moore가 제츠전에서 결정적인 활약을 펼쳤습니다",
+          "Moore의 플레이가 패커스의 역전승을 점화시켰습니다"
+        ],
+        "en": [
+          "Skyy Moore delivered crucial plays against the Jets",
+          "Moore's performance ignited the Packers' comeback victory"
+        ]
+      },
+      "interp": {
+        "ko": "Moore가 핵심 순간에 빅 플레이를 만들어내며 공격의 중요한 무기로 부상하고 있습니다. 이번 활약은 패커스 수신진에 깊이를 더해줄 것으로 기대됩니다.",
+        "en": "Moore is emerging as a key weapon in the offense by making big plays in crucial moments. This performance adds valuable depth to the Packers' receiving corps."
+      },
+      "url": "/news/game-notes-skyy-moore-s-heroics-ignite-packers-comeback-win-week-2-2026"
+    },
+    {
+      "icon": "🛡️",
+      "status": "CONFIRMED",
+      "tags": [
+        "LB",
+        "DEFENSE"
+      ],
+      "title": {
+        "ko": "패커스 라인배커 듀오, 시즌 초반 빠른 호흡 과시",
+        "en": "Packers linebacker pair showing quick chemistry early in season"
+      },
+      "facts": {
+        "ko": [
+          "패커스의 라인배커 듀오가 시즌 초반 빠르게 호흡을 맞추고 있습니다",
+          "두 선수의 케미스트리가 수비에 긍정적인 영향을 미치고 있습니다"
+        ],
+        "en": [
+          "Packers linebacker pair is clicking early in the season",
+          "The chemistry between the two players is positively impacting the defense"
+        ]
+      },
+      "interp": {
+        "ko": "라인배커진의 빠른 호흡 형성은 패커스 수비의 향상된 조직력을 시사합니다. 이들의 협력이 계속된다면 수비 전체의 안정성과 효율성이 크게 개선될 것입니다.",
+        "en": "The quick development of chemistry at linebacker suggests improved organization in the Packers defense. If this partnership continues to develop, it will significantly enhance the stability and efficiency of the entire defensive unit."
+      },
+      "url": "/news/quick-chemistry-packers-linebacker-pair-clicking-early-sept-19-2026"
+    },
+    {
+      "icon": "✅",
+      "status": "CONFIRMED",
+      "tags": [
+        "OL",
+        "ROSTER"
+      ],
+      "title": {
+        "ko": "좌측 가드 Aaron Banks, 제츠전 활성 명단 등록",
+        "en": "LG Aaron Banks active for Packers-Jets game"
+      },
+      "facts": {
+        "ko": [
+          "좌측 가드 Aaron Banks가 제츠전 활성 명단에 포함되었습니다",
+          "Banks의 복귀로 공격 라인이 보강되었습니다"
+        ],
+        "en": [
+          "Left guard Aaron Banks was active for the Jets game",
+          "Banks' return bolstered the offensive line"
+        ]
+      },
+      "interp": {
+        "ko": "Banks의 복귀는 공격 라인의 깊이와 경험을 더해주며, 러닝 게임과 패스 보호에 안정성을 제공합니다. 베테랑 가드의 존재는 라인 전체의 수행 능력을 향상시킬 것입니다.",
+        "en": "Banks' return adds depth and experience to the offensive line, providing stability in both the running game and pass protection. The veteran guard's presence will improve the overall performance of the line."
+      },
+      "url": "/news/packers-jets-week-2-inactives-sept-20-2026"
+    }
+  ],
+  "injuries": [],
+  "moves": [],
+  "schedule": []
+}
