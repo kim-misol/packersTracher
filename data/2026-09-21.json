@@ -1,0 +1,149 @@
+{
+  "date": "2026-09-21",
+  "dateLabel": {
+    "ko": "2026-09-21 (현지)",
+    "en": "2026-09-21"
+  },
+  "headline": {
+    "en": "The Packers prepare for their home opener against the Falcons in Week 3 following an overtime victory in Week 2. Injury reports and community initiatives highlight the day's news.",
+    "ko": "패커스는 2주차 연장전 승리에 이어 3주차 홈 개막전에서 팰컨스를 맞이할 준비를 하고 있습니다. 부상 리포트와 커뮤니티 활동이 오늘의 주요 소식입니다."
+  },
+  "stories": [
+    {
+      "icon": "🏟️",
+      "status": "UPCOMING",
+      "tags": [
+        "SCHEDULE",
+        "HOME"
+      ],
+      "title": {
+        "en": "Packers Set for Home Opener Against Falcons",
+        "ko": "패커스, 팰컨스 상대 홈 개막전 앞두고 있어"
+      },
+      "facts": {
+        "en": [
+          "Green Bay hosts Atlanta Falcons in Week 3 home opener",
+          "Game follows Packers' overtime victory in Week 2"
+        ],
+        "ko": [
+          "그린베이가 3주차 홈 개막전에서 애틀랜타 팰컨스를 맞이함",
+          "2주차 연장전 승리 이후 치르는 경기"
+        ]
+      },
+      "interp": {
+        "en": "The Packers will look to build momentum at Lambeau Field after securing a dramatic overtime win last week. The home opener represents an important early-season test against an NFC opponent.",
+        "ko": "패커스는 지난주 극적인 연장전 승리 이후 램보 필드에서 모멘텀을 이어가려 할 것입니다. 홈 개막전은 NFC 상대를 맞아 치르는 중요한 시즌 초반 시험대가 될 것입니다."
+      },
+      "url": "/news/packers-host-falcons-in-home-opener-week-3-2026"
+    },
+    {
+      "icon": "🤝",
+      "status": "NEW",
+      "tags": [
+        "COMMUNITY"
+      ],
+      "title": {
+        "en": "Sixth Annual 'Tackle Hygiene with Every Catch' Campaign Launches",
+        "ko": "6회 연속 '모든 캐치로 위생을 태클하다' 캠페인 시작"
+      },
+      "facts": {
+        "en": [
+          "Packers partner with Tork for sixth consecutive year on hygiene campaign",
+          "Campaign titled 'Tackle Hygiene with Every Catch' focuses on community health"
+        ],
+        "ko": [
+          "패커스가 토크와 6년 연속 위생 캠페인 파트너십 체결",
+          "'모든 캐치로 위생을 태클하다'라는 제목의 캠페인은 지역사회 건강에 초점"
+        ]
+      },
+      "interp": {
+        "en": "The ongoing partnership demonstrates the Packers' commitment to community health initiatives beyond the field. The campaign's longevity shows its continued relevance and impact in the Green Bay area.",
+        "ko": "지속적인 파트너십은 경기장 밖에서도 지역사회 건강 이니셔티브에 대한 패커스의 헌신을 보여줍니다. 캠페인의 장기 지속은 그린베이 지역에서 계속되는 관련성과 영향력을 나타냅니다."
+      },
+      "url": "/news/packers-tork-team-up-for-sixth-annual-tackle-hygiene-with-every-catch-campaign-sept-21-2026"
+    },
+    {
+      "icon": "🏥",
+      "status": "UPDATE",
+      "tags": [
+        "INJURIES"
+      ],
+      "title": {
+        "en": "Packers-Falcons Injury Report Released",
+        "ko": "패커스-팰컨스 부상 리포트 발표"
+      },
+      "facts": {
+        "en": [
+          "Official injury report issued ahead of Week 3 matchup",
+          "Report covers both Green Bay and Atlanta player availability"
+        ],
+        "ko": [
+          "3주차 경기 앞두고 공식 부상 리포트 발표됨",
+          "그린베이와 애틀랜타 양 팀 선수 출전 가능 여부 포함"
+        ]
+      },
+      "interp": {
+        "en": "The injury report will be crucial for game planning as both teams assess their available personnel for Sunday's home opener. Coaching staffs will need to adjust strategies based on who can suit up.",
+        "ko": "양 팀이 일요일 홈 개막전을 위한 가용 선수단을 평가하면서 부상 리포트는 경기 계획 수립에 중요할 것입니다. 코칭 스태프는 출전 가능 선수에 따라 전략을 조정해야 할 것입니다."
+      },
+      "url": "/news/packers-falcons-injury-report-sept-21-2026"
+    },
+    {
+      "icon": "⏱️",
+      "status": "CONFIRMED",
+      "tags": [
+        "OFFENSE",
+        "RECAP"
+      ],
+      "title": {
+        "en": "Overtime Drive Showcased Efficient Chain Movement",
+        "ko": "연장전 드라이브에서 효율적인 전진 공격 선보여"
+      },
+      "facts": {
+        "en": [
+          "Packers' Week 2 overtime drive featured quick, efficient first-down conversions",
+          "Offense successfully moved the chains to set up winning score"
+        ],
+        "ko": [
+          "패커스의 2주차 연장전 드라이브는 빠르고 효율적인 1st 다운 전환이 특징",
+          "공격진이 성공적으로 체인을 전진시켜 결승 득점 기회 마련"
+        ]
+      },
+      "interp": {
+        "en": "The efficient overtime performance demonstrates the offense's ability to execute under pressure in critical situations. This clutch driving capability could be vital as the season progresses into tighter games.",
+        "ko": "효율적인 연장전 퍼포먼스는 중요한 상황에서 압박 속에서도 공격진이 실행할 수 있는 능력을 보여줍니다. 이러한 클러치 드라이브 능력은 시즌이 진행되며 접전 경기가 늘어날수록 중요해질 것입니다."
+      },
+      "url": "/news/packers-overtime-drive-quickly-moved-the-chains-week-2-2026"
+    },
+    {
+      "icon": "🛡️",
+      "status": "CONFIRMED",
+      "tags": [
+        "DEFENSE",
+        "ANALYSIS"
+      ],
+      "title": {
+        "en": "Defense Shows Intriguing Building Blocks",
+        "ko": "수비진, 흥미로운 빌딩 블록 보여줘"
+      },
+      "facts": {
+        "en": [
+          "Packers defense displaying promising individual talent pieces",
+          "Defensive unit features players with intriguing developmental potential"
+        ],
+        "ko": [
+          "패커스 수비진이 유망한 개인 재능 요소들을 보여주고 있음",
+          "수비 유닛에 흥미로운 발전 잠재력을 가진 선수들이 포진"
+        ]
+      },
+      "interp": {
+        "en": "The emerging talent on defense suggests the unit could improve significantly as players develop chemistry and gain experience together. These intriguing pieces give Green Bay a foundation to build a more formidable defensive identity.",
+        "ko": "수비진에서 떠오르는 재능은 선수들이 호흡을 맞추고 함께 경험을 쌓으면서 유닛이 크게 개선될 수 있음을 시사합니다. 이러한 흥미로운 요소들은 그린베이에게 더욱 강력한 수비 정체성을 구축할 토대를 제공합니다."
+      },
+      "url": "/news/inbox-this-defense-has-some-really-intriguing-pieces-sept-21-2026"
+    }
+  ],
+  "injuries": [],
+  "moves": [],
+  "schedule": []
+}
