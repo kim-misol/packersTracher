@@ -433,5 +433,28 @@
       "OL",
       "ROSTER"
     ]
+  },
+  {
+    "date": "2026-09-21",
+    "dateLabel": {
+      "ko": "2026-09-21 (현지)",
+      "en": "2026-09-21"
+    },
+    "headline": {
+      "en": "The Packers prepare for their home opener against the Falcons in Week 3 following an overtime victory in Week 2. Injury reports and community initiatives highlight the day's news.",
+      "ko": "패커스는 2주차 연장전 승리에 이어 3주차 홈 개막전에서 팰컨스를 맞이할 준비를 하고 있습니다. 부상 리포트와 커뮤니티 활동이 오늘의 주요 소식입니다."
+    },
+    "storyCount": 5,
+    "moveCount": 0,
+    "tags": [
+      "SCHEDULE",
+      "HOME",
+      "COMMUNITY",
+      "INJURIES",
+      "OFFENSE",
+      "RECAP",
+      "DEFENSE",
+      "ANALYSIS"
+    ]
   }
 ]
